@@ -103,30 +103,37 @@ const getUserTypeModulesPermission = (req, res) => {
     if (userTypeResults.length === 0) {
       return res.status(404).send({error:'UserTypeID not found', status:404})
     }
-    const selectQuery = `
-      SELECT 
-        u.UserTypeName,
-        u.UserTypeID,
-        m.PermissionModuleID,
-        m.PermissionModuleName,
-        m.PermissionModuleKey,
-        m.PermissionModuleAdd,
-        m.PermissionModuleEdit,
-        m.PermissionModuleDelete,
-        m.PermissionModuleView
-      FROM 
-        user_type u
-      LEFT JOIN 
-        modules m ON u.UserTypeID = m.UserTypeID
-      WHERE 
-        u.UserTypeID = ?;
-    `;
-    // const selectQuery = 'SELECT * FROM `modules` WHERE UserTypeID = ?';
+    const userTypeData = userTypeResults[0]
+    // const selectQuery = `
+    //   SELECT 
+    //     u.UserTypeName,
+    //     u.UserTypeID,
+    //     m.PermissionModuleID,
+    //     m.PermissionModuleName,
+    //     m.PermissionModuleKey,
+    //     m.PermissionModuleAdd,
+    //     m.PermissionModuleEdit,
+    //     m.PermissionModuleDelete,
+    //     m.PermissionModuleView
+    //   FROM 
+    //     user_type u
+    //   LEFT JOIN 
+    //     modules m ON u.UserTypeID = m.UserTypeID
+    //   WHERE 
+    //     u.UserTypeID = ?;
+    // `;
+    const selectQuery = 'SELECT `PermissionModuleID`, `PermissionModuleName`, `PermissionModuleKey`,`PermissionModuleAdd`,`PermissionModuleEdit`,`PermissionModuleDelete`,`PermissionModuleView` FROM `modules` WHERE UserTypeID = ?';
     pool.query(selectQuery, UserTypeID, (err,results,fields) => {
       if (err) {
         return res.status(500).send({ error: 'Internal Server Error' });
       }
-      return res.status(200).json({ data: results, status: 200 });
+      const resultData = {
+        UserTypeID: userTypeData.UserTypeID,
+        UserTypeName: userTypeData.UserTypeName,
+        ModulesPermission:results
+      }
+      // console.log('resultData :', resultData);
+      return res.status(200).json({ data: resultData, status: 200 });
     })
   })
 }
