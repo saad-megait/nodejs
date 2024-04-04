@@ -1,0 +1,597 @@
+Types of database 
+
+1: MySQL
+2: MongoDB
+3: Oracle MS SQL Server 
+4: MS SQL Server
+5: Postgre SQL 
+
+
+1. MySQL
+---------------------------------------------------------------------------------------------
+
+- Relational Database 
+- noSQL ( Structured Query Language )
+
+NoSQL 
+	- NoSQL is not a table based batabase, its document based
+	- like MongoDB, Redis, Cassandra etc...
+
+---------------------------------------------------------------------------------------------
+
+What is Constaints : Its a restriction 
+	- NOT NULL
+	- UNIQUE
+	- DEFAULT 
+	- CHECK	
+	- PRIMARY KEY 	
+	- FOREIGN KEY 
+
+---------------------------------------------------------------------------------------------
+
+Primery key and Foreign Key :
+
+- Primery key :- 
+	- Always have unique data 
+	- Cannot have null value
+	- A table can contain only one primary key constrain
+	
+	If table is already created then needs to add primery key.
+	- ALTER TABLE table_name ADD PRIMERY KEY (id)
+
+- Foreign key :-
+	- is a key used to link two tables together 
+	- in one table used to point PRIMERY KEY in another table.
+
+- Query Example :
+	CREATE TABLE student (
+		id INT NOT NULL AUTO_INCREMENT,
+		name VARCHAR(50) NOT NULL,
+		age INT NOT NULL,
+		city VARCHAR(50) NOT NULL,
+		PRIMERY KEY (id)
+		FOREIGN KEY (city) REFERNCES city(cid) // this line set foreign key from city table of cid
+	);
+	
+---------------------------------------------------------------------------------------------
+
+Queries :- 
+	- SELECT :- for read the records			--> SELECT * FROM employees;
+	- INSERT :- for inserting the record 			--> INSERT INTO employees (first_name, last_name, job_title, salary)
+									VALUES ('Alice', 'Johnson', 'Designer', 50000);
+	- UPDATE :- for updating the specified record 		--> UPDATE employees
+									SET salary = 55000
+									WHERE id = 123;
+	- DELETE :- for delete the record			--> DELETE FROM employees WHERE id = 456;
+
+---------------------------------------------------------------------------------------------
+
+LIKE Operator with Wildcard Patterns :
+WildCard Character : 
+1: % Percentage Sign :- Represents zero, one, or multiple characters
+2: _ Underscore :- Represents a single character 
+
+Pattern		Descriptions 
+LIKE 'a%' 	- Start with 'a'
+LIKE '%a' 	- End with 'a'
+LIKE '%am%' 	- have 'am' in any position
+LIKE 'a%m' 	- Start with 'a' and End with 'm'
+LIKE '__a%' 	- 'a' in the second position
+LIKE '___a'	- 'a' in the third position
+LIKE '_oy' 	- 'o' in the second and 'y' in the third position
+i.e SELECT firstname, email, phone, age, gender FROM users WHERE firstname NOT LIKE 's%';
+
+---------------------------------------------------------------------------------------------
+
+SQL Commands :
+- SELECT * FROM `users` WHERE age NOT IN (24,46); ----> its not returning any recond of which has age 24 and 46
+- SELECT * FROM `users` WHERE age BETWEEN 50 AND 60; ----> its return the record which has age between 50 to 60
+- SELECT * FROM `users` WHERE age NOT BETWEEN 50 AND 60; ----> its return all the record except the age between 50 to 60
+
+---------------------------------------------------------------------------------------------
+
+Select Data with Regular Expression:
+Sign 		Pattern 		Description
+^ 		'^ra' 			Beginning of string
+$ 		'an$'			End of string
+[...] 		'[rms]'			Any character listed between the square brackets
+^[...]		'^[rms]' 		Begins with any character listed between the square brackets
+[a-z] 		'[a-h]e'		Match with in the range
+p1|p2|p3 	'tom|dean|harry 	Matches any of the patterns p1,p2 or p3 
+
+- SELECT * FROM `users` WHERE firstname REGEXP 'ns$';
+SELECT * FROM `users` WHERE firstname REGEXP '[t-z]';
+
+---------------------------------------------------------------------------------------------
+
+Aggregate Function : 
+	- Aggregate function in MYSQL are special function that perform a calculation on a set of values and return a single value as a result
+
+	Number of Types : 
+	1 - COUNT()	--> SELECT COUNT(*) FROM students;	Counts number of rows 
+	2 - SUM()	--> SELECT SUM(age) FROM students; 	Returns sum of all students age	
+	3 - AVG()	--> SELECT AVG(age) FROM students;	Returns the average age of students 		
+	4 - MAX() 	--> SELECT MAX(price) FROM students;	Returns the MAX age student record
+	5 - MIN() 	--> SELECT MIN(score) FROM students;	Returns the MIN age student record
+
+---------------------------------------------------------------------------------------------
+
+ORDER BY : 
+SELECT * FROM `users`ORDER BY firstname DESC;
+
+DISTINCT : Remove duplicate values
+SELECT DISTINCT age FROM `users` ORDER BY age;
+
+---------------------------------------------------------------------------------------------
+
+Types of Join in SQL 
+
+1: Inner Join 
+2: Left Join  (or Left Outer Join )
+3: Right Join	( or right outer join )
+4: Full Outer Join 
+5: Self Join
+5: Cross Join
+
+
+1 ---> INNER JOIN
+	The INNER JOIN selectd records that have matching values in both tables : get the same value
+	- Query Example : SELECT * from students INNER JOIN city on students.city = city.cid; --> it returns only matchable records from both tables
+
+2 ---> LEFT JOIN
+	The LEFT JOIN returns all records from the left table ( table1 ) 
+		and the matched records from the right table ( table2 )
+	- Query Example : SELECT * from students LEFT JOIN city on students.city = city.cid;   --> it returns matchable record from both tables and as well as return all the records of table1
+
+3 ---> RIGHT JOIN
+	The RIGHT JOIN returns all records from the right table ( table2 )
+		and the matched records from the left table ( table1 )
+	- Query Example : SELECT * from students RIGHT JOIN city on students.city = city.cid; --> it returns matchable record from both tables and as well as return all the records of table2
+
+4 ---> CROSS JOIN
+	Query Example :-
+	- SELECT * from students CROSS JOIN city; 
+	- SELECT * from students, city; --> this command worked same as cross join
+
+---------------------------------------------------------------------------------------------
+
+GROUP BY : 
+	The GROUP BY clause is used in conjunction with the SELECT statement
+ 	and Aggregate functions to group rows together by common column values
+	- Query Example : 
+		SELECT c.cname,COUNT(s.city) as total from students s INNER JOIN city c ON s.city = c.cid WHERE s.age > 25 GROUP BY city;
+
+HAVING Clause : 
+	- Query Example : 
+		SELECT s.name, c.cname, s.age, COUNT(s.city) as Total FROM students s JOIN city c on s.city = c.cid GROUP BY s.city having s.age > 25 and COUNT(s.city) >= 1; 
+
+---------------------------------------------------------------------------------------------
+
+Commit and Rollback
+
+---------------------------------------------------------------------------------------------
+
+Join Multiple Table : 
+	Query Example :
+	
+		SELECT orders.order_id, customers.customer_name, products.product_name
+		FROM orders
+		INNER JOIN customers ON orders.customer_id = customers.customer_id
+		INNER JOIN order_details ON orders.order_id = order_details.order_id
+		INNER JOIN products ON order_details.product_id = products.product_id
+		WHERE orders.order_date >= '2023-01-01';
+
+---------------------------------------------------------------------------------------------
+
+SubQuery / Nested Query
+
+	Nested Query : 	
+	- Query Example :-
+		- SELECT name FROM `students` WHERE city = (SELECT cid FROM city WHERE cname = 'Mumbai'); --> For only signle columns search
+		- SELECT name FROM `students` WHERE city IN (SELECT cid FROM city WHERE cname IN ('Mumbai','Ahmedabad')); --> For fetching multiple columns
+
+EXIST - NOT EXIST : 
+	
+	EXIST :- If any single recond exist THEN parent command show result		--> SELECT name FROM `students` WHERE EXISTS (SELECT cid FROM city c WHERE cname IN ('Mumbai', 'Ahmedabad'));
+	NOT EXIST : If not any single record exist THEN parent command show result 	--> SELECT name FROM `students` WHERE NOT EXISTS (SELECT cid FROM city c WHERE cname IN ('xyz', 'test'));
+	
+UNION / UNION ALL 
+
+	Rules for using UNION AND UNION ALL
+		- Each statement within UNION must have the same number of columns
+		- The columns must have also similar data types
+		- The columns in each select statement must also be in the same order
+
+---------------------------------------------------------------------------------------------
+
+- Arithmetic Function : 
+
+	1. ABS() :- its only return positive Value 
+		i.e ABS(-6.2) : 6.2
+	
+	2. FLOOR() :- Its only returns before poining value
+		i.e FLOOR(4.5) : 4
+	
+	3. CEIL() : Its return after poining value
+		i.e CEIL(4.5) : 5
+
+	4. ROUND() : Its returb based on point value, if its less the 0.5 then it returns 0 and if more than 0.6 then it return 1
+
+	5. SQRT() : 
+	6. POW() : 
+	7. RAND() :  
+	8. SIGN() :
+
+- Sting Function :
+	
+	1. UPPER()/UCASE()
+	2. LOWER()/LCASE()
+	3. LENGTH()
+	4. CHAR_LENGTH()
+	5. CONCAT()
+	6. CONCAT_WS()
+	7. LTRIM()
+	8. RTRIM()
+	9. POSITION 
+	10. LOCATE()
+	11. INSTR()
+	
+- Date Function : 
+	
+	1. CURDATE
+	2. CURRENT_DATE
+	3. SYSDATE 
+	4. NOW
+	5. LAST_DAY
+	6. DAY
+	7. DAYNAME
+	8. DAYOFMONTH 
+	9. DAYOFWEEK
+	10.DAYOFYEAR
+	11. WEEK 
+	12. WEEKDAY
+	13. WEEKDAYOFYEAR
+	14.WEEKYEAR
+	15. YEAR
+
+---------------------------------------------------------------------------------------------
+
+
+2. MongoDB
+
+   - QUERY DIFFERENCES
+	
+   SQL Select Statement						MongoDB
+
+   -  SELECT * FROM students					-  db.students.find()
+
+   -  SELECT * FROM students WHERE name = 'saad'		-  db.students.find({ name: 'saad' })
+
+   -  SELECT * FROM students WHERE name='saad' OR age = 50	-  db.students.fing({ $or : [ {name : 'saad', age:50} ] })
+	
+
+- After installation or should already have installed mongoDB
+	Path for run mongodb as CMD : C:\Program Files\MongoDB\Server\4.0\bin and then run the only mongo
+
+
+MongoDB Commands : 
+
+ - show dbs :- for check how many databases are available.
+
+ - use database_name :- for using the specified database.
+	use 'first_db'
+
+ - db.createCollection('users') :- For creating collection ( for creating table ).
+
+ - show collections :- for check how many collections are available.
+
+ - db.users.insert([{ name: 'saad', age: 25 }, { name: 'rollins', age: 30 }, { name: 'roman', age: 27 }]) :- for inserting the records in the collection.
+
+ - db.users.find() :- for check all the records in that collections.
+
+ - db.users.find().pretty() :- pretty() used to show all the records in good format.
+
+ - db.users.count() :- counts the number of records available in that collection.
+
+ - db.users.find().limit(2) :- it returns only first 2 records of that collection.
+
+ - db.users.find().skip(2) :- it skips first 2 records and show all the records excepts that first 2 records.
+
+ - db.users.find().sort({ name : 1}) :- its sorts the record based on name field [ 1 is for show all the records on ascending order and -1 is for descending order ].
+ - db.users.find().sort({ age : -1}) :- its sorts the record in descending order based on age field.
+
+ - db.users.find({ name: 'saad' })  :- its return the only record which name is saad.
+
+ - Explicit Query 
+ - db.users.find({ $and : [{ name: 'saad', age: 25 }]}) :- it return the only record which has name as saad and age is 25.
+ - db.users.find({ $or : [{ name: 'saad', age: 25 }]}) :- it return the all record which has name as saad or get the age is 25.
+
+ - db.users.update({ name : 'saad' }, { $set : { age: 30 } }) :- for udpating the record, its udpate the age on only record which has name as saad.
+
+ - db.users.update({ name : 'saad' }, { $set: { gender : 'male' } }) :- for adding one more field, which has name as 'saad'.
+ - db.users.udpate({ name : 'saad' }, { $unset: { gender : '' } }) :- for remove gender and note : [ we have to pass the empty string ].
+
+ - db.users.updateMany({}, { $rename : { name : 'full_name' } }) :- for changing the collection field, here we change name field to fullname.
+
+ - db : it return on current working database.
+ - db.users.drop() :- for dropping the collection.
+ - db.dropDatabase() :- for dropping the database.
+
+ - db.users.deleteOne({name : 'saad'}) :- for deleting the selected record : [ deleteOne is delete only selected one record ].
+
+	{
+		'name' : 'saad',
+		'age' : 25,
+		'colors' : [ 'red', 'black', 'green' ],
+		'address' : {
+			'city' : 'Ahmedabad',
+			'state' : 'Gujarat'
+		}
+	}
+
+ - db.users.find({ 'address.state' : 'Gujarat'}) :- for this kind of two dimension of fields are available then have to add qoutes in key as well.
+ 
+ - db.users.updateOne({ 'address.state' : 'Gujarat'}, { $set: 'address.state' : 'Delhi'}) :- for udpating the state of address [ updateOne is for only updating the one record ].
+
+ - db.users.find({ age : {$gt: 25} }) :- it returns all the records which age has greater than 25.
+ - db.users.find({ $and : [ {age : {$gt: 25}}, {age : {$lt: 30}} ] }) : it returns all the records which have age greater than 30 and less than 25.
+ - db.users.find({ $or : [ {age : {$gte: 25}}, {age : {$lt: 30}} ] }) : it returns all the records which have age 25 or more than and less than 30 : [ gte : greater than equal to -- lte : less than equal to ].
+
+ - db.users.find({$or : [ {name : 'saad'}, {name : 'rollins'} ]}) :- it returns the records which has name as saad and it also return the record if its also find name as rollins.
+ - db.users.find({$not: { name : 'saad'}}) :- it returns all the record except saad.
+
+ - db.users.updateOne({name : 'saad'}, {$push : {colors : 'pink'}}) : pink color added in colors field where name is comes as saad.
+ - db.users.updateOne({name : 'saad'}, {$pull : {colors : ['pink', 'blue']}}) :- pull out / remove mentioned colors from colors field.
+ - db.users.updateOne({name : 'saad'}, {$push : {colors : { $each: ['purple, blue, white']}}}) : can add as multiple using $each, so colors output will be : colors : [ 'red', 'black', 'green','purple, blue, white' ]
+ - db.users.updateOne({name : 'saad'}, {$addToSet: {colors : 'pink'}}) :- add pink color - but if pink was already added then it will not adding pink color again.
+ - db.users.updateOne({name : 'saad'}, {$pop : {colors: 1}}) :- remove last value from colors field [ pop used to remove last element froms array ] - [ push used adding last element at array ].
+ - db.users.updateOne({name : 'saad'}, {$pop : {colors : -1}}) :- the its remove first element form the colors field [ -1 remove first element - 1 remove last element ].
+ - db.users.updateOne({}, {$addToSet: {colors: 'yellow'}}, {multi: true}) :- Yellow colors will be added on every record.
+ - db.users.updateMany({}, {$pull: {colors: 'pink'}}) :- remove pink color from all records
+
+ - db.users.update({name : 'saad'}, {$currentDate: {date: true}}) :-- adding current date
+ - db.users.update({name : 'saad'}, {$inc: {age : 5}}) :-- it has added 5 years into the age of 25 - now saad is 30 years old.
+
+
+ COMMAND EXPORTING THE DB : mongoexport --db tutorial --collection users -o users.json
+
+ EXPORTING WITH JSONARRAY : mongoexport --db tutotial --collection users -o usersArray.json --jsonArray
+
+ db.dropDatabase()
+
+ IMPORTING JSON : mongoexport --db newdb --collection users usersArray.json --jsonArray
+	
+ FOR CREATING NEW OBJECT_ID :-
+	- x = ObjectId() : its create new objectID
+	- x.getTimeStamp() : its return Date time creation of ObjectID
+	- x.getTimeStamp().getTime() : it gives ObjectID creation time
+	- x.getTimeStamp().getDay() : it returns day 
+	- x.getTimeStamp().getMonth() : gives month
+	
+
+
+MONGODB METHODS :- 
+ 
+	UPDATE METHODS :- 
+
+		1. update()
+		2. updateOne()
+		3. updateMany
+		4. replaceOne()
+		5. findOneAndUpdate()
+
+	DELETE METHODS :- 
+		
+		1. remove()
+		2. deleteOne() 
+		3. deleteMany()
+		4. findOneAndDelete()		
+
+---------------------------------------------------------------------------------------------
+
+MySQL queries :-
+
+1. find the third-highest salary.
+	SELECT * FROM employeeinfo ORDER BY salary DESC LIMIT 2,1
+
+2. find the nth highest salary from the table without using TOP/LIMIT keywords.
+	SELECT salary FROM employeeinfo e1 WHERE 2 = (SELECT COUNT(DISTINCT salary) from employeeinfo e2 WHERE e2.salary > e1.salary);
+
+3. find the duplicate row in a table.
+	SELECT *, COUNT(id) FROM employeeinfo GROUP BY id HAVING COUNT(id) > 1
+
+4. calculating the even and odd records from a table.
+	MOD : store the division
+	SELECT * FROM employeeinfo WHERE MOD(id,2) = 1; : its return even records
+	SELECT * FROM employeeinfo WHERE MOB(id,2) = 0; : its return odd records
+
+5. display the first and last record from the table.
+	SELECT * from employeeinfo WHERE id = (SELECT MIN(id) FROM employeeinfo); : its returns first record	
+	SELECT * FROM employeeinfo WHERE id = (SELECT MAX(id) FROM employeeinfo); : returns last record
+
+6. how do you copy all rows of a table.
+	- CREATE TABLE empdetails AS SELECT * FROM employeeinfo :-- for copy the all fields of record using *
+	- CREATE TABLE empsalary AS SELECT id,salary FROM employeeinfo :-- for selected fields copy
+	- CREATE TABLE emptest as SELECT * FROM employeeinfo WHERE 3=4 :-- for copy the schema 
+
+7. retrieve the list of employee working on same department.
+	- SELECT DISTINCT e1.id,e1.fname,e1.department FROM employeeinfo e1, employeeinfo e2 WHERE e1.department = e2.department and e1.id != e2.id;
+
+8. retrieve last 3 records from the table.
+	- SELECT* from (SELECT * from employeeinfo ORDER BY id DESC LIMIT 3) temp ORDER BY id ASC;
+	- SELECT * FROM employeeinfo ORDER BY id DESC LIMIT 3. : It return last 3 records from the table but it reverse order :)
+
+9. fetch details of employees whose lname ends with an alphabet 'A' and contains five alphabets 
+	- SELECT * FROM employeeinfo WHERE lname LIKE '____a'
+
+10. fetch 50% records of the table
+	It works only in where employee id is in proper sequence : no record deleted
+	- SELECT * FROM employeeinfo WHERE id <= (SELECT COUNT(id)/2 FROM employeeinfo)
+
+---------------------------------------------------------------------------------------------
+
+ASOS E-COMMERCE DATABASE DESIGN :----
+----------------------------------------------
+product_gender TABLE (MALE - FEMALE): 
+
+CREATE TABLE product_gender(
+	product_gender_id INT,
+	gender_name VARCHAR(10),
+	CONSTRAINT pk_prodgender PRIMARY KEY (product_gender_id) 
+)
+PRIMARY KEY ---> product_gender_id 
+
+INSERT INTO product_gender(product_gender_id, product_name) VALUES (1, 'Women'),(2, 'Men')
+
+ASOS has two types of Cloting Category : 
+	1. Women	
+	2. Men
+
+----------------------------------------------
+product_category TABLE BASED ON product_gender TABLE :
+CREATE TABLE product_category(
+	product_category_id INT,
+	category_name VARCHAR(100),
+	category_image VARCHAR(400),
+	product_gender_id INT,
+	CONSTRAINT pk_prodcategory PRIMARY KEY(product_category_id),
+	CONSTRAINT fk_prodcategory_gender FOREIGN KEY(product_gender_id) REFERENCES product_gender(product_gender_id)
+)
+PRIMARY KEY ----> product_category_id
+FOREIGN KEY ----> product_gender_id
+
+INSERT INTO product_category(product_category_id, category_name, category_image, product_gender_id) VALUES 
+(1, 'womenprod1','/images/womenprod1.png',1),
+(2, 'womenprod2','/images/womenprod2.png',1),
+(3, 'womenprod3','/images/womenprod3.png',1),
+(4, 'menprod1','/images/menprod1.png',2),
+(5, 'menprod2','/images/menprod2.png',2),
+(6, 'menprod3','/images/menprod3.png',2)
+
+SELECT product_category_id, category_name, category_image FROM product_category WHERE product_gender_id = 1 
+	:- it will returns all the women categories from product_category table as same for fetching men categories then have to use product_gender_id = 2
+
+ALTER TABLE product_category ADD category_description VARCHAR(2000)
+
+----------------------------------------------
+product TABLE BASED ON product_category TABLE 
+
+CREATE TABLE product (
+	product_id INT,
+	product_name VARCHAR(500),
+	original_price INT,
+	sale_price INT,
+	product_category_id INT,
+	CONSTRAINT pk_product PRIMARY KEY(product_id),
+	CONSTRAINT fk_prod_prodcategory FOREIGN KEY(product_category_id) REFERENCES product_category(product_category_id)
+)
+PRIMARY KEY ----> product_id
+FOREIGN KEY ----> product_category_id
+
+INSERT into product (product_id, product_name, original_price, sale_price, product_category_id) VALUES
+(1,'product1', 1000, 800, 1),
+(2, 'product2, 800, 600, 1),
+(3, 'product3, 1000, 900, 2),
+(4, 'product4, 1200, 1000, 2),
+(5, 'product5, 1500, 1200, 3),
+(6, 'product6, 1300, 1200, 3),
+(7, 'product7, 1900, 1700, 4),
+(8, 'product8, 500, 300, 4),
+(9, 'product9, 1200, 1000, 5),
+(10, 'product10, 2200, 2000, 5),
+(11, 'product11, 1400, 1000, 6),
+(10, 'product10, 2200, 1900, 6),
+
+----------------------------------------------
+Create separeted Product_Image table for products image.
+product_image BASED ON product TABLE
+
+CREATE TABLE product_image(
+	image_id INT,
+	image_filename VARCHAR(400),
+	product_id INT,
+	CONSTRAINT pk_prodimage PRIMARY KEY(image_id),
+	CONSTRAINT fk_prodimage_product FOREIGN KEY (product_id) REFERENCES product(product_id)
+)
+PRIMARY KEY ----> image_id
+FOREIGN KEY ----> product_id
+
+INSERT INTO product_image(image_id, image_filename, product_id) VALUES 
+(1, 'image1.png', 1),
+(2, 'image01.png', 1),
+(3, 'image02.png', 2),
+(4, 'image02.png', 2),
+(5, 'image3.png', 3),
+(6, 'image03.png', 3),
+(7, 'image4.png', 4),
+(8, 'image04.png', 4),
+(9, 'image5.png', 5),
+(10, 'image05.png', 5),
+(11, 'image6.png', 6),
+(12, 'image06.png', 6),
+(13, 'image7.png', 7),
+(14, 'image07.png', 7),
+(15, 'image8.png', 8),
+(16, 'image08.png', 8),
+(17, 'image9.png', 9),
+(18, 'image09.png', 9),
+(19, 'image10.png', 10),
+(20, 'image010.png', 10),
+(21, 'image11.png', 11),
+(22, 'image011.png', 11),
+(23, 'image12.png', 12),
+(24, 'image012.png', 12)
+
+This query will returns the how many products are available for each categories :
+SELECT p.product_id, p.product_name, p.original_price/100 AS original_price, p.sale_price/100 AS sale_price, c.category_name, c.product_category_id 
+from product p INNER JOIN product_category c ON p.product_category_id = c.product_category_id;
+
+----------------------------------------------
+Each Product has might multiple colours. 
+for color of products, we have separatly created for colour table.
+
+CREATE TABLE colour(
+	colour_id int,
+	colour_name varchar(100),
+	CONSTRAINT pk_colour PRIMARY KEY(colour_id)
+)
+
+INSERT INTO colour(colour_id, colour_name) VALUES
+(1, 'Black'),
+(2, 'White'),
+(3, 'Green'),
+(4, 'Blue'),
+(5, 'Yellow'),
+
+----------------------------------------------
+CREATE TABLE product_item(
+	product_item_id int,
+	product_id int,
+	colour_id int,
+	original_price int,
+	sale_price int,
+	CONSTRAINT pk_proditem PRIMARY KEY(product_item_id),
+	CONSTRAINT fk_proditem_product FOREIGN KEY(product_id) REFERENCES product(product_id),
+	CONSTRAINT fk_proditem_colour FOREIGN KEY(colour_id) REFERENCES colour(colour_id)
+)
+----------------------------------------------
+
+
+create TABLE product_category(
+	product_category_id INT,
+	category_name varchar(100),
+	category_image varchar(400),
+	product_gender_id INT,
+	CONSTRAINT pk_prodcategory
+		PRIMARY KEY product_category_id
+	CONSTRAINT pk_prodcategory_gender
+		FOREIGN KEY(product_gender_id) REFERENCES product_gender(product_gender_id)
+)
+
+INSERT into product_category(product_category_id, category_name, category_image, product_gender_id) VALUES
+(1, 'Dresses','/images/dresses_women.png',1),
+(2, 'Coats + Jackets','/images/coats_women.png',1),
+(3, 'Shoes + Sneaks','/images/shoes_women.png',1),
+(4, 'Coats','/images/coats_men.png',2),
+(5, 'Shoes','/images/shoes_men.png',2),
+(6, 'Shirt','/images/shirt_men.png',2)

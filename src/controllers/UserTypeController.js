@@ -98,10 +98,10 @@ const getUserTypeModulesPermission = (req, res) => {
   const selectUserTypeQuery = 'SELECT * FROM `user_type` WHERE UserTypeID = ?';
   pool.query(selectUserTypeQuery, UserTypeID, (userTypeErr,userTypeResults,fields) => {
     if (userTypeErr) {
-      return res.status(500).send({ error: 'Internal Server Error' });
+      return res.status(500).send({ status: 500, error: 'Internal Server Error' });
     }
     if (userTypeResults.length === 0) {
-      return res.status(404).send({error:'UserTypeID not found', status:404})
+      return res.status(404).send({status:404, error:'UserTypeID not found'})
     }
     const userTypeData = userTypeResults[0]
     // const selectQuery = `
@@ -138,4 +138,83 @@ const getUserTypeModulesPermission = (req, res) => {
   })
 }
 
-module.exports = {addUserType, getUserType, getUserTypeModulesPermission}
+// const updateUserTypeModulesPermission = ((req, res) => {
+//   const reqBody = req.body
+//   const UserTypeID = req.params.id
+//   const {UserTypeName,UserTypePermissionView} = reqBody
+//   if (!reqBody) {
+//     return res.status(400).send({ status: 400, error: "All field are required." });
+//   }
+//   if (!UserTypeName) {
+//     return res.status(400).send({ status: 400, error: "UserTypeName field is required." });
+//   }
+//   const updateUserTypeQuery = 'UPDATE `user_type` SET UserTypeName = ? WHERE UserTypeID = ?'
+//   const updateUserTypeValues = [UserTypeID, UserTypeName]
+//   pool.query(updateUserTypeQuery, updateUserTypeValues, (updateUserTypeErr, updateUserTypeResult) => {
+
+//     if (updateUserTypeErr) {
+//       console.error('Error updating user type:', updateUserTypeErr);
+//       return res.status(500).send({ status: 500, error: 'Internal Server Error' });
+//     }
+//     if (UserTypePermissionView && UserTypePermissionView.length > 0) {
+//       console.log('UserTypePermissionView :', UserTypePermissionView);
+//       const udpateModulePermissionQueries = UserTypePermissionView.map((permission) => {
+//         const { PermissionModuleID, PermissionModuleName, PermissionModuleKey, PermissionModuleAdd, PermissionModuleEdit, PermissionModuleDelete, PermissionModuleView } = permission
+//         return ['UPDATE modules SET PermissionModuleName = ?, PermissionModuleKey = ?, PermissionModuleAdd = ?, PermissionModuleEdit = ?, PermissionModuleDelete = ?, PermissionModuleView = ? WHERE UserTypeID = ? AND PermissionModuleID = ? ',
+//           [PermissionModuleName, PermissionModuleKey, PermissionModuleAdd, PermissionModuleEdit, PermissionModuleDelete, PermissionModuleView, UserTypeID, PermissionModuleID]]
+//       })
+//       console.log('udpateModulePermissionQueries :', udpateModulePermissionQueries);
+//       udpateModulePermissionQueries.forEach(([query,values]) => {
+//         pool.query(query, values, (updateModuleErr, updateModuleResult) => {
+//           if (updateModuleErr) {
+//             return res.status(500).send({ status: 500, error: 'Internal Server Error' });
+//           }
+//         })
+//       });
+//       return res.status(200).send({ status: 200, message: 'User type and module permissions updated successfully' });
+//     }
+//   })
+// })
+
+const updateUserTypeModulesPermission = (req, res) => {
+  const reqBody = req.body;
+  const UserTypeID = req.params.id;
+  const { UserTypeName, UserTypePermissionView } = reqBody;
+
+  if (!reqBody || !UserTypeName) {
+    return res.status(400).send({ status: 400, error: "All fields are required." });
+  }
+
+  const updateUserTypeQuery = 'UPDATE `user_type` SET UserTypeName = ? WHERE UserTypeID = ?';
+  const updateUserTypeValues = [UserTypeName, UserTypeID];
+
+  pool.query(updateUserTypeQuery, updateUserTypeValues, (updateUserTypeErr, updateUserTypeResult) => {
+    if (updateUserTypeErr) {
+      console.error('Error updating user type:', updateUserTypeErr);
+      return res.status(500).send({ status: 500, error: 'Internal Server Error' });
+    }
+
+    if (UserTypePermissionView && UserTypePermissionView.length > 0) {
+      const updateModulePermissionQueries = UserTypePermissionView.map(permission => {
+        const { PermissionModuleID, PermissionModuleName, PermissionModuleKey, PermissionModuleAdd, PermissionModuleEdit, PermissionModuleDelete, PermissionModuleView } = permission;
+        const updateModuleQuery = 'UPDATE modules SET PermissionModuleName = ?, PermissionModuleKey = ?, PermissionModuleAdd = ?, PermissionModuleEdit = ?, PermissionModuleDelete = ?, PermissionModuleView = ? WHERE UserTypeID = ? AND PermissionModuleID = ?';
+        const updateModuleValues = [PermissionModuleName, PermissionModuleKey, PermissionModuleAdd, PermissionModuleEdit, PermissionModuleDelete, PermissionModuleView, UserTypeID, PermissionModuleID];
+        return [updateModuleQuery, updateModuleValues];
+      });
+
+      updateModulePermissionQueries.forEach(([query, values]) => {
+        pool.query(query, values, (updateModuleErr, updateModuleResult) => {
+          if (updateModuleErr) {
+            console.error('Error updating module:', updateModuleErr);
+            return res.status(500).send({ status: 500, error: 'Internal Server Error' });
+          }
+        });
+      });
+
+      return res.status(200).send({ status: 200, message: 'User type and module permissions updated successfully' });
+    }
+  });
+};
+
+
+module.exports = {addUserType, getUserType, getUserTypeModulesPermission, updateUserTypeModulesPermission}
