@@ -8,7 +8,7 @@ Types of database
 
 
 1. MySQL
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 - Relational Database 
 - noSQL ( Structured Query Language )
@@ -17,7 +17,7 @@ NoSQL
 	- NoSQL is not a table based batabase, its document based
 	- like MongoDB, Redis, Cassandra etc...
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 What is Constaints : Its a restriction 
 	- NOT NULL
@@ -27,12 +27,12 @@ What is Constaints : Its a restriction
 	- PRIMARY KEY 	
 	- FOREIGN KEY 
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 Primery key and Foreign Key :
 
 - Primery key :- 
-	- Always have unique data 
+	- Always have unique data 00
 	- Cannot have null value
 	- A table can contain only one primary key constrain
 	
@@ -53,7 +53,7 @@ Primery key and Foreign Key :
 		FOREIGN KEY (city) REFERNCES city(cid) // this line set foreign key from city table of cid
 	);
 	
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 Queries :- 
 	- SELECT :- for read the records			--> SELECT * FROM employees;
@@ -64,7 +64,7 @@ Queries :-
 									WHERE id = 123;
 	- DELETE :- for delete the record			--> DELETE FROM employees WHERE id = 456;
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 LIKE Operator with Wildcard Patterns :
 WildCard Character : 
@@ -81,14 +81,14 @@ LIKE '___a'	- 'a' in the third position
 LIKE '_oy' 	- 'o' in the second and 'y' in the third position
 i.e SELECT firstname, email, phone, age, gender FROM users WHERE firstname NOT LIKE 's%';
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 SQL Commands :
 - SELECT * FROM `users` WHERE age NOT IN (24,46); ----> its not returning any recond of which has age 24 and 46
 - SELECT * FROM `users` WHERE age BETWEEN 50 AND 60; ----> its return the record which has age between 50 to 60
 - SELECT * FROM `users` WHERE age NOT BETWEEN 50 AND 60; ----> its return all the record except the age between 50 to 60
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 Select Data with Regular Expression:
 Sign 		Pattern 		Description
@@ -102,7 +102,7 @@ p1|p2|p3 	'tom|dean|harry 	Matches any of the patterns p1,p2 or p3
 - SELECT * FROM `users` WHERE firstname REGEXP 'ns$';
 SELECT * FROM `users` WHERE firstname REGEXP '[t-z]';
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 Aggregate Function : 
 	- Aggregate function in MYSQL are special function that perform a calculation on a set of values and return a single value as a result
@@ -114,7 +114,7 @@ Aggregate Function :
 	4 - MAX() 	--> SELECT MAX(price) FROM students;	Returns the MAX age student record
 	5 - MIN() 	--> SELECT MIN(score) FROM students;	Returns the MIN age student record
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 ORDER BY : 
 SELECT * FROM `users`ORDER BY firstname DESC;
@@ -122,7 +122,7 @@ SELECT * FROM `users`ORDER BY firstname DESC;
 DISTINCT : Remove duplicate values
 SELECT DISTINCT age FROM `users` ORDER BY age;
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 Types of Join in SQL 
 
@@ -153,7 +153,7 @@ Types of Join in SQL
 	- SELECT * from students CROSS JOIN city; 
 	- SELECT * from students, city; --> this command worked same as cross join
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 GROUP BY : 
 	The GROUP BY clause is used in conjunction with the SELECT statement
@@ -165,11 +165,11 @@ HAVING Clause :
 	- Query Example : 
 		SELECT s.name, c.cname, s.age, COUNT(s.city) as Total FROM students s JOIN city c on s.city = c.cid GROUP BY s.city having s.age > 25 and COUNT(s.city) >= 1; 
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 Commit and Rollback
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 Join Multiple Table : 
 	Query Example :
@@ -181,7 +181,7 @@ Join Multiple Table :
 		INNER JOIN products ON order_details.product_id = products.product_id
 		WHERE orders.order_date >= '2023-01-01';
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 SubQuery / Nested Query
 
@@ -202,7 +202,7 @@ UNION / UNION ALL
 		- The columns must have also similar data types
 		- The columns in each select statement must also be in the same order
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 - Arithmetic Function : 
 
@@ -254,7 +254,7 @@ UNION / UNION ALL
 	14.WEEKYEAR
 	15. YEAR
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 
 2. MongoDB
@@ -267,7 +267,7 @@ UNION / UNION ALL
 
    -  SELECT * FROM students WHERE name = 'saad'		-  db.students.find({ name: 'saad' })
 
-   -  SELECT * FROM students WHERE name='saad' OR age = 50	-  db.students.fing({ $or : [ {name : 'saad', age:50} ] })
+   -  SELECT * FROM students WHERE name='saad' OR age = 50	-  db.students.find({ $or : [ {name : 'saad', age:50} ] })
 	
 
 - After installation or should already have installed mongoDB
@@ -387,7 +387,7 @@ MONGODB METHODS :-
 		3. deleteMany()
 		4. findOneAndDelete()		
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 MySQL queries :-
 
@@ -428,10 +428,10 @@ MySQL queries :-
 	It works only in where employee id is in proper sequence : no record deleted
 	- SELECT * FROM employeeinfo WHERE id <= (SELECT COUNT(id)/2 FROM employeeinfo)
 
----------------------------------------------------------------------------------------------
+---------------------------------------------
 
 ASOS E-COMMERCE DATABASE DESIGN :----
-----------------------------------------------
+---------------------------------------------
 product_gender TABLE (MALE - FEMALE): 
 
 CREATE TABLE product_gender(
@@ -447,7 +447,7 @@ ASOS has two types of Cloting Category :
 	1. Women	
 	2. Men
 
-----------------------------------------------
+---------------------------------------------
 product_category TABLE BASED ON product_gender TABLE :
 CREATE TABLE product_category(
 	product_category_id INT,
@@ -473,7 +473,7 @@ SELECT product_category_id, category_name, category_image FROM product_category 
 
 ALTER TABLE product_category ADD category_description VARCHAR(2000)
 
-----------------------------------------------
+---------------------------------------------
 product TABLE BASED ON product_category TABLE 
 
 CREATE TABLE product (
@@ -502,7 +502,7 @@ INSERT into product (product_id, product_name, original_price, sale_price, produ
 (11, 'product11, 1400, 1000, 6),
 (10, 'product10, 2200, 1900, 6),
 
-----------------------------------------------
+---------------------------------------------
 Create separeted Product_Image table for products image.
 product_image BASED ON product TABLE
 
@@ -546,7 +546,7 @@ This query will returns the how many products are available for each categories 
 SELECT p.product_id, p.product_name, p.original_price/100 AS original_price, p.sale_price/100 AS sale_price, c.category_name, c.product_category_id 
 from product p INNER JOIN product_category c ON p.product_category_id = c.product_category_id;
 
-----------------------------------------------
+---------------------------------------------
 Each Product has might multiple colours. 
 for color of products, we have separatly created for colour table.
 
@@ -563,7 +563,7 @@ INSERT INTO colour(colour_id, colour_name) VALUES
 (4, 'Blue'),
 (5, 'Yellow'),
 
-----------------------------------------------
+---------------------------------------------
 CREATE TABLE product_item(
 	product_item_id int,
 	product_id int,
@@ -574,8 +574,7 @@ CREATE TABLE product_item(
 	CONSTRAINT fk_proditem_product FOREIGN KEY(product_id) REFERENCES product(product_id),
 	CONSTRAINT fk_proditem_colour FOREIGN KEY(colour_id) REFERENCES colour(colour_id)
 )
-----------------------------------------------
-
+---------------------------------------------
 
 create TABLE product_category(
 	product_category_id INT,
@@ -595,3 +594,259 @@ INSERT into product_category(product_category_id, category_name, category_image,
 (4, 'Coats','/images/coats_men.png',2),
 (5, 'Shoes','/images/shoes_men.png',2),
 (6, 'Shirt','/images/shirt_men.png',2)
+
+
+---------------------------------------------
+Have to install MongoDB Powershell  // 20/11/24 
+
+then open MongoDB Powershell 
+
+For show all the database : show dbs
+
+Commands :
+
+ 	Create New Database : use database_name / use organization_management
+	Show all collections : show collections ( we should be inside database or currect database should be connected)
+	Create new Collection/Table and insert record : db.users.insertOne({name:'Saad', age:20})
+	For list down all the records : db.users.find() -> this will return all the records from 'user' collection/table
+
+	CRUD operation overview from MongoDB
+
+	Create : 
+		db.users.insertOne(data, options)
+		db.users.insertMany(data, options)
+
+		db.users.insert({name:'saad', age:12}) : db.users.insert become old version, suggest to use insertOne but its insert the record in users collection/table
+		db.users.insertOne({name:'saad', age:12}) : wil insert the new record
+		db.users.insertMany([{name:'saad', age:25}, {name:'rollins', age:5}, {name:'roman', age:15}])
+
+		users = [{
+			'name' : 'saad',
+			'age' : 25,
+		},
+		{
+			'name' : 'rollins',
+			'age' : 10,
+		},
+		{
+			'name' : 'roman',
+			'age' : 15,
+		}]
+
+
+	Read : 
+		db.users.find(filter, options) : return multiple filter records/documents.
+		db.users.findOne(filter, options) : return only single matched element filtered record.
+
+		db.users.find({ 'address.state' : 'Gujarat'}) :- for this kind of two dimension of fields are available then have to add qoutes in key as well.
+
+		db.users.find({ name: 'test' }) :  find()
+			- if i use only 'find()' and it find the record and it does not match with the condition then it returns pointer/nothing.
+			- and at a time it returns max 20 records/documents. 
+		db.user.fingOne({name :'test'}) : findOne()
+			- if i use findOne() and doestn't get any 
+		db.users.find().count() : 
+			- it returns number of records/documents counter
+		db.users.find.forEach((x) => {printjson(x)}) : using forEach and printjson can get all records/documents from that collection 
+			- it retuns all records/documents from that collection
+
+		db.users.find().limit(2) : return first 2 records/documents from that collection.
+		db.users.findOne().forEach((x) => {printjson()}) : we can't use findOne with forEach
+			- TypeError: it will returns errors : db.users.findOne().forEach is not a function
+
+		db.users.find({age: {$lt:12}}) : it will returns all the records/documents which user's age is lessthan 12.
+		db.users.find({age: {$lte:12}}) : it will returns all the records/documents which user's age is lessthan equal to 12.
+		db.users.find({age: {$lte:12}}).count() : return a number of count records/documents.
+
+		db.users.find({age:{$gte:5, $lte:15}}) : return the records/documents which is user's age is greaterthan equal to 5 and lessthan equal to 15
+
+		- db.users.find({ age : {$gt: 12} }) :- it returns all the records/documents which age has greater than 12.
+		- db.users.find({ age : {$gte: 12} }) :- it returns all the records/documents which age has greaterthan equal to 12.
+		- db.users.find({ $and : [ {age : {$gt: 25}}, {age : {$lt: 30}} ] }) : it returns all the records/documents which have age greater than 30 and less than 25.
+		- db.users.find({ $or : [ {age : {$gte: 25}}, {age : {$lt: 30}} ] }) : it returns all the records/documents which have age 25 or more than and less than 30 : [ gte : greater than equal to -- lte : less than equal to ].
+
+		- db.users.find({$or : [ {name : 'saad'}, {name : 'rollins'} ]}) :- it returns the records/documents which has name as saad and it also return the record if its also find name as rollins.
+		- db.users.find({$not: { name : 'saad'}}) :- it returns all the record except saad.
+
+		- db.users.find({ 'address.state' : 'Gujarat'}) :- for this kind of two dimension of fields are available then have to add qoutes in key as well.
+
+		db.users.find().toArray() : returns all the records/documents from that collection
+
+		db.users.find({_id: ObjectId('63531245485758965ee5e2e5e25e22w5ew2e')}) : will return that specific records/documents, it short we can filter with any object.
+
+	Update : 
+		db.users.updateOne(filter, data, options)
+		db.users.updateMany(filter, data, options)
+		db.users.replaceOne(filter, data, options)
+
+		db.users.updateOne({name:'saad'}, {$set:{age:30}}) : if want to update one record/document 
+		db.users.updateMany({age:10}, {$set:{age:11}}) : if want to update many record/document, which users has 10 age then it will update those all age 10 record/document
+
+		db.users.updateMany({age:11}, {$set:{isActive:false}}) : add new field as isActive:false which users has age:11
+		db.users.updateMany({age:{$gte:15}}, {$set:{isActive:true}}) : add new fields as isActive:true which users has age greaterthan 15.
+
+	Delete : 
+		db.users.deleteOne(filter, options) 
+		db.users.deleteMany(filter, options)
+
+		db.users.deleteOne({name:'saad'}) : delete only one record/document which user has name:'saad'
+		db.users.deleteMany({isActive:false}) : delete all records/document which has isActive:false
+
+		db.users.deleteMany({}) : this will returns all the records/documents.
+
+Embedded documents ( Nested Documents limit ) :
+
+		db.users.updateMany({name:'saad'}, {$set:{ idCards:{hasPanCard: false, hasAdhaarCard: true}}})
+		db.users.updateMany({name:'rollins'}, {$set:{ idCards:{hasPanCard: true, hasAdhaarCard: true}}})
+		db.users.updateMany({}, {$set:{hobbies:['Anime', 'Cooking']}})
+
+		db.users.find({'idCards.hasPanCard': true}) : for finding documents/records which users has only pasCard:true
+
+	Document max size is 16MB
+	
+Select Column Query ( Projection in MongoDB ) : 
+		db.users.find({}, {name:1, _id:0, age:0}) : this returns only name column/field
+
+MongoDB is Schemaless
+
+Drop/Delete the Ā or Collection :
+	show db : will show all the databases in the MongoDB 
+	show collections : will show all the collections in side available in database
+
+	- db : it return on current working database.
+	- db.dropDatabase() :- for dropping the database.
+	- db.users.drop() :- for dropping the collection.
+
+
+---------------------------------------------
+
+Ascending [ ASC ] order : Smallest to Largest.
+Descending [ DESC ] order : Largest to Smallest.
+
+Zoom in : Make it appear Larger and Closer
+Zoom out : Greater distance or at a reduced size to see more of the whole.
+
+---------------------------------------------
+
+Describe the development in your country like shopping center, park etcetera.
+ - What is the development 
+ - When you hear about it
+ - How did it influence you?
+
+I think developments in infrastructure are very essential for the progress of a nation.
+Developments could be in any sectors like Education, Healthcare, Housing, Transportations etcetera.
+Today, i would like to talk about a recent development in our country which is related to the transportation sector.
+Last month our honourable Prime Minister Shri NarendraModiji inaugurated the first automatic driverless metro train in the national capital Delhi.
+The launch of this train was covered by all the news channels and made headlines in the newspapers.
+That is how i came to know about it.
+This metro train connects several stations between New Delhi and Noida a city adjoining the national capital.
+The launch of this trian has benefitted millions of people who otherwise travel by bus or other transportation means like their own cars and motorbikes.
+It has reduced their travel time significantly and it has also become more convenient for them to travel from one place to another.
+The coaches of the train are imported from the germany and are made of very high quality steels.
+I believe that the government should introduce more such trains in the major cities of our country because it provides a lot of benefits to the people and the environment.
+Moreover, it decreases the number of traffic jams in the city and the pollution caused when people use their own private vehicles.
+This train has no driver, it is remotely controlled by a computer thus avoiding any human errors that can caused the accidents.
+When i first told to my friends about this train, all of them were surprized to hear that a train can run without a driver as well.
+This train has 8 coaches and capacity to carry 100 peoples at one time.
+This coaches are very modern and have free wifi and phone charging facility as well.
+The train also has seats reserved facility especially for the elderly and women.
+But when i show them the news they were very excited about it.
+we have also a plan to travel by this train to next month.
+
+
+I believe that developments in infrastructure are crucial for the progress of a nation. 
+	These developments can occur in various sectors, such as education, healthcare, housing, and transportation. 
+	Today, I’d like to talk about a remarkable recent development in our country’s transportation sector.
+
+Last month, our Honourable Prime Minister, Shri Narendra Modi, inaugurated the nation’s first automatic driverless metro train in Delhi, the national capital. 
+	The launch of this groundbreaking project was extensively covered by all the news channels and made headlines in newspapers, That is how i came to know about it.
+
+This metro train connects multiple stations between New Delhi and Noida, a city adjacent to the capital. 
+	Its introduction has benefitted millions of people who previously relied on buses or private vehicles like cars and motorbikes. 
+	It has significantly reduced travel time and made commuting far more convenient.
+
+The train’s coaches are imported from Germany and constructed with high-quality steel, ensuring durability and safety. 
+	I believe the government should introduce more such trains in major cities across the country because they offer immense benefits to both people and the environment.
+	These trains help alleviate traffic congestion and reduce pollution caused by the extensive use of private vehicles.
+
+This train is fully automated and driverless, operated remotely by a computer system, which minimizes the risk of human errors and accidents. 
+	When I first shared this news with my friends, they were amazed that a train could operate without a driver. 
+	However, when I showed them the news coverage, they became just as excited as I was.
+
+The train consists of eight modern coaches with a capacity to carry up to 100 passengers at a time. 
+	These coaches are equipped with free Wi-Fi, phone charging facilities, and designated seating areas for women and the elderly, ensuring comfort and accessibility for all.
+
+My family and I are planning to travel on this metro train next month to experience it firsthand. 
+	This development truly represents a significant step forward for our country, highlighting the potential of advanced infrastructure to transform lives and create a more sustainable future.
+
+
+1. What transportation do you use the most?
+- I normally travel by my own vehicle, when i was younger and i didn't know how to drive then i used to travel by bus.
+
+2. Is public transportation is popular in India?
+- Yes, India is developing country and many people still can't afford their vehicle. Therefore, public transportation is quite popular.
+
+3. What can be improve in public transportation services?
+- As far as india is concerned, the list is endless. It could be made faster and more comfortable. 
+	It could also be made more eco-friendly and finally the frequency needs to be improved as many people need to wait a long for the next bus or train.
+
+4. What leisure facilities can be used by people of india?
+- I think nearly all the leisure facilities can be used by all the people. However shopping malls and cinema theatres are the two, where people are more likely to meet people from all the ages.
+
+5. Do you think young people in your country like to visit cinema?
+- Yes, I think young people are very interested in watching movies at the cinema, However the coming of OTT apps like Netflix, Amazon Prime and Hulu have reduced their popularity to a certain extent.
+
+6. How is the subway system developing in your country?
+- It's developing really very fast especially in the big cities. It has started with Delhi a decade ago and nearly every metropolitan city has a subway or underground railway station. 
+	Now government is planning to construct metro in Tier 2 cities as well.
+
+---------------------------------------------
+
+Describe when someone gave you something you really wanted as gift.
+ - Who gave it to you
+ - What was the thing
+ - When you received it
+ - Why you needed it?
+ - How you felt about it.
+
+In my life, I have never asked anyone for anything but there have been occasions when people have given gifts to me and it made me feel really happy.
+Today i would like to talk about once such occasion when someone gifted me a thing that i was planning to buy on my own.
+It was given to me by my brother who is working as an engineer in Canada.
+My brother loves me very much and he is a kind hearted person.
+He gifted me the latest iphone version and i was completely astonished when i came know that he got this phone for me.
+I had been saving for this phone for months, but i still didn't have enough money to buy it.
+i also read numerous reviews and watched several videos on youtube about this phone.
+Its an awesome phone with great features like face recognition, wireless charging, and dual cameras.
+My brother was visited us during last winter and saw me doing a lot of research about this phone on the internet.
+He know that i wanted this phone badly.
+So he went ahead and bought this phone for me without letting me know.
+He gave this phone to me as a surprise on Christmas.
+When i woke up in the Christmas morning the phone was lying inside a sock next to my bed.
+At first i didn't believe if it was real or a dream but then when everyone started congratulating me, i felt elated.
+I thanked to my brother a lot and i called him my santa claus.
+So this was the moment when i felt extremely joyful on receiving something i really wanted.
+
+Here’s an improved and polished version of your passage:
+
+In my life, I have rarely asked anyone for anything. 			
+	However, there have been occasions when people have given me gifts, which always made me feel incredibly happy.
+ 	Today, I’d like to talk about one such occasion when someone gifted me something I had been planning to buy for myself.
+
+The gift was from my brother, who works as an engineer in Canada. 
+	My brother is a kind-hearted person who loves me very much. 
+	He surprised me with the latest iPhone, and I was completely astonished when I found out he had bought it for me.
+
+I had been saving for this phone for months, but I still didn’t have enough money to purchase it. 
+	During that time, I read numerous reviews and watched several videos on YouTube about this phone. 
+	It’s an incredible device with amazing features like face recognition, wireless charging, and dual cameras.
+
+Last winter, my brother visited us and saw me engrossed in researching this phone online. 
+	He knew how much I wanted it, so he decided to buy it for me without letting me know. 
+	On Christmas morning, he surprised me with the phone. 
+	When I woke up, I found it inside a sock lying next to my bed.
+
+At first, I couldn’t believe whether it was real or just a dream. 
+	But when everyone started congratulating me, I felt overjoyed. 
+	I thanked my brother profusely and even called him my Santa Claus.
+
+This was a truly special moment when I felt an overwhelming sense of joy after receiving something I had longed for so deeply.
