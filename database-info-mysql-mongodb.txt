@@ -728,6 +728,36 @@ Zoom out : Greater distance or at a reduced size to see more of the whole.
 
 ---------------------------------------------
 
+2x Vocabulary
+
+But :
+	- However
+	- Although
+	- Though 
+	- Yet
+	- Nevertheless
+
+Also : 
+	- Moreover
+	- Futhermore
+	- Besides
+	- Likewise
+	- As well as
+
+Therefore :
+	- Hence
+	- Thus 
+	- As a result
+	- Subsequently
+	- For this reason
+
+Especially :
+	- Mainly
+	- Notably
+	- Above all
+	- Pricipally
+	- Exclusively
+
 Describe the development in your country like shopping center, park etcetera.
  - What is the development 
  - When you hear about it
@@ -857,6 +887,20 @@ Slot for December and Jan :
  7 - 14 - 28 - 4
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+
+Without preparation, every mistake costs you points
+
+Lack of proper practice makes reaching your desired score much harder.
+
+- Fix your grammar with clear and simple tips.
+- Make your ideas clear and easy to read step by step.
+- Find better words to say exactly what you mean.
+- Learn how to stay on track and finish on time.
+- Understand your mistakes and learn how to fix them.
+
+---------------------------------------------
+
 																GENERAL TRAINING 
 
  						Free online IELTS General Training Writing practice test - paper
@@ -1068,29 +1112,10 @@ Q. Some people believe that teaching children at home is best for a child’s de
 		knowledge or experience.
 
 Ans : 
-	The Argument over whether learning at home or at school is better for children has not
-	been settled yet. Whereas home education offers better protection whith individual 
-	learning and opportunities for families to bond, schools have a superior range of material 
-	and human resources. Ultimately, I think the school experience is best for children.
-	
-	There are several advantages for children who learn at home. Firstly, they can spend more 
-	time with their parents and siblings. Many social problems are associated with families not 
-	spending enough quality time together. Teaching children at home also provides them with
-	an individualized learning environment. Instruction is custom designed and moves at the child's
-	own pace and in accordance with his or her individual learning style. Finally, home schooling 
-	protects children from bullies and others who might be a bad influence.
-
-	On the other hand, the school environment also offers advantages for children. Schools 
-	encourage children to socialise with their peers and learn how to cope with gossip,
-	bullying and peer pressure. in Addition, children will receive better tuition across a range
-	of disciplines, as schools have teachers who are trained in special subjects. What is more,
-	schools provide better access to physical resources such as sports equipment, musical 
-	instruments	and library books.
-
-	I believe that children are bettre off in a school environment. Although familty time and 
-	individual learning are important, the range of expertise and resources that schools offers
-	cannot be matched in the home. School environments may present difficult social situations,
-	but so too does the real world and children must learn to navigate these on their own. 
+	The Argument over whether learning at home or at school is better for children has not been settled yet. Whereas home education offers better protection whith individual learning and opportunities for families to bond, the schools have a comprehensive range of material and human resources. Ultimately, I think the school experience is best for children.
+	There are several advantages for children who learn at home. Firstly, they can spend more time with their parents and siblings. Many social problems are associated with families not spending enough quality time together. Teaching children at home also provides them with an individualized learning environment. Instruction is custom designed and moves at the child's own pace and in accordance with his or her individual learning style. Finally, home schooling protects children from bullies and others who might be a bad influence.
+	On the other hand, the school environment also offers advantages for children. Schools encourage children to socialise with their peers and learn how to cope with gossip, bullying and peer pressure. in Addition, children will receive better tuition across a range of disciplines, as schools have teachers who are trained in special subjects. What is more, the schools provide better access to physical resources such as sports equipment, musical instruments	and library books.
+	I believe that children are better off in a school environment. Although family time and individual learning are important, the range of expertise and resources that the schools offers cannot be matched in the home. School environments may present difficult social situations, but so too does the real world and children must learn to navigate these on their own.
 
 ---------------------------------------------
 									Writing	Task 2 :
@@ -1109,11 +1134,12 @@ Note: Read question at least 3 times.
 		second para : 80-90 words : minimum should be 75 :- Body para 1 
 		third para 	: 70-80 words : minimum should be 75 :- Body para 2
 		fourth para : 60-70 words : minimum should be 60 :- Conclusion
+		- All over should be 250 words
 
 First Paragraph : Introduction 
 	Have to follow this process / 3 Sentence Formula :
 		1. Neutral / Background Statement / Universal Statement.
-		2. Reparaphares / Rewrite the question with synonymus meaning of words.
+		2. Reparaphares / Rewrite the question with synonyms meaning of words.
 		3. Thesis Statement.
 
 Here’s a list of the common types of questions for IELTS Writing Task 2:
@@ -1155,11 +1181,11 @@ Q. Some people believe that teaching children at home is best for a child’s de
 
 Ans : 
 	Education is crucial in shaping the child's overall development, future success, and their personal growth in both academic and social skills.
-	Whereas home education offers better protection with individual learning and opportunities for families to bond, schools have a 
+	Whereas home education offers better protection with individual learning and opportunities for families to bond, the schools have a 
 	superior range of material and homan resources. Ultimately, I think the school experience is best for children.
 
 	The Argument over whether learning at home or at school is better for children has not been settled yet.
-	Whereas home education offers better protection whith individual learning and opportunities for families to bond, schools have a superior range of material 
+	Whereas home education offers better protection whith individual learning and opportunities for families to bond, the schools have a superior range of material 
 	and human resources. Ultimately, I think the school experience is best for children.
 
 ---------------------------------------------
@@ -1172,7 +1198,7 @@ Q. Every year more and more students choose to study online rather than
 	- What can universities do to attract students on campus.
 
 Ans : 
-	Nowdays studying online is becoming incredibly popular world widely.
+	Nowadays studying online is becoming incredibly popular world widely.
 	From covid-19 large numbers of students likely to taking interest to studying online instead of joining the old traditional classes at the campus.
 	This essay will discuss/elucidate/elaborate/explain/examine why students prefer to study virtually and what universities can do to get back those students to the live classes at campus.
 
@@ -1192,7 +1218,7 @@ Q. Every year more and more students choose to study online rather than attend c
 Answer: 
 	Online education has become increasingly popluar, especially after the COIVD-19.
 	Many students now prefer virtual learning over traditional on campus classes due to its flexibility and convenience.
-	this essay will explore the causes behind this shift and propose effectively solutions to address this isseu.
+	this essay will explore the causes behind this shift and propose effectively solutions to address this issue.
 
 Improved Answer :
 	Online education has gained significant popularity over the past few years, especially in the wake of the COVID-19 pandemic.
@@ -1218,34 +1244,182 @@ Improved Answer :
 	This essay will dicuss why online education can be far more beneficial compared to compus-based learning.
 	I completely support the idea of virtual learning, as it offers flexibility, accessibility, and opportunities for self-paced study.
 
+-----------------------
+
+Task 2 : Agree/Disagree - Extent
+
+Q. Schools are no longer needed because children can find so much information on the internet and study at home.
+	- To what extent do you agree or disagree with this essay?
+
+Answer :
+	Since there is a wealth of information available on internet, students can study independently at home as effectively as at school; and therefore 
+		some people feel that schools are no longer needed. In my opinion, While i agree that students can study well at home using the internet, I believe that 
+		schools play a crucial role in our society and cannot be replaced by anything else.
+
+Improved Answer :
+	With the vast amount of information readily available on the internet, many believe students can study at home just as effectively as in school,
+		leading some to argue that schools are no longer necessary. while I agree that the Internet enables effective independent learning,
+		I firmly believe that schools play an indispensable role in education and society, offering much more than just academic knowledge.
+
+-----------------------
+
+Q. More and more people want to buy famous brands of clothes, cars and other products.
+	- What are the reasons?
+	- Do you think this is a positive or negative outcome?
+
+Answer :
+	Nowdays people believe in comfortability and quality of the products,
+		Only brands are providing the comfortability that why most of buyers wants to go with quality which only provided by brands,
+		and brands are expensive compare to local products.
+		In my opinion, i will make very effective impact in poeples live and I will discuss both outcomes in this essay.
+
+Improved Answer :
+	In today's consumer-driven world, there has been a growing trend of people seeking to purchase famous brand of luxury items.
+		This shift can be attributed to factors such as the desire for status, quality assurance, and social influence.
+		While brand names often signify luxury and prestige, this essay will discuss both the reasons behind this behavior and evaluate whether it leads To
+		positive or negative outcomes.
+	
+Simple Answer : 7.5 bands
+	People purchasing products from well-known brands become increasingly in today's era. Many society pursue these things because they wants to look rich.
+		there are many negative effects on younger generation. I will discuss the reasons and how it affected the youngsters in this ensuing paragraphs.
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-2x Vocabulary
+Plan a schedule : 
+Monday 		: Speaking - Reading
+Tuesday 	: Speaking - Listening
+Wednesday : Speaking - Writing 
+Thursday 	: Speaking - Reading
+Friday 		: Speaking - Listening
+Saturday	: Speaking - Writing
+Sunday		: Speaking and Module of choice.
 
-But :
-	- However
-	- Although
-	- Though 
-	- Yet
-	- Nevertheless
 
-Also : 
-	- Moreover
-	- Futhermore
-	- Besides
-	- Likewise
-	- As well as
+Best website to learn :
+IELTSonlinetest 
+IELTSJacky : a very useful site for writing section.
+IELTSLiz's website and YouTube channel are also very good resources.
+E2 Learning
 
-Therefore : 
-	- Hence
-	- Thus 
-	- As a result
-	- Subsequently
-	- For this reason
+---------------------------------------------------------------------------------------------------------------------------------------
 
-Especially : 
-	- Mainly
-	- Notably
-	- Above all
-	- Pricipally
-	- Exclusively
+Levels in English :
+
+A1 : Yes
+A2 : Sure
+B1 : Absolutely 
+B2 : Certainly
+C1 : Definitely
+C2 : Unquestionably
+
+A1 : No.
+A2 : No, thanks.
+B1 : I don't think so.
+B2 : Not really.
+C1 : I doubt it.
+C2 : By no means.
+
+A1 : Thank you.
+A2 : Thank you so much.
+B1 : I appreciate it.
+B2 : Many thanks.
+C1 : Much Appreciated
+C2 : I'm grateful.
+
+A1 : Sorry.
+A2 : I'm sorry.
+B1 : I apologize.
+B2 : My apologies.
+C1 : I deeply regret.
+C2 : I sincerely apologize.
+
+----------------------
+
+	0%		- 	Never		-		I never travel alone.
+	5%		-		Rarely	-		He rarely smiles.
+	15%		-		Seldom	-		He seldom offers an opinion.
+	30%		-		Occasionally	- Cook over medium low-heat, stirring occasionally.
+	50% 	-		Sometimes - We sometimes go out to eat.
+	70% 	-		Frequently - My old car frequently broke down.
+	80% 	- 	Normally - I'm normally much more patient.
+	90%		-		Usually - They don't usually do that.
+	100%	-		Always - You're always welcome here.
+
+----------------------
+
+firmly					: मजबूती से
+stirring 				: હલાવતા રહેવું
+bound			 			: બંધાયેલ ( boundary )
+evacuated		 		: ખાલી કરાવ્યું
+circumstances 	: परिस्थितियाँ
+adolescents/teenager/juvenile 	: કિશોરો
+decayed/rotten 	: સડેલું
+evaluates 	: મૂલ્યાંકન કરે છે
+dry/arid 	: સૂકું
+
+https://writing9.com/text/638de143ec513d00181263ad-more-and-more-people-want-to-buy-famous-brands-of
+
+----------------------
+
+More and more elderly people are no longer cared for by their families and are instead placed in care homes and nursing homes.
+
+
+Some people believe that teenagers should required to do unpaid community work in their free time. This can benefit teenagers and the community as well.To what extent do you agree or disagree.
+
+Answer : 
+	Adolescents are the backbone of every country. Teenagers should be required to do unpaid community work as it helps them to learn important life skills.
+
+
+Children are the backbone of every country. So, there are people who tend to believe that youngsters should be encouraged to initiate social work as it will results in flourished society and individualistic growth of youngsters themselves. I, too believe that this motivation has more benefits than its drawbacks.
+
+To begin with,  social work by children can be easily associated with personality development because during this drive, they tend to communicate with variety of people, leads to polished verbal skills. For example, if they start convincing rural people to send their children in school they have to be such a convincing attitude along with developed verbal skills to deal with diverse kind of people there. This improved skill will help them lifelong in every arena. Apart from this, the true values of life like tolerance, patience, team spirit, cooperation can be learnt. Besides that, young mind serve the country with full enthusiasm that gives them feeling of fulfillment and self satisfaction. This worthiness for themselves brim them with self confidence and patriotic feeling. Moreover, going and experiencing multiple culture and tradition make their horizon so broad that add one more feather in their cap.
+
+However, It is truly said, no rose without thrones. Can the drawbacks of this initiation be ignored? Children go to school, participate indifferent curriculum activities, endure the pressure of peers, parents, and teachers and in competitive world they should not be expected to serve society without their self benefits. This kind of pressure might bring resentment in their mind.
+
+In conclusion I believe, notion of teenager doing unpaid work is indeed good but proper monitoring and care should be given to avoid untoward consequences.
+
+
+
+
+What is Coherence and Cohesion
+- Organizing your essay logically and correctly falls under the "Coherence and cohesion" assessment criteria of IELTS exam writing task 2.
+
+Coherence explained : 
+- Coherence is about writing your essay in a logical structure so that :
+		- It has clear progression of ideas towards the conclusion.
+		- Sequence of ideas make sense.
+		- Essay is easy ot follow and understand.
+
+Cohesion explained : 
+	- Cohesion refers to the varied and appropriate use of cohesive devices (e.g. logical connectors, conjunctions and pronouns) 
+		to assist in making clear the relationships between and within sentences.
+
+		Three ways to add cohesion in your essay :
+		
+		1. Cohesion using Linking words
+						Type : Examples
+
+			Sequencing or Beginning	: 
+					Firstly, Secondly, Next, To begin with, Most significant advantage, Most significant problem, First of all, Nowadays, Meanwhile.
+			
+			Switching/Contrasting Ideas	: 
+					On the other hand, However, Neverthless, Secondly, Alternatively, Conversely, Admittedly, In contrast, In contrary, In spite of, Having said that, On the contrary, Nevertheless, Unfortunately.
+
+			Giving examples or evidence	: 
+					For example, To illustrate, For instance, To illustrature this point, Namely, With reference to, With regard to, In the case of, As shown by Description/Comparing/Explaining results : as a result, as a consequnece, therefore, the result of this is, similarly, additionally, as a matter of fact, by the same token, comparatively, correspondigly, coupled with, in the same way, in like manner, in the first place, in the light of, of course,, likewise, generally speaking, in short, in brief, by and large, basically.
+
+			Providing opinion : 
+					In my opinion, Personally, In my view, In my humble opinion, I believe that, I think that, I disagree, I am of opinion.
+
+			Drawing conclusion : 
+					To conclude, In conclusion, To sum up, Having looked at both sides, To summarise, For that reason, In all, In summary, In short, In a nutshell, To sum up,
+					In brief.
+
+		2. Cohesion through Pronouns
+			- Pronouns reduce repetition, which improves the clarity, pace, and flow of a sentence or paragraph. 
+			
+			For example : I am very happy to receive this award. I would like to thank my wife and kids, without 'them' I wouldn't be standing here accepting 'this'.
+
+		3. Cohesion through Substitution
+			- Synonyms help you avoid repetiting same words. You can use synonym to expand your ideas.
