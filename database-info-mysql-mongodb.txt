@@ -1357,6 +1357,11 @@ adolescents/teenager/juvenile 	: કિશોરો
 decayed/rotten 	: સડેલું
 evaluates 	: મૂલ્યાંકન કરે છે
 dry/arid 	: સૂકું
+diligently 	: लगन से
+severe 	: गंभीर
+rejuvenate 	: फिर से युवा करना
+intellectual 	: બુદ્ધિશાળી
+allure 	: આકર્ષણ / લલચાવું
 
 https://writing9.com/text/638de143ec513d00181263ad-more-and-more-people-want-to-buy-famous-brands-of
 
@@ -1370,16 +1375,15 @@ Some people believe that teenagers should required to do unpaid community work i
 Answer : 
 	Adolescents are the backbone of every country. Teenagers should be required to do unpaid community work as it helps them to learn important life skills.
 
+	Children are the backbone of every country. So, there are people who tend to believe that youngsters should be encouraged to initiate social work as it will results in flourished society and individualistic growth of youngsters themselves. I, too believe that this motivation has more benefits than its drawbacks.
 
-Children are the backbone of every country. So, there are people who tend to believe that youngsters should be encouraged to initiate social work as it will results in flourished society and individualistic growth of youngsters themselves. I, too believe that this motivation has more benefits than its drawbacks.
+	To begin with,  social work by children can be easily associated with personality development because during this drive, they tend to communicate with variety of people, leads to polished verbal skills. For example, if they start convincing rural people to send their children in school they have to be such a convincing attitude along with developed verbal skills to deal with diverse kind of people there. This improved skill will help them lifelong in every arena. Apart from this, the true values of life like tolerance, patience, team spirit, cooperation can be learnt. 
+	
+	Besides that, young mind serve the country with full enthusiasm that gives them feeling of fulfillment and self satisfaction. This worthiness for themselves brim them with self confidence and patriotic feeling. Moreover, going and experiencing multiple culture and tradition make their horizon so broad that add one more feather in their cap.
 
-To begin with,  social work by children can be easily associated with personality development because during this drive, they tend to communicate with variety of people, leads to polished verbal skills. For example, if they start convincing rural people to send their children in school they have to be such a convincing attitude along with developed verbal skills to deal with diverse kind of people there. This improved skill will help them lifelong in every arena. Apart from this, the true values of life like tolerance, patience, team spirit, cooperation can be learnt. Besides that, young mind serve the country with full enthusiasm that gives them feeling of fulfillment and self satisfaction. This worthiness for themselves brim them with self confidence and patriotic feeling. Moreover, going and experiencing multiple culture and tradition make their horizon so broad that add one more feather in their cap.
+	However, It is truly said, no rose without thrones. Can the drawbacks of this initiation be ignored? Children go to school, participate indifferent curriculum activities, endure the pressure of peers, parents, and teachers and in competitive world they should not be expected to serve society without their self benefits. This kind of pressure might bring resentment in their mind.
 
-However, It is truly said, no rose without thrones. Can the drawbacks of this initiation be ignored? Children go to school, participate indifferent curriculum activities, endure the pressure of peers, parents, and teachers and in competitive world they should not be expected to serve society without their self benefits. This kind of pressure might bring resentment in their mind.
-
-In conclusion I believe, notion of teenager doing unpaid work is indeed good but proper monitoring and care should be given to avoid untoward consequences.
-
-
+	In conclusion I believe, notion of teenager doing unpaid work is indeed good but proper monitoring and care should be given to avoid untoward consequences.
 
 
 What is Coherence and Cohesion
@@ -1423,3 +1427,57 @@ Cohesion explained :
 
 		3. Cohesion through Substitution
 			- Synonyms help you avoid repetiting same words. You can use synonym to expand your ideas.
+
+Task 1 :
+Q. You are taking a course at a local college. The deadline for your project was last week but you haven't finished it.
+Write a letter to your lecturer. In your letter.
+
+	- Introduce yourself
+	- Explain why you haven't handed in the project yet
+	- Request more time to do it.
+
+	Dear Ms. Sharma
+
+	My name is Saad Mansuri and I am a last year student in your Software Development class at Chimanbhai Patel Institute. 
+	
+	I am writing you to inform that i haven't completed the project because of i was sick from last two weeks somehow i had to left the city to reach to my home for proper meditation. Once I reached then i directly visited hospital and did some medical reports and I see there's some positive count I got, I was not able to stand up from my bed.
+	
+	I am requesting to you for need more extra time to finished this project, I now feeling much better and I'm making a promise to I do it as perfect as I can do. and I would be so thankful if you could be give and some extension to work out on this project.
+
+	I hope you understand my situation and thank for your time.
+
+	Your faithfully 
+	Saad Mansuri
+
+	I hope you're doing well, I am Saad Mansuri and I am a best student of your Sofware Development class from Chimanbhai Patel Institute.
+
+Improved Answer :
+
+	Dear Ms. Sharma,
+
+	I hope this letter finds you well, My name is Saad Mansuri and I am currently enrolled in your Software Development class at Chimalbhai Patel Institute. I am writing you to inform that I was unable to submit my project, which was due at last week.
+
+	Unfortunately, I have been unwell with a severe case of flu, which prevented me to attending classes and completing my research on time. Despite my best efforts to catch up after my recovery, I found it challenging to meet the original deadline. I sincerely apologize for the delay and any inconvenience this may have caused. 
+
+	Given my situation, I would be greatful if you could kindly grant me a short extension of one week to complete and submit the project. I assure you that I am working diligently to finish it and will prioritize submitting it within the requested timeframe.
+
+	Thank you very much for your understanding and consideration. I look forward to your kind response.
+
+	Your sincerely,
+	Saad Mansuri
+
+
+Task 2 :
+
+Q. Today people are travelling more than ever before. 
+		- Why is this the case
+		- What are the benefits of travelling for traveller.
+
+Anwser : 
+	It can be seen that Individuals are travelling more now than the past. The main reason for this is that it is become more cheaper to travel now and main benefits of travelling are they can explore to different cultures and expand their social network.
+
+	One of the main reason people travel more now is that it is not expensive as it used to be. That is to say that there are many new travel transportation companies are exist, such as flights and bus companies, While there was only a few in the past. As a result, there is a competition between these companies to attract more customers. Which results in huge price reduction. For instance, Air India a famouse flight company in India sells tickets starting from only $500 during the new year from India to European country just to allure more passengers.
+
+	One of the main benefits of travelling for traveller is that they can understand different cultures better. this is because when people travel to new nation so they have a chance to spends time with local and experience their traditions. Also, museums and monuments are mainly visited by tourist to learn more about the countries cultures. Furthermore, enlarging the social circle is also good benefits of travelling more. Visitors can meet a numbers of people from different nations while traveling. Thus, travelling helps to enhance the bond between the individuals of different regions.
+
+	In conclusion/ To conclude, the principle reason why people are travelling more than ever before is that it is less costing now, and the main advantage is of this are they can learn about different cultures and can meet with people from all around the world.
