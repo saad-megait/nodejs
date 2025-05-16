@@ -1355,13 +1355,14 @@ evacuated		 		: ખાલી કરાવ્યું
 circumstances 	: परिस्थितियाँ
 adolescents/teenager/juvenile 	: કિશોરો
 decayed/rotten 	: સડેલું
-evaluates 	: મૂલ્યાંકન કરે છે
+evaluates 	: મૂલ્યાંકન કરે છે/ आंकना
 dry/arid 	: સૂકું
 diligently 	: लगन से
 severe 	: गंभीर
 rejuvenate 	: फिर से युवा करना
 intellectual 	: બુદ્ધિશાળી
 allure 	: આકર્ષણ / લલચાવું
+solely 	: ફક્ત / सिर्फ़
 
 https://writing9.com/text/638de143ec513d00181263ad-more-and-more-people-want-to-buy-famous-brands-of
 
@@ -1481,3 +1482,149 @@ Anwser :
 	One of the main benefits of travelling for traveller is that they can understand different cultures better. this is because when people travel to new nation so they have a chance to spends time with local and experience their traditions. Also, museums and monuments are mainly visited by tourist to learn more about the countries cultures. Furthermore, enlarging the social circle is also good benefits of travelling more. Visitors can meet a numbers of people from different nations while traveling. Thus, travelling helps to enhance the bond between the individuals of different regions.
 
 	In conclusion/ To conclude, the principle reason why people are travelling more than ever before is that it is less costing now, and the main advantage is of this are they can learn about different cultures and can meet with people from all around the world.
+
+
+It is evident that people are travelling more than in the past. The primary reason for this is that travelling has become more cheaper and affordable. Additionally, the main benefits for travelling include the opportunities to explore different cultures and expand one's social network.
+  
+
+	Synonyms :
+
+	affordable   :- cheap, economical, fair, low-cost
+	Provisional  :- temporary, makeshift, tentative, improvised, rough
+
+
+
+Pearson Test English : 
+
+PTE Essay :
+
+Q. 
+	Some people think placing advertisements in schools is a great resource for public schools that need additional funding, 
+	but others think it exploits children by treating them as a captive audience for corporate sponsors. 
+	Choose which position you most agree with and discuss why you chose that position. Support your point of view with details from your own experiences, observations or reading.
+
+	Answer :
+	It is believed that advertisement is a prime source of a business which contributes to generating a large amount of fund for any organization or corporation like schools. However, some argue that schools are not an appropriate place to place an advertisement in the name of an exclusive fund collection. I will be in favour of the last notion.
+
+	To begin with, placing advertisements in schools will distract juveniles who do not have controlling power on themselves as the psychological aspect of children needs to be considered before placing an advertisement in school. School children might less concentrate on their studies and more focus on colourful advertisements because of which their future will be uncertain as they will not be able to pass their course easily. For example, a child who is in the habit of involving in various advertising campaigns since childhood lacks behind on his or her studies. In the same way, young pupils will be obsessed with money, and if there is a shortage of money in any stage of their life while growing, they might indulge in an illegal act to achieve the money.
+
+	On the other side of the fence, there are positive aspects as well, as children may get an excellent opportunity for the future, and they can shape their life by following only positive outcomes of advertisement.
+
+	To conclude, the latter notion outweighs the first one as students should focus on their studies at this age rather than highlighting in another aspect like an advertisement. Therefore, Advertisements should be banned from the schools .we should ensure a pleasant and quiet place for kids to study.
+
+
+Types of Questions & It's scores counted :
+
+
+	TASK : 1 -- SPEAKING - WRITING : (54–67 minutes)
+
+		1. Read Aloud : 	
+			
+			22–24 - Speaking + Reading
+			- Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You will have 35 seconds to read.
+
+		2. Repeat Sentence : 
+			
+			16–20 - Speaking + Listening
+			- 
+
+		3. Describe Image : 8–10 - Speaking
+		4. Re-Tell Lecture : 	8–10 - Speaking + Listening
+		5. Answer Short Question : 4–6 - Speaking + Listening
+		6. Summarize Written Text : 10–12 - Writing + Reading
+		7. Essay : 12–15 - Writing
+
+		Total Score Contribution :
+			- Speaking: 38–44 marks
+			- Writing: 22–27 marks
+			- Reading (from Speaking tasks): 10–12 marks
+			- Listening (from Speaking tasks): 16–20 marks
+
+
+	TASK : 2 -- Reading Section (29–30 minutes)
+
+		1. Multiple Choice, Single Answer : 1-2 Reading
+		2. Multiple Choice, Multiple Answers : 2-3 Reading
+		3. Reorder Paragraphs : 6-8 Reading
+		4. Fill in the Blanks : 12-15 Reading - Writing
+		5. Fill in the Blanks : 10-12 Reading
+
+		Total Score Contribution :
+			- Reading: 30–35 marks
+			- Writing (from Reading tasks): 12–15 marks
+		
+	TASK : 3 -- Listening Section (30–43 minutes)
+
+		1. 
+		2. 
+		3. 
+		4. 
+		5. 
+
+Steps for visa :
+	1. Skill Assessment
+	2. EOI Lodgement
+	3. Wait for Invitation
+	4. Submit the Documentation and wait for Final Invitation
+	5. Visa Lodgement
+
+	Subclass : 
+		189 : Skilled Independent
+			-> Cut-off : 85–90+ (due to high competition)
+			-> September 2024 : Cut-off - 90.
+			-> No State Sponsorship Required.
+			Benefits :
+				- Permanent Residency in Australia.
+				- Live and work anywhere in Australia.
+				- Medicare and Other Social Benefits.
+				- Sponsor Eligible Relatives.
+				- Australia Citizenship Pathway.
+			ANZSCO codes :
+				-> Analyst Programmer (261311) :
+						September 2024 : Cut-off - 90
+				-> Software Engineer  (261313) :
+						September 2024 : Cut-off - 100
+				-> Developer Programmer (261312) :
+						September 2024 : Cut-off - 100
+
+		190 : Skilled Nominated 
+			-> Cut-off : 70–80+ (depends on the state’s criteria)
+			-> No State Sponsorship Required.
+			-> 5 points for state nominaion.
+			-> Compulsury to stay 2 years on same state.
+
+		491 : Skilled Work Regional (Provisional)
+			-> Cut-off : 65–75+ (easier access with state/family sponsorship) 
+			-> Stay only on Regional Area for 3 years.
+			-> 15 points for regional nominaion.
+			-> Temp visa.
+
+	ANZSCO codes : 
+		Subclass 189*
+	
+		1. Analyst Programmer (261311) 
+			September 2024 : Cut-off - 90
+
+		2. Developer Programmer (261312)
+			September 2024 : Cut-off - 100
+
+		3. Software Engineer (261313)
+			September 2024 : Cut-off - 100
+
+ 	Comprehensive Ranking System (CRS)
+
+	| Category                     	 | Points  	| Notes                         |
+	| -----------------------------	 | -------- | ----------------------------  |
+	| **Age (27 years)**             | 30 ✅ 	| (25–32 years)                 |
+	| **English (PTE 65 each)**      | 10 ✅   | Proficient English            | +10 if get each 79
+	| **Overseas Work (4+ years)**   | 5 ✅    | 3–4 years = 5, 5–7 years = 10 |
+	| **Education (Master's)**       | 15 ✅   | MCA from India                |
+	| **Marital Status (Single)**    | 10 ✅   | Single = full 10              |
+	| **Australian Study**           | 0 ❌    | None                          |
+	| **Nomination/Regional**        | 0 ❌    | Not pursuing 190/491          |
+
+
+
+https://www.seek.com.au/
+https://chatgpt.com/share/6826dd59-a7dc-800b-82eb-85a0b8e75e26
+
