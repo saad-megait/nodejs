@@ -1513,53 +1513,8 @@ Q.
 	To conclude, the latter notion outweighs the first one as students should focus on their studies at this age rather than highlighting in another aspect like an advertisement. Therefore, Advertisements should be banned from the schools .we should ensure a pleasant and quiet place for kids to study.
 
 
-Types of Questions & It's scores counted :
 
-
-	TASK : 1 -- SPEAKING - WRITING : (54–67 minutes)
-
-		1. Read Aloud : 	
-			
-			22–24 - Speaking + Reading
-			- Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You will have 35 seconds to read.
-
-		2. Repeat Sentence : 
-			
-			16–20 - Speaking + Listening
-			- 
-
-		3. Describe Image : 8–10 - Speaking
-		4. Re-Tell Lecture : 	8–10 - Speaking + Listening
-		5. Answer Short Question : 4–6 - Speaking + Listening
-		6. Summarize Written Text : 10–12 - Writing + Reading
-		7. Essay : 12–15 - Writing
-
-		Total Score Contribution :
-			- Speaking: 38–44 marks
-			- Writing: 22–27 marks
-			- Reading (from Speaking tasks): 10–12 marks
-			- Listening (from Speaking tasks): 16–20 marks
-
-
-	TASK : 2 -- Reading Section (29–30 minutes)
-
-		1. Multiple Choice, Single Answer : 1-2 Reading
-		2. Multiple Choice, Multiple Answers : 2-3 Reading
-		3. Reorder Paragraphs : 6-8 Reading
-		4. Fill in the Blanks : 12-15 Reading - Writing
-		5. Fill in the Blanks : 10-12 Reading
-
-		Total Score Contribution :
-			- Reading: 30–35 marks
-			- Writing (from Reading tasks): 12–15 marks
-		
-	TASK : 3 -- Listening Section (30–43 minutes)
-
-		1. 
-		2. 
-		3. 
-		4. 
-		5. 
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Steps for visa :
 	1. Skill Assessment
@@ -1624,7 +1579,79 @@ Steps for visa :
 	| **Nomination/Regional**        | 0 ❌    | Not pursuing 190/491          |
 
 
+-------------------------------------------------------------
+
+
+Types of Questions & It's scores counted :
+
+
+	TASK : 1 -- SPEAKING - WRITING : (54–67 minutes)
+
+		1. Read Aloud : 	
+			
+			22–24 - Speaking + Reading
+			- Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You will have 35 seconds to read.
+
+		2. Repeat Sentence : 
+			
+			16–20 - Speaking + Listening
+			- 
+
+		3. Describe Image : 8–10 - Speaking
+		4. Re-Tell Lecture : 	8–10 - Speaking + Listening
+		5. Answer Short Question : 4–6 - Speaking + Listening
+		6. Summarize Written Text : 10–12 - Writing + Reading
+		7. Essay : 12–15 - Writing
+
+		Total Score Contribution :
+			- Speaking: 38–44 marks
+			- Writing: 22–27 marks
+			- Reading (from Speaking tasks): 10–12 marks
+			- Listening (from Speaking tasks): 16–20 marks
+
+
+	TASK : 2 -- Reading Section (29–30 minutes)
+
+		1. Multiple Choice, Single Answer : 1-2 Reading
+		2. Multiple Choice, Multiple Answers : 2-3 Reading
+		3. Reorder Paragraphs : 6-8 Reading
+		4. Fill in the Blanks : 12-15 Reading - Writing
+		5. Multiple Choice, Single Answer  : 10-12 Reading
+
+		Total Score Contribution :
+			- Reading: 30–35 marks
+			- Writing: (from Reading tasks): 12–15 marks
+		
+	TASK : 3 -- Listening Section (30–43 minutes)
+
+		1. Summarize Spoken Test : 10-12 Listening + Writing
+		2. Multiple Choice, Multiple Asnwer : 2-3 Listening
+		3. Fill in the Blanks : 10-12 Listening + Writing
+		4. Highlight Correct Summary : 6-8 Listening + Reading 
+		5. Multiple Choice, Single Asnwer : 1-2 Listening
+		6. Select Missing Word : 2-3 Listening
+		7. Highlight Incorrect Word : 6-8 Listening + Reading
+		8. Write from Dictation : 18-20 Listening + Writing 
+
+		Total Score Contribution :
+			- Listening: 35–40 marks
+			- Writing (from Listening tasks): 28-32 marks
+			- Reading (from Listening tasks): 12–15 marks
+
+-------------------------------------------------------------
+
+SCORE CALCULATION :
+
+90 * 4 = 360
+79 * 4 = 316
+65 * 4 = 260
+
+360 - 316 = 44 diff
+360 - 260 = 100 diff
+
+-------------------------------z
 
 https://www.seek.com.au/
-https://chatgpt.com/share/6826dd59-a7dc-800b-82eb-85a0b8e75e26
+subclass guide : https://chatgpt.com/share/6826dd59-a7dc-800b-82eb-85a0b8e75e26
+PTE Writing Module Overview : https://chatgpt.com/share/6826de90-a420-800b-a1d7-9c6ec8f9a4be
 
