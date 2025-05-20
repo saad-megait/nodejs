@@ -1604,6 +1604,12 @@ Types of Questions & It's scores counted :
 				1. Fluency : 5
 				2. Pronounciation : 5
 				3. Content : 3
+			- Tips and TricksL:
+				- Focus on the meaning.
+				- Don't mimic the speaker/don't copy the sentence.
+				-	Visualize
+				- Take it as an information.
+				- Get used to listening english audio.	
 
 		3. Describe Image : 
 			8–10 - Speaking
@@ -1616,7 +1622,7 @@ Types of Questions & It's scores counted :
 				2. Pronounciation : 5
 				3. Content : 5
 
-		4. Re-Tell Lecture : 	
+		4. Re-Tell Lecture :
 			8–10 - Speaking + Listening
 			- You will hear an interview. It will be Audio/Video lecture 40-90 seconds long.
 			- While the audio is going on, you will need to take down notes.
@@ -1626,6 +1632,11 @@ Types of Questions & It's scores counted :
 				1. Fluency : 5
 				2. Pronounciation : 5
 				3. Content : 5
+			- Template: 
+				1. This lecture is mainly about ____________.
+				2. Much emphasis was placed on ____________.
+				3. The narroter describe about ____________.
+				4. Moreover, he also mentioned about ____________.
 
 		5. Answer Short Question :
 			4–6 - Speaking + Listening
@@ -1672,20 +1683,27 @@ Types of Questions & It's scores counted :
 
 	TASK : 2 -- Reading Section (29–30 minutes)
 
-		1. Multiple Choice, Single Answer :
-			1-2 Reading
+		1. Fill in the Blanks :
+			12–15 Reading - Writing
+			- Below is a text with Blanks. 
+			- Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.
 
 		2. Multiple Choice, Multiple Answers :
 			2-3 Reading
+			- Read the text and anwser the question by selecting all the correct response. You will need to select more than one response.
 
 		3. Reorder Paragraphs :
 			6-8 Reading
+			- The text boxes in the left panel have been placed in a random order. Restore the original order by dragging the text boxes from the left panel to the right panel.
 
 		4. Fill in the Blanks :
-			12-15 Reading - Writing
+			10–12 Reading 
+			- In the text below some words are missing. Drag words from the box below to the appropriate place in the text.
+			- To undo an answer choice, drag the word back to the box below the text.
 
 		5. Multiple Choice, Single Answer  :
-			10-12 Reading
+			1–2 Reading
+			- Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.
 
 		Total Score Contribution :
 			- Reading: 30–35 marks
@@ -1693,14 +1711,49 @@ Types of Questions & It's scores counted :
 		
 	TASK : 3 -- Listening Section (30–43 minutes)
 
-		1. Summarize Spoken Test : 10-12 Listening + Writing
-		2. Multiple Choice, Multiple Asnwer : 2-3 Listening
-		3. Fill in the Blanks : 10-12 Listening + Writing
-		4. Highlight Correct Summary : 6-8 Listening + Reading 
-		5. Multiple Choice, Single Asnwer : 1-2 Listening
-		6. Select Missing Word : 2-3 Listening
-		7. Highlight Incorrect Word : 6-8 Listening + Reading
-		8. Write from Dictation : 18-20 Listening + Writing 
+		1. Summarize Spoken Test:
+			10-12 Listening + Writing
+			- You will hear a short interview.
+			- Write a summary for the fellow student who was not present at the interview. 
+			- You should write 50-70 words. 
+			- You have 10 minutes to finish the task.
+			- Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the interview.
+
+		2. Multiple Choice, Multiple Asnwer:
+			2-3 Listening
+			- Listen to the recording and answer the question by selecting the correct response.
+			- You will need to select more than one response.
+
+		3. Fill in the Blanks:
+			10-12 Listening + Writing
+			- You will hear a recording. Type the missing words in each blank.
+
+		4. Highlight Correct Summary:
+			6-8 Listening + Reading 
+			- You will hear a recording. Click on the paragraph that best relates to the recording.
+			- There are several possible response options but only one is correct.
+
+		5. Multiple Choice, Single Asnwer:
+			1-2 Listening
+			- Listen to the recording and answer the multipl-choice question by selecting the correct response.
+			- Only one response is correct.
+
+		6. Select Missing Word:
+			2-3 Listening
+			- You will hear a recording about an analysis of medical research findings. At the end of the recording the last word or group of words has been replaced by a beep.
+			- Select the correct option to complete the recording.
+
+		7. Highlight Incorrect Word:
+			6-8 Listening + Reading
+			- You will hear a recording.
+			- Below is a transcript of the recording. Some words in the transcription differ from what the speakers said.
+			- Please click the words that are different.
+
+		8. Write from Dictation:
+			18-20 Listening + Writing 
+			- You will hear a sentence.
+			- Type the sentence in the box below exactly as you hear it.
+			- Write as much of the sentence as you can. You will hear the sentence only once.
 
 		Total Score Contribution :
 			- Listening: 35–40 marks
