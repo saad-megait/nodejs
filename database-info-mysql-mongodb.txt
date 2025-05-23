@@ -1568,7 +1568,9 @@ Steps for visa :
 		3. Software Engineer (261313)
 			September 2024 : Cut-off - 100
 
- 	Comprehensive Ranking System (CRS)
+ 	Comprehensive Ranking System (CRS) for Canada.
+
+	below calculated Australia's Point System.
 
 	| Category                     	 | Points  	| Notes                         |
 	| -----------------------------	 | -------- | ----------------------------  |
@@ -1579,6 +1581,9 @@ Steps for visa :
 	| **Marital Status (Single)**    | 10 ✅   | Single = full 10              |
 	| **Australian Study**           | 0 ❌    | None                          |
 	| **Nomination/Regional**        | 0 ❌    | Not pursuing 190/491          |
+
+	70, if got 65+ each in PTE
+	80, if got 79+ each in PTE
 
 
 -------------------------------------------------------------
@@ -1782,6 +1787,8 @@ https://g4s.hawksightsoftware.com/
 https://staging-risk360.hawksightsoftware.com/
 https://ikb.megait.in/
 https://critec.hawksightsoftware.com/dashboard
+https://australiayours.com/prepare-for-pte/
+IMP : https://pteking.com/
 
 Speaking is a backbone of the PPTE.
 
@@ -1790,10 +1797,28 @@ PTE essay :
 Question 1:
 	Unemployment among young people is a serious problem.
 	One solution has been suggested is to shorten the working week.
-	What you think are the advantages? do you think this policy should be applied to just yound workers or the whole workforce?
+	What you think are the advantages and disadvantages? do you think this policy should be applied to just yound workers or the whole workforce?
 
 Question 2:
+	In the last 100 years, there have been many inventions such as antibiotics, airplanes and computers. 
+	What do you think is the most important and why?
+
 Question 3:
+	Many people engage in dangerous activities such as sky-diving, skiing and extreme motorcycling.
+	Are you in favor of such activities or not? why?
+
+	Answer:
+		In recent years, more and more people engage in dangerous activities such as sky diving, skiing and motorcycling. This happens due the globalization that leads people to move around and experience more. I'm personally not in favour of them as I prefer much safer activities such as reading or video gaming.
+
+		Firstly, globalization and low-cost flights have dramatically increased the numbers of tourists that move around. Furthermore nowadays, as more travel companies are offering commercial bundlesm, when someone books a journey, in most cases, it's cheaper to buy also an experience connected with that travel. For instance, I booked a journey in Sweden last year and I found out that was cheaper to book the complete bundle that includes hotel + kayak than just book for the hotel.
+
+		Secondly, I believe that people should have self-control when performing a ricky activity. In such extremely dangerous activities, the danger could be anywhere and not always related to how the people acts.
+		Take sky diving, for example, if the parachute fails to open, divers cannot do anything to solve the problem. To cite another example, recent studies suggest that nearly 50% of all motorcycle accidents are caused by other divers that don't pay attention to road.
+
+		In conclusion, it would be advisable to avoid these activities as they could have negative impact on our lives. However, some people love to be in danger and the associated feeling. For these reasons, I believe that the best solution would be pay attention to us and for others when performing such activities.
+
 Question 4:
+
+
 Question 5:
 
