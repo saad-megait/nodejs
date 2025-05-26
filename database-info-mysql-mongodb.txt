@@ -1594,8 +1594,8 @@ Types of Questions & It's scores counted :
 
 	TASK : 1 -- SPEAKING - WRITING : (54–67 minutes)
 
-		1. Read Aloud : 	
-			22–24 - Speaking + Reading
+		1. Read Aloud:
+			22–24 - Speaking(33%) + Reading(27%)
 			- Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible.
 			- You will have 35 seconds to read.
 			- Assessed on three parameter.
@@ -1603,8 +1603,8 @@ Types of Questions & It's scores counted :
 				2. Pronounciation : 5
 				3. Content : 5
 
-		2. Repeat Sentence : 
-			16–20 - Speaking + Listening
+		2. Repeat Sentence:
+			16–20 - Speaking(30%) + Listening(23%)
 			- You will hear a sentence. Please repeat the sentence exactly as you hear it. 
 			- You will hear the sentence only once.
 			- Assessed on three parameter.
@@ -1618,8 +1618,8 @@ Types of Questions & It's scores counted :
 				- Take it as an information.
 				- Get used to listening english audio.	
 
-		3. Describe Image : 
-			8–10 - Speaking
+		3. Describe Image:
+			8–10 - Speaking(22%)
 			- Look at the graph below. (Line, pie, random etc.)
 			- In 25 seconds, please speak into the microphone and describe in detail what the graph is showing.
 			- You will have 40 seconds to give your response. ( do not stop, at least speak around 30 secs )
@@ -1629,8 +1629,8 @@ Types of Questions & It's scores counted :
 				2. Pronounciation : 5
 				3. Content : 5
 
-		4. Re-Tell Lecture :
-			8–10 - Speaking + Listening
+		4. Re-Tell Lecture:
+			8–10 - Speaking(10%) + Listening(9%)
 			- You will hear an interview. It will be Audio/Video lecture 40-90 seconds long.
 			- While the audio is going on, you will need to take down notes.
 			- After listening to the interview, In 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words.
@@ -1645,14 +1645,14 @@ Types of Questions & It's scores counted :
 				3. The narroter describe about ____________.
 				4. Moreover, he also mentioned about ____________.
 
-		5. Answer Short Question :
-			4–6 - Speaking + Listening
+		5. Answer Short Question:
+			4–6 - Speaking(5%) + Listening(4%)
 			- You will hear a question.
 			- Please give a simple and short answer. Often just one or a few words is enough.
 			- Correct Answer: 1 point - Incorrect Answer: 0
 			
 		6. Summarize Written Text :
-			10–12 - Writing + Reading
+			10–12 - Writing(6%) + Reading(4%)
 			- Read the passage below and summarize it using one sentence. Type the response in the box at the bottom of the screen.
 			- You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the points in the passage.
 			- Make sure to include the main points of the reading passage in a full, single sentence of no more than 75 words.
@@ -1666,7 +1666,7 @@ Types of Questions & It's scores counted :
 				4. Vocabulary: 2
 
 		7. Essay : 
-			12–15 - Writing
+			12–15 - Writing(17%)
 			- You will have 20 minutes to plan.
 			- write and revise an essay about the topic below.
 			- Your response will be judged on how well you develop a position, organize your idea, present supporting details, and control the elements of standard written English.
@@ -1691,25 +1691,28 @@ Types of Questions & It's scores counted :
 	TASK : 2 -- Reading Section (29–30 minutes)
 
 		1. Fill in the Blanks :
-			12–15 Reading - Writing
-			- Below is a text with Blanks. 
-			- Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.
+			12–15 Reading(29%) - Writing(25%)
+			- Below is a text with Blanks (Dropdown).
+			- Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank (select answer from dropdown).
+			- 4 fill in the blanks.	
 
 		2. Multiple Choice, Multiple Answers :
-			2-3 Reading
+			2-3 Reading(2%)
 			- Read the text and anwser the question by selecting all the correct response. You will need to select more than one response.
 
 		3. Reorder Paragraphs :
-			6-8 Reading
-			- The text boxes in the left panel have been placed in a random order. Restore the original order by dragging the text boxes from the left panel to the right panel.
+			6-8 Reading(7%)
+			- The text boxes in the left panel have been placed in a random order. 
+			- Restore the original order by dragging the text boxes from the left panel to the right panel. 
+			- Drag and drop form one section to another in correct sequences.
 
 		4. Fill in the Blanks :
-			10–12 Reading 
+			10–12 Reading(20%)
 			- In the text below some words are missing. Drag words from the box below to the appropriate place in the text.
 			- To undo an answer choice, drag the word back to the box below the text.
 
 		5. Multiple Choice, Single Answer  :
-			1–2 Reading
+			1–2 Reading(1%)
 			- Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.
 
 		Total Score Contribution :
@@ -1718,8 +1721,8 @@ Types of Questions & It's scores counted :
 		
 	TASK : 3 -- Listening Section (30–43 minutes)
 
-		1. Summarize Spoken Test:
-			10-12 Listening + Writing
+		1. Summarize Spoken Text:
+			10-12 Listening(6%) + Writing(6%)
 			- You will hear a short interview.
 			- Write a summary for the fellow student who was not present at the interview. 
 			- You should write 50-70 words. 
@@ -1727,37 +1730,38 @@ Types of Questions & It's scores counted :
 			- Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the interview.
 
 		2. Multiple Choice, Multiple Asnwer:
-			2-3 Listening
+			2-3 Listening(2%)
 			- Listen to the recording and answer the question by selecting the correct response.
 			- You will need to select more than one response.
 
 		3. Fill in the Blanks:
-			10-12 Listening + Writing
+			10-12 Listening(12%) + Writing(18%)
 			- You will hear a recording. Type the missing words in each blank.
 
 		4. Highlight Correct Summary:
-			6-8 Listening + Reading 
+			6-8 Listening(1%)+ Reading (1%)
 			- You will hear a recording. Click on the paragraph that best relates to the recording.
 			- There are several possible response options but only one is correct.
 
 		5. Multiple Choice, Single Asnwer:
-			1-2 Listening
+			1-2 Listening(1%)
 			- Listen to the recording and answer the multipl-choice question by selecting the correct response.
 			- Only one response is correct.
 
 		6. Select Missing Word:
-			2-3 Listening
-			- You will hear a recording about an analysis of medical research findings. At the end of the recording the last word or group of words has been replaced by a beep.
+			2-3 Listening(1%)
+			- You will hear a recording about an analysis of medical research findings.
+			- At the end of the recording the last word or group of words has been replaced by a beep.
 			- Select the correct option to complete the recording.
 
-		7. Highlight Incorrect Word:
-			6-8 Listening + Reading
+		7. Highlight Incorrect Words:
+			6-8 Listening(16%) + Reading(9%)
 			- You will hear a recording.
 			- Below is a transcript of the recording. Some words in the transcription differ from what the speakers said.
 			- Please click the words that are different.
 
 		8. Write from Dictation:
-			18-20 Listening + Writing 
+			18-20 Listening(25%) + Writing(28%)
 			- You will hear a sentence.
 			- Type the sentence in the box below exactly as you hear it.
 			- Write as much of the sentence as you can. You will hear the sentence only once.
@@ -1812,10 +1816,12 @@ Question 3:
 
 		Firstly, globalization and low-cost flights have dramatically increased the numbers of tourists that move around. Furthermore nowadays, as more travel companies are offering commercial bundlesm, when someone books a journey, in most cases, it's cheaper to buy also an experience connected with that travel. For instance, I booked a journey in Sweden last year and I found out that was cheaper to book the complete bundle that includes hotel + kayak than just book for the hotel.
 
-		Secondly, I believe that people should have self-control when performing a ricky activity. In such extremely dangerous activities, the danger could be anywhere and not always related to how the people acts.
-		Take sky diving, for example, if the parachute fails to open, divers cannot do anything to solve the problem. To cite another example, recent studies suggest that nearly 50% of all motorcycle accidents are caused by other divers that don't pay attention to road.
+		Secondly, I believe that people should have self-control when performing a ricky activity. In such extremely dangerous activities, the danger could be anywhere and not always related to how the people acts. Take sky diving, for example, if the parachute fails to open, divers cannot do anything to solve the problem. To cite another example, recent studies suggest that nearly 50% of all motorcycle accidents are caused by other divers that don't pay attention to road.
 
 		In conclusion, it would be advisable to avoid these activities as they could have negative impact on our lives. However, some people love to be in danger and the associated feeling. For these reasons, I believe that the best solution would be pay attention to us and for others when performing such activities.
+
+		Improved:
+		In recent years, more and more people engage in dangerous activities such as skydiving, skiing, and motorcycling. This happens due to the globalization that leads people to move around and experience more. I'm personally not in favor of them, as I prefer much safer activities such as reading or video gaming. Firstly, globalization and low-cost flights have dramatically increased the numbers of tourists that move around. Furthermore, nowadays, as more travel companies are offering commercial bundles, when someone books a journey, in most cases, it's cheaper to also buy an experience connected with that travel. For instance, I booked a journey in Sweden last year, and I found out that it was cheaper to book the complete bundle that includes hotel + kayak than just book for the hotel. Secondly, I believe that people should have self-control when performing a risky activity. In such extremely dangerous activities, the danger could be anywhere and not always related to how the people act. Take skydiving, for example; if the parachute fails to open, divers cannot do anything to solve the problem. To cite another example, recent studies suggest that nearly 50% of all motorcycle accidents are caused by other drivers that don't pay attention to the road. In conclusion, it would be advisable to avoid these activities, as they could have a negative impact on our lives. However, some people love to be in danger and the associated feeling. For these reasons, I believe that the best solution would be to pay attention to us and to others when performing such activities.
 
 Question 4:
 
