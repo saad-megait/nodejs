@@ -1728,6 +1728,18 @@ Types of Questions & It's scores counted :
 			- You should write 50-70 words. 
 			- You have 10 minutes to finish the task.
 			- Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the interview.
+			- Stick to one paragraph.
+			- Template : 
+				- The lecture was mainly about ______. Then the speaker talked about _____Phrase1____. Furthermore, the audio also describe _____Phrase2____. Additionally, the narroter also spoke about _____Phrase3____. Finally, the lecture was concluded by highlighting the facts about their _____and____.
+			- Keywords and Phrases :
+				- industrial revolution.
+				- an economic historian at Harward.
+				- children working in the countryside.
+				- large factories with industrial workers.
+				- banking system.
+				- domestic industry.
+			- Example with using Keywords and Phrases:
+				- The lecture was mainly about Industrial revolution. Then the speaker talked about an economical historian at Harward. Furthermore, the audio also describe children working in the countryside. Additionally, the narrator also spoke about large factories with industrial workers. Finally, the lecture was concluded by highlighting the facts about their banking system and domestic industry.
 
 		2. Multiple Choice, Multiple Asnwer:
 			2-3 Listening(2%)
@@ -1807,24 +1819,36 @@ Question 2:
 	In the last 100 years, there have been many inventions such as antibiotics, airplanes and computers. 
 	What do you think is the most important and why?
 
+	Answer:
+		In the past century, technological development has reached its peak, enhancing the comfort and productivity of human life. In my opinion, computers, which are utilized in the various fields and are helpful in our daily lives, are the most important invention. In the following paragraphs, I'll go into further detail about its enormous impact on human life.
+
+		First of all, a computer has the ability to multitask since it can process and carry out several activities in a matter of seconds. Humans only need to input data for the computer to process and provide us with accurate results. Computers are employed in all industries, including in the medical field, where they are used extensively for research, data storage, developing novel treatments and medications, and producing x-rays. Computers save patient data, enabling nurses and doctors to keep a record and have resource to them whenever necessary.
+
+		Secondly, computers are used to study and conduct research on aviation mechanics, which aids pilots in navigating to their destinations and alerts them to weather conditions. Paper is saved, and deforestation decreased as result of the usage of computers to store vast amounts of data. Because of the Internet, Our globe has become a small, interconnected community. Students may interact with their teachers online and study thanks to computers.
+
+		In conclusion, computers are the best technology ever made since they let you perform practically everything you need to do, preserve your infomation so you can change it whenever you want, and reduce the amount of time you spend on tasks. Undoubtedly, it is the most potent tool ever made in the last 100 years.
+
 Question 3:
 	Many people engage in dangerous activities such as sky-diving, skiing and extreme motorcycling.
 	Are you in favor of such activities or not? why?
 
 	Answer:
 		In recent years, more and more people engage in dangerous activities such as sky diving, skiing and motorcycling. This happens due the globalization that leads people to move around and experience more. I'm personally not in favour of them as I prefer much safer activities such as reading or video gaming.
-
 		Firstly, globalization and low-cost flights have dramatically increased the numbers of tourists that move around. Furthermore nowadays, as more travel companies are offering commercial bundlesm, when someone books a journey, in most cases, it's cheaper to buy also an experience connected with that travel. For instance, I booked a journey in Sweden last year and I found out that was cheaper to book the complete bundle that includes hotel + kayak than just book for the hotel.
-
 		Secondly, I believe that people should have self-control when performing a ricky activity. In such extremely dangerous activities, the danger could be anywhere and not always related to how the people acts. Take sky diving, for example, if the parachute fails to open, divers cannot do anything to solve the problem. To cite another example, recent studies suggest that nearly 50% of all motorcycle accidents are caused by other divers that don't pay attention to road.
-
 		In conclusion, it would be advisable to avoid these activities as they could have negative impact on our lives. However, some people love to be in danger and the associated feeling. For these reasons, I believe that the best solution would be pay attention to us and for others when performing such activities.
 
-		Improved:
-		In recent years, more and more people engage in dangerous activities such as skydiving, skiing, and motorcycling. This happens due to the globalization that leads people to move around and experience more. I'm personally not in favor of them, as I prefer much safer activities such as reading or video gaming. Firstly, globalization and low-cost flights have dramatically increased the numbers of tourists that move around. Furthermore, nowadays, as more travel companies are offering commercial bundles, when someone books a journey, in most cases, it's cheaper to also buy an experience connected with that travel. For instance, I booked a journey in Sweden last year, and I found out that it was cheaper to book the complete bundle that includes hotel + kayak than just book for the hotel. Secondly, I believe that people should have self-control when performing a risky activity. In such extremely dangerous activities, the danger could be anywhere and not always related to how the people act. Take skydiving, for example; if the parachute fails to open, divers cannot do anything to solve the problem. To cite another example, recent studies suggest that nearly 50% of all motorcycle accidents are caused by other drivers that don't pay attention to the road. In conclusion, it would be advisable to avoid these activities, as they could have a negative impact on our lives. However, some people love to be in danger and the associated feeling. For these reasons, I believe that the best solution would be to pay attention to us and to others when performing such activities.
+	Improved:
+		In recent years, more and more people engage in dangerous activities such as skydiving, skiing, and motorcycling. This happens due to the globalization that leads people to move around and experience more. I'm personally not in favor of them, as I prefer much safer activities such as reading or video gaming.
+		Firstly, globalization and low-cost flights have dramatically increased the numbers of tourists that move around. Furthermore, nowadays, as more travel companies are offering commercial bundles, when someone books a journey, in most cases, it's cheaper to also buy an experience connected with that travel. For instance, I booked a journey in Sweden last year, and I found out that it was cheaper to book the complete bundle that includes hotel + kayak than just book for the hotel.
+		Secondly, I believe that people should have self-control when performing a risky activity. In such extremely dangerous activities, the danger could be anywhere and not always related to how the people act. Take skydiving, for example; if the parachute fails to open, divers cannot do anything to solve the problem. To cite another example, recent studies suggest that nearly 50% of all motorcycle accidents are caused by other drivers that don't pay attention to the road.
+		In conclusion, it would be advisable to avoid these activities, as they could have a negative impact on our lives. However, some people love to be in danger and the associated feeling. For these reasons, I believe that the best solution would be to pay attention to us and to others when performing such activities.
 
 Question 4:
-
+	What are advantages and disadvantages of cheaper public transformation?
+	Give your opinion based on your experience. 
 
 Question 5:
+	There are many global problems. What is the most pressing problem.
+	What solution would you suggest?
 
