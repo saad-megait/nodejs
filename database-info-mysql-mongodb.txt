@@ -1815,17 +1815,17 @@ Question 1:
 	One solution has been suggested is to shorten the working week.
 	What you think are the advantages and disadvantages? do you think this policy should be applied to just yound workers or the whole workforce?
 
+	Answer:
+		The impact of short week has sparked major controversy in the society. While some people believe that shortening the working week might bring several advantages, other claim that the opposite holds true. This essay will elaborate on both sides of the debate and thus lead to a logical conclusion.
+
 Question 2:
 	In the last 100 years, there have been many inventions such as antibiotics, airplanes and computers. 
 	What do you think is the most important and why?
 
 	Answer:
 		In the past century, technological development has reached its peak, enhancing the comfort and productivity of human life. In my opinion, computers, which are utilized in the various fields and are helpful in our daily lives, are the most important invention. In the following paragraphs, I'll go into further detail about its enormous impact on human life.
-
 		First of all, a computer has the ability to multitask since it can process and carry out several activities in a matter of seconds. Humans only need to input data for the computer to process and provide us with accurate results. Computers are employed in all industries, including in the medical field, where they are used extensively for research, data storage, developing novel treatments and medications, and producing x-rays. Computers save patient data, enabling nurses and doctors to keep a record and have resource to them whenever necessary.
-
 		Secondly, computers are used to study and conduct research on aviation mechanics, which aids pilots in navigating to their destinations and alerts them to weather conditions. Paper is saved, and deforestation decreased as result of the usage of computers to store vast amounts of data. Because of the Internet, Our globe has become a small, interconnected community. Students may interact with their teachers online and study thanks to computers.
-
 		In conclusion, computers are the best technology ever made since they let you perform practically everything you need to do, preserve your infomation so you can change it whenever you want, and reduce the amount of time you spend on tasks. Undoubtedly, it is the most potent tool ever made in the last 100 years.
 
 Question 3:
@@ -1848,7 +1848,18 @@ Question 4:
 	What are advantages and disadvantages of cheaper public transformation?
 	Give your opinion based on your experience. 
 
+	Answer:
+		Nowadays, the advantages of cheaper public transportation have sparked a heated debate and drawn widespread attention. Many argue that the advantage is mainly the reduction of air pollution, but others argue that it also improves traffic conditions. After thorough consideration of all relevant factors, I believe that cheaper public transit results in less air pollution and fewer traffic jam.
+		First and foremost, when viewed from the environmental perspective, it is evident that more affordable public shipment causes less air pollution. Although the potentially negative impacts of more affordable public transportation must be taken into account. I still believe that public shipping has in many ways benefited us. For example, a prominent scientist once stated that people will travel more by public transport instead of private cars when public shipping becomes less expensive, and this reduce air pollution. It is thus clearly shown that one advantage of cheaper public transit is the reduction of air pollution.
+		In addition, another social factor should also be considered. As far as society is concerned, the ultimate aim of public transportation is to make our life more convenient. For instance, a recent article published in The Economist revealed that the problem of traffic jams can be significantly alleviated when poeple choose affordable public transport. Undoubtedly, this is a clear indication that another advantage of cheaper public shipment is fewer traffic jams.
+		In conclusion, due to the reasons outlined above, I have a strong belief that the advantages of cheaper public transit are less air pollution and fewer traffic jams. In order to move things forward, all parties involved must make a concerted effort to communicate and start changing. With all our efforts, we can certainly make this world a much better place to live.
+
 Question 5:
 	There are many global problems. What is the most pressing problem.
 	What solution would you suggest?
 
+
+
+1) Power of Simplicity
+2) Situational Learning
+3) 
