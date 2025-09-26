@@ -1872,10 +1872,68 @@ Tenses :
 
 A. Past tenses.
 	1. Simple/Indefinite : fact/habit/truth.
+
+		Use: For completed action, fact, habit in the past.
+		Formula: Subject + V2
+
+		Example: 
+		- I went to school yesterday.
+		- I went to office yesterday.
+		- I went to shop yesterday.
+		- She cooked dinner last night.
+		- He cooked dinner last night.
+		- I cooked dinner last night.
+		- They played cricket every Sunday (in the past).
+		- They played tennis every Saturday.
+		- He played cricket every Sunday.
+
+		- I visited my grandmother yesterday.
+		- She watched a movie last night.
+		- They played football in the park.
+		- We studied English last week.
+		- He cooked dinner for his family.
+
 	2. Continuous (Progressive) : Action is happening.
+
+		Use: Action was happening at a certain time in the past.
+		Formula: Subject + was/were + V1+ing
+
+		Example:
+		- I was reading a book at 8 PM yesterday.
+		- I was reading when the phone rang.
+		- She was sleeping while I was studying.
+		- She was cooking dinner at 7PM.
+		- He was sleeping while She was studying.
+		- He was cooking dinner at 7PM.
+		- He was watching TV all evening.
+		- They were playing football when it started raining.
+		- We were watching TV all night.
+
+
 	3. Perfect : Action is finished but connected to now/another time.
+
+		Use: One action happened/finished before another in the past action.
+		Formula: Subject + had + V3
+
+		Example:
+		- I had finished my homework before he came.
+		- I had eaten dinner before he arrived.
+		- She had left when I called her.
+		- They had finished the match before sunset.
+		- They had eaten dinner before the show started.
+		- We had reached the station before the train left.
+		- He had cleaned the room before his parents arrived.
+
+
 	4. Perfect Continuous : Action started earlier, continues, focus on duration.
 
+		Use: Action started earlier and was continuing for some time in the past.
+		Formula: Subject + had been + V1+ing
+
+		Example:
+		- I had been studing for two hours when my friend came.
+		- She had been waiting for the bus since morning.
+		- They had been living in Delhi for five years before they moved.
 
 	Tenses
 	https://chatgpt.com/share/68d68390-c7cc-800b-8124-d768ac7012ee
