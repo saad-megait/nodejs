@@ -1859,7 +1859,25 @@ Question 5:
 	What solution would you suggest?
 
 
+reading tips : 
 
-1) Power of Simplicity
-2) Situational Learning
-3) 
+	1. scan the whole passage
+	2. Guess the answer
+	3. Eliminate not matched options
+
+Tenses : 
+	A. Past
+	B. Present
+	C. Future
+
+A. Past tenses.
+	1. Simple/Indefinite : fact/habit/truth.
+	2. Continuous (Progressive) : Action is happening.
+	3. Perfect : Action is finished but connected to now/another time.
+	4. Perfect Continuous : Action started earlier, continues, focus on duration.
+
+
+	Tenses
+	https://chatgpt.com/share/68d68390-c7cc-800b-8124-d768ac7012ee
+	https://chatgpt.com/share/68d6837a-b668-800b-9114-e9d2da617a89
+
