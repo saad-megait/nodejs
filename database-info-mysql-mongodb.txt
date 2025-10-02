@@ -1799,10 +1799,13 @@ SCORE CALCULATION :
 https://www.seek.com.au/
 subclass guide : https://chatgpt.com/share/6826dd59-a7dc-800b-82eb-85a0b8e75e26
 PTE Writing Module Overview : https://chatgpt.com/share/6826de90-a420-800b-a1d7-9c6ec8f9a4be
-https://g4s.hawksightsoftware.com/
+
+https://staging.hawksightsoftware.com/login
 https://staging-risk360.hawksightsoftware.com/
+https://critec.hawksightsoftware.com/
+https://g4s.hawksightsoftware.com/
+
 https://ikb.megait.in/
-https://critec.hawksightsoftware.com/dashboard
 https://australiayours.com/prepare-for-pte/
 IMP : https://pteking.com/
 
@@ -1939,3 +1942,50 @@ A. Past tenses.
 	https://chatgpt.com/share/68d68390-c7cc-800b-8124-d768ac7012ee
 	https://chatgpt.com/share/68d6837a-b668-800b-9114-e9d2da617a89
 
+
+https://staging.hawksightsoftware.com/login
+https://staging-risk360.hawksightsoftware.com/
+https://critec.hawksightsoftware.com/
+https://g4s.hawksightsoftware.com/
+
+
+How to optimize performance of the application?
+	ways to improve performance.
+	1. Memoization
+	2. Code splitting
+	3. react.lazy
+	4. suspense APIs 
+
+
+useCallback in react?
+	useCallback is remember of function reference.
+	passing the function in a child component from parent, and once a parent component is re-render than it will automatically render that specific function 
+
+useCallback and useMemo : 
+	both are used for performance optimization.
+
+	useCallback : return function memoized
+		useCallback((() => {}), dependencies)
+	useMemo: function's result memoize : return memoized value
+		useMemo(fn, dependencies)
+
+
+3. NextAuth.js (For Next.js only)
+	Package: next-auth
+	Use for: Authentication in Next.js apps
+	Pros:
+	Built-in support for OAuth, JWT, sessions
+	Adapts to various databases
+	Easy to set up with credentials or social providers
+	Best for: SSR/SSG apps built with Next.js
+	🔧 Install: npm install next-auth
+
+useContext : passing data to the child component.
+
+React 18	
+useTransition	Manage UI transition states
+useDeferredValue	Defer rendering for performance
+useId	Unique ID generation
+
+
+Automatically installed webpack and babel
