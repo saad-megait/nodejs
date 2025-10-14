@@ -1585,6 +1585,21 @@ Steps for visa :
 	70, if got 65+ each in PTE
 	80, if got 79+ each in PTE
 
+	| **English Proficiency Level** | **Listening** | **Reading** | **Writing** | **Speaking** |
+	| ----------------------------- | ------------- | ----------- | ----------- | ------------ |
+	| **Competent English**         | 47            | 48          | 51          | 54           |
+	| **Proficient English**        | 58            | 59          | 69          | 76           |
+	| **Superior English**          | 69            | 70          | 85          | 88           |
+
+
+	SCORE CALCULATION :
+
+	90 * 4 = 360
+	79 * 4 = 316 after 7th of august = 312
+	65 * 4 = 260 after 7th of august = 262
+
+	360 - 316 = 44 diff
+	360 - 260 = 100 diff
 
 -------------------------------------------------------------
 
@@ -1783,16 +1798,6 @@ Types of Questions & It's scores counted :
 			- Writing (from Listening tasks): 28-32 marks
 			- Reading (from Listening tasks): 12–15 marks
 
--------------------------------------------------------------
-
-SCORE CALCULATION :
-
-90 * 4 = 360
-79 * 4 = 316
-65 * 4 = 260
-
-360 - 316 = 44 diff
-360 - 260 = 100 diff
 
 -------------------------------z
 
@@ -1869,9 +1874,15 @@ reading tips :
 	3. Eliminate not matched options
 
 Tenses : 
+	- It tells about time/state of action.
 	A. Past
 	B. Present
 	C. Future
+
+	Simple: कोई काम होता है (An action happens)
+	Continuous: कोई काम हो रहा है (An action is happening)
+	Perfect: कोई काम हो चुका है (An action has been completed)
+	Perfect Continuous: कोई काम 2 दिन से हो रहा है  (An action has been happening for some time)
 
 A. Past tenses.
 	1. Simple/Indefinite : fact/habit/truth.
@@ -1928,7 +1939,7 @@ A. Past tenses.
 		- He had cleaned the room before his parents arrived.
 
 
-	4. Perfect Continuous : Action started earlier, continues, focus on duration.
+	4. Perfect Continuous : Action started earlier, Continuous, focus on duration.
 
 		Use: Action started earlier and was continuing for some time in the past.
 		Formula: Subject + had been + V1+ing
@@ -1938,54 +1949,29 @@ A. Past tenses.
 		- She had been waiting for the bus since morning.
 		- They had been living in Delhi for five years before they moved.
 
-	Tenses
-	https://chatgpt.com/share/68d68390-c7cc-800b-8124-d768ac7012ee
-	https://chatgpt.com/share/68d6837a-b668-800b-9114-e9d2da617a89
+
+	Tenses Chart:
+
+	Simple: कोई काम होता है (An action happens)
+	Continuous / Progressive: कोई काम हो रहा है (An action is happening)
+	Perfect: कोई काम हो चुका है (An action has been completed)
+	Perfect Continuous: कोई काम 2 दिन से हो रहा है  (An action has been happening for some time)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Action Type (Meaning in Hindi)                                           | Tense Name                | Present                          | Past                          | Future                            |	
+|------------------------------------------------------------------------- |---------------------------|----------------------------------|-------------------------------|-----------------------------------|
+| कोई काम होता है : (An action happens)							                     	  | Simple / Indefinite       | Do / Does                        | Did                           | Will / Shall                      |
+| कोई काम हो रहा है : (An action is happening)                              | Continuous / Progressive  | Is / Am / Are + V₁ + ing         | Was / Were + V₁ + ing         | Will be + V₁ + ing                |
+| कोई काम हो चुका है : (An action has been completed)  										  | Perfect                   | Has / Have + V₃                  | Had + V₃                      | Will have + V₃                    |
+| कोई काम 2 दिन से हो रहा है : (An action has been happening for some time)  | Perfect Continuous        | Has / Have been + V₁ + ing       | Had been + V₁ + ing           | Will have been + V₁ + ing         |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tenses
+https://chatgpt.com/share/68d68390-c7cc-800b-8124-d768ac7012ee
+https://chatgpt.com/share/68d6837a-b668-800b-9114-e9d2da617a89
 
 
 https://staging.hawksightsoftware.com/login
 https://staging-risk360.hawksightsoftware.com/
 https://critec.hawksightsoftware.com/
 https://g4s.hawksightsoftware.com/
-
-
-How to optimize performance of the application?
-	ways to improve performance.
-	1. Memoization
-	2. Code splitting
-	3. react.lazy
-	4. suspense APIs 
-
-
-useCallback in react?
-	useCallback is remember of function reference.
-	passing the function in a child component from parent, and once a parent component is re-render than it will automatically render that specific function 
-
-useCallback and useMemo : 
-	both are used for performance optimization.
-
-	useCallback : return function memoized
-		useCallback((() => {}), dependencies)
-	useMemo: function's result memoize : return memoized value
-		useMemo(fn, dependencies)
-
-
-3. NextAuth.js (For Next.js only)
-	Package: next-auth
-	Use for: Authentication in Next.js apps
-	Pros:
-	Built-in support for OAuth, JWT, sessions
-	Adapts to various databases
-	Easy to set up with credentials or social providers
-	Best for: SSR/SSG apps built with Next.js
-	🔧 Install: npm install next-auth
-
-useContext : passing data to the child component.
-
-React 18	
-useTransition	Manage UI transition states
-useDeferredValue	Defer rendering for performance
-useId	Unique ID generation
-
-
-Automatically installed webpack and babel
