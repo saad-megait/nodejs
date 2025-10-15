@@ -1966,6 +1966,15 @@ A. Past tenses.
 | कोई काम 2 दिन से हो रहा है : (An action has been happening for some time)  | Perfect Continuous        | Has / Have been + V₁ + ing       | Had been + V₁ + ing           | Will have been + V₁ + ing         |
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+| Verb Form | Name                           | Example (“do”) | Usage                            |
+| --------- | ------------------------------ | -------------- | -------------------------------- |
+| **V1**    | Base Form                      | do             | Present tense (I/you/we/they do) |
+| **V2**    | Past Form                      | did            | Simple past tense                |
+| **V3**    | Past Participle                | done           | Perfect tenses, Passive voice    |
+| **V4**    | Present Participle / -ing Form | doing          | Continuous tenses                |
+| **V5**    | s/es Form                      | does           | Present tense (He/She/It does)   |
+
+
 Basic rules of passive voice:
 	1. Subj -> Obj / Obj -> Subj : it become Subj to Obj or Obj to Subj.
 	2. Main verb v3
@@ -1979,8 +1988,34 @@ Tenses
 https://chatgpt.com/share/68d68390-c7cc-800b-8124-d768ac7012ee
 https://chatgpt.com/share/68d6837a-b668-800b-9114-e9d2da617a89
 
+English Learning.
+https://super-ela.com/terms/
+
 
 https://staging.hawksightsoftware.com/login
 https://staging-risk360.hawksightsoftware.com/
 https://critec.hawksightsoftware.com/
 https://g4s.hawksightsoftware.com/
+
+
+Tense:
+
+	Simple:
+		1. Past			: subj + V2 (past form)
+		2. Present	: subj + v1 (s/es with he/she/it)
+		3. Future		: subj + will + v1(base form) 
+	
+	Continuous:
+		1. Past			: subj + was/were + v1+ing
+		2. Present 	:	subj + am/is/are + v1+ing
+		3. Future		:	subj + will be + v1+ing
+
+	Perfect:
+		1. Past			: subj + had + v3
+		2. Present	:	subj + has/have + v3
+		3. Future		:	subj + will have + v3
+ 
+	Perfect Continuous:
+		1. Past			: subj + had been + v1+ing
+		2. Present	:	subj + has/have been + v1+ing
+		3. Future		:	subj + will have been + v1+ing
