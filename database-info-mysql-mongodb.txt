@@ -256,6 +256,81 @@ UNION / UNION ALL
 
 ---------------------------------------------
 
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  email varchar(255) UNIQUE NOT NULL
+);
+
+CREATE TABLE products (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  price INT NOT NULL
+);
+
+CREATE TABLE orders (
+  id SERIAL PRIMARY KEY,
+  user_id INT REFERENCES users(id),
+  product_id INT REFERENCES products(id),
+  quantity INT NOT NULL
+);
+
+INSERT INTO users (name, email) VALUES
+('Saad', 'saad@gmail.com'),
+('Aman', 'aman@gmail.com');
+
+SELECT * FROM users;
+
+INSERT INTO products (name, price) VALUES
+('Laptop', 60000),
+('Mouse', 1000),
+('Keyboard', 10000);
+
+SELECT * FROM products;
+
+INSERT INTO orders (user_id, product_id, quantity) VALUES
+(1, 1, 1), -- Saad bought Laptop
+(1, 2, 2), -- Saad bought 2 Mouse
+(2, 3, 1); -- Aman bought Keyboard
+
+-- SELECT * FROM orders;
+
+SELECT
+  users.name AS 'User Name',
+  products.name AS 'Product Name',
+  orders.quantity As 'Product Quantity'
+FROM orders
+JOIN users ON users.id = orders.user_id
+JOIN products ON products.id = orders.product_id;
+
+SELECT
+  u.name,
+  p.name,
+  o.quantity
+FROM orders o
+JOIN users u ON u.id = o.user_id
+JOIN products p ON p.id = o.product_id
+WHERE u.name = 'Saad';
+
+SELECT
+  u.name,
+  p.name,
+  p.price
+FROM orders o
+JOIN users u ON u.id = o.user_id
+JOIN products p ON p.id = o.product_id
+WHERE p.price > 5000;
+
+SELECT
+  u.name,
+  SUM(p.price * o.quantity) AS 'Total Amount'
+FROM orders o
+JOIN users u ON u.id = o.user_id
+JOIN products p ON p.id = o.product_id
+GROUP BY u.name;
+
+---------------------------------------------
+
 
 2. MongoDB
 
@@ -1867,11 +1942,17 @@ Question 5:
 	What solution would you suggest?
 
 
-reading tips : 
+Reading tips : 
 
 	1. scan the whole passage
 	2. Guess the answer
 	3. Eliminate not matched options
+
+	For fill in the blanks:
+		1. Grammer
+		2. Collocation
+		3. Contextual Skills
+
 
 Tenses : 
 	- It tells about time/state of action.
@@ -2019,3 +2100,166 @@ Tense:
 		1. Past			: subj + had been + v1+ing
 		2. Present	:	subj + has/have been + v1+ing
 		3. Future		:	subj + will have been + v1+ing
+
+
+
+directives:
+
+build in: 
+	v-if
+	v-for
+	v-else
+	v-model
+	v-whow
+
+	v-touch-pan
+
+
+But:
+	However,
+	Nevertheless,
+	Nonetheless,
+	Although,
+	Though,
+	Yet.
+
+Also/And:
+	Moreover,
+	Additionally,
+	Futhermore,
+	Besides,
+	Likewise,
+	As well as.
+
+---------------------------------------------
+
+	5.5					6.5					7							8/9
+
+- Angry				Annoyed			Furious				Enraged
+- Big 				Large 			Significant		Substantial
+- Busy				Occupied		Engaged				Swamped
+- Clean 			Tidy				Spotless			Immaculate
+- Cause 			Trigger			Generate			Precipitate
+- Difficult		Complicated	Arduous				Dauting/Daunting
+- Find 				Discover		Identify			Ascertain
+- Fix 				Solve				Resolve				Rectify
+- Fast				Quick				Rapid					Swift
+- Give 				Provide			Deliver				Allocate
+- Help				Assist			Facilitate		Enable
+- Happy 			Cheerful		Joyful				Ecstatic
+- Important 	Necessary 	Crucial 			Imperative
+- Keep				Maintain		preserve			Substain
+- Lonely			Isolated		Desolate			Forlorn
+- Make 				Create 			Generate			Formulate
+- Need 				Require			Necessitate		Warrant
+- Poor 				Needy				Impoverished	Destitute
+- Rich 				Wealthy			Prosperous		Affluent
+- Say					State				Assert				Articulate
+- Start				Begin				initiate			Commence
+- Stop 				Halt 				Cease					Discontinue
+- Show				Indicate 		Illustrate 		Substantiate
+- Small 			Minor				Limited				Marginal
+- Slow				Sluggish		Steady				Protracted
+- Strong			Strudy			Robust				Vigorous
+- Simple 			Basic				Plain					Elementary
+- Tired				Weary				Fatigued			Exhausted
+- Think				Assume			Presume				Postulate
+- Use					Employed		Apply			 		Deploy
+- Weak 				Feeble			Fragile				Frail
+
+
+Important:
+	Crucial: extremely important.
+	Critical: urgent and serious.
+	Essential: absolutely necessary.
+	Vital: needed to survive or succeed.
+	Significant: meaningful & important.
+	Pivotal: turning point importance.
+	Indispensable: cannot be replaced.
+	Paramount: highest importance.
+	of Utmost importance
+
+	- The safety is paramount to work on construction industry.
+	- Environmental protection is of paramount importance to future generation.
+	- In education, quality teaching is paramount.
+
+"Angry → Annoyed → Furious → Enraged",
+"Big → Large → Significant → Substantial",
+"Busy → Occupied → Engaged → Swamped",
+"Clean → Tidy → Spotless → Immaculate",
+"Cause → Trigger → Generate → Precipitate",
+"Difficult → Complicated → Arduous → Daunting",
+"Find → Discover → Identify → Ascertain",
+"Fix → Solve → Resolve → Rectify",
+"Fast → Quick → Rapid → Swift",
+"Give → Provide → Deliver → Allocate",
+"Help → Assist → Facilitate → Enable",
+"Happy → Cheerful → Joyful → Ecstatic",
+"Important → Necessary → Crucial → Paramount",
+"Keep → Maintain → Preserve → Sustain",
+"Lonely → Isolated → Desolate → Forlorn",
+"Make → Create → Generate → Formulate",
+"Need → Require → Necessitate → Warrant",
+"Poor → Needy → Impoverished → Destitute",
+"Rich → Wealthy → Prosperous → Affluent",
+"Say → State → Assert → Articulate",
+"Start → Begin → Initiate → Commence",
+"Stop → Halt → Cease → Discontinue",
+"Show → Indicate → Illustrate → Substantiate",
+"Small → Minor → Limited → Marginal",
+"Slow → Sluggish → Steady → Protracted",
+"Strong → Sturdy → Robust → Vigorous",
+"Simple → Basic → Plain → Elementary",
+"Tired → Weary → Fatigued → Exhausted",
+"Think → Assume → Presume → Postulate",
+"Use → Employ → Apply → Deploy",
+"Ability → Capacity → Competence → Proficiency",
+"Accept → Admit → Acknowledge → Concede",
+"Achieve → Attain → Accomplish → Fulfil",
+"Advantage → Benefit → Merit → Asset",
+"Affect → Influence → Impact → Shape",
+"Agree → Accept → Endorse → Advocate",
+"Allow → Permit → Authorize → Sanction",
+"Answer → Reply → Respond → Rebut",
+"Bad → Harmful → Detrimental → Adverse",
+"Begin → Start → Launch → Initiate",
+"Change → Modify → Transform → Revolutionize",
+"Choose → Select → Opt for → Determine",
+"Clear → Obvious → Apparent → Evident",
+"Compare → Contrast → Evaluate → Assess",
+"Concern → Worry → Anxiety → Apprehension",
+"Control → Manage → Regulate → Govern",
+"Cost → Expense → Expenditure → Outlay",
+"Decrease → Reduce → Decline → Diminish",
+"Develop → Grow → Expand → Proliferate",
+"Effect → Result → Outcome → Consequence",
+"Effort → Attempt → Endeavour → Strive",
+"Explain → Clarify → Elucidate → Expound",
+"Famous → Well-known → Renowned → Eminent",
+"Fear → Afraid → Frightened → Terrified",
+"Free → Available → Accessible → Unrestricted",
+"Gain → Obtain → Acquire → Procure",
+"Good → Positive → Beneficial → Advantageous",
+"Helpful → Useful → Beneficial → Instrumental",
+"Increase → Rise → Surge → Escalate",
+"Job → Work → Occupation → Profession",
+"Know → Understand → Comprehend → Grasp",
+"Limit → Restrict → Constrain → Curtail",
+"Look → See → Observe → Perceive",
+"Loss → Decline → Deterioration → Depletion",
+"Old → Aged → Elderly → Senescent",
+"Opinion → View → Perspective → Standpoint",
+"Plan → Strategy → Framework → Blueprint",
+"Problem → Issue → Challenge → Dilemma",
+"Quickly → Speedily → Rapidly → Swiftly",
+"Reduce → Lower → Minimize → Mitigate",
+"Risk → Danger → Hazard → Peril",
+"Run → Operate → Function → Execute",
+"Serious → Severe → Grave → Critical",
+"Support → Aid → Assistance → Backing",
+"Think → Consider → Reflect → Contemplate",
+"Try → Attempt → Endeavour → Strive",
+"Use → Utilize → Harness → Leverage",
+"Value → Worth → Importance → Significance",
+"Want → Desire → Aspiration → Longing",
+"Weak → Feeble → Fragile → Frail"
