@@ -91,12 +91,12 @@ SQL Commands :
 ---------------------------------------------
 
 Select Data with Regular Expression:
-Sign 		Pattern 		Description
-^ 		'^ra' 			Beginning of string
-$ 		'an$'			End of string
-[...] 		'[rms]'			Any character listed between the square brackets
-^[...]		'^[rms]' 		Begins with any character listed between the square brackets
-[a-z] 		'[a-h]e'		Match with in the range
+Sign 			Pattern 					Description
+^ 				'^ra' 						Beginning of string
+$ 				'an$'							End of string
+[...] 		'[rms]'						Any character listed between the square brackets
+^[...]		'^[rms]' 					Begins with any character listed between the square brackets
+[a-z] 		'[a-h]e'					Match with in the range
 p1|p2|p3 	'tom|dean|harry 	Matches any of the patterns p1,p2 or p3 
 
 - SELECT * FROM `users` WHERE firstname REGEXP 'ns$';
@@ -473,7 +473,14 @@ MySQL queries :-
 	SELECT salary FROM employeeinfo e1 WHERE 2 = (SELECT COUNT(DISTINCT salary) from employeeinfo e2 WHERE e2.salary > e1.salary);
 
 3. find the duplicate row in a table.
+	not working:
 	SELECT *, COUNT(id) FROM employeeinfo GROUP BY id HAVING COUNT(id) > 1
+
+	working:
+	SELECT empId, name, salary,  COUNT(*) AS duplicate_count
+	FROM EMPLOYEE
+	GROUP BY empId, name, salary
+	HAVING COUNT(*) > 1;
 
 4. calculating the even and odd records from a table.
 	MOD : store the division
@@ -487,14 +494,16 @@ MySQL queries :-
 6. how do you copy all rows of a table.
 	- CREATE TABLE empdetails AS SELECT * FROM employeeinfo :-- for copy the all fields of record using *
 	- CREATE TABLE empsalary AS SELECT id,salary FROM employeeinfo :-- for selected fields copy
-	- CREATE TABLE emptest as SELECT * FROM employeeinfo WHERE 3=4 :-- for copy the schema 
+	- CREATE TABLE EMPSCHEMA as SELECT * FROM employeeinfo WHERE 1=0 :-- for copy the schema 
+	-	SHOW CREATE TABLE EMPSCHEMA; : command will show schema in json format.
+  - DESC EMPSCHEMA : command will show schema in table format.
 
 7. retrieve the list of employee working on same department.
 	- SELECT DISTINCT e1.id,e1.fname,e1.department FROM employeeinfo e1, employeeinfo e2 WHERE e1.department = e2.department and e1.id != e2.id;
 
 8. retrieve last 3 records from the table.
 	- SELECT* from (SELECT * from employeeinfo ORDER BY id DESC LIMIT 3) temp ORDER BY id ASC;
-	- SELECT * FROM employeeinfo ORDER BY id DESC LIMIT 3. : It return last 3 records from the table but it reverse order :)
+	- SELECT * FROM employeeinfo ORDER BY id DESC LIMIT  3. : It return last 3 records from the table but it reverse order :)
 
 9. fetch details of employees whose lname ends with an alphabet 'A' and contains five alphabets 
 	- SELECT * FROM employeeinfo WHERE lname LIKE '____a'
@@ -502,6 +511,163 @@ MySQL queries :-
 10. fetch 50% records of the table
 	It works only in where employee id is in proper sequence : no record deleted
 	- SELECT * FROM employeeinfo WHERE id <= (SELECT COUNT(id)/2 FROM employeeinfo)
+
+Practiced above queries again https://onecompiler.com/mysql/44ac7bh9x:
+
+-- create
+CREATE TABLE EMPLOYEE (
+  empId INTEGER,
+  name TEXT NOT NULL,
+  salary INTEGER not NULL,
+  department varchar(255) not NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (1, 'Test1', 10000, 'Frontend');
+INSERT INTO EMPLOYEE VALUES (2, 'Test2', 20000, 'Frontend');
+INSERT INTO EMPLOYEE VALUES (3, 'Test3', 30000, 'Backend');
+INSERT INTO EMPLOYEE VALUES (4, 'Test4', 40000, 'Backend');
+INSERT INTO EMPLOYEE VALUES (5, 'Test5', 50000, 'Service');
+INSERT INTO EMPLOYEE VALUES (6, 'Test6', 60000, 'Frontend');
+INSERT INTO EMPLOYEE VALUES (7, 'Test7', 70000, 'Service');
+INSERT INTO EMPLOYEE VALUES (8, 'Test8', 70000, 'Backend');
+INSERT INTO EMPLOYEE VALUES (9, 'abcda', 80000, 'Testing');
+INSERT INTO EMPLOYEE VALUES (10, 'helloabcda', 80000, 'Testing');
+INSERT INTO EMPLOYEE VALUES (11, 'abcdxyza', 80000, 'Testing');
+INSERT INTO EMPLOYEE VALUES (12, 'abcdxyza', 80000, 'Testing');
+
+-- fetch 
+SELECT * FROM EMPLOYEE;
+
+-- SELECT distinct salary FROM EMPLOYEE;
+
+-- SELECT empId, name FROM EMPLOYEE;
+-- SELECT empId, name FROM EMPLOYEE GROUP BY empId, name;
+
+-- 2. find the nth highest salary from the table without using TOP/LIMIT keywords.
+
+-- SELECT salary from EMPLOYEE e1 WHERE 2 = (SELECT count(distinct salary) from EMPLOYEE e2 WHERE e2.salary > e1.salary )
+
+-- SELECT * FROM EMPLOYEE WHERE dept = 'Sales';
+
+-- 1. find the third-highest salary.
+-- SELECT * FROM EMPLOYEE order by name desc limit 2,1;
+
+-- 2. find the nth highest salary from the table without using TOP/LIMIT keywords.
+-- SELECT count(distinct salary) as 'Total Length' from EMPLOYEE;
+-- SELECT salary from EMPLOYEE e1 WHERE 3 = empId;
+-- SELECT salary from EMPLOYEE e1 WHERE 5 = (SELECT count(distinct salary) from EMPLOYEE e2 WHERE e2.salary >= e1.salary );
+
+-- 3. find the duplicate row in a table.
+-- SELECT empId, name, salary,  COUNT(*) AS duplicate_count
+-- FROM EMPLOYEE
+-- GROUP BY empId, name, salary
+-- HAVING COUNT(*) > 1;
+
+-- 4. calculating the even and odd records from a table.
+-- MOD : store the division
+  -- SELECT * FROM EMPLOYEE WHERE MOD(empId, 2) = 1;
+  -- SELECT * FROM EMPLOYEE WHERE MOD(empId, 2) = 0;
+  
+-- 5. display the first and last record from the table.
+  -- returns first record	
+  -- SELECT *
+  -- FROM EMPLOYEE
+  -- where empId = (SELECT MIN(empId) FROM EMPLOYEE);
+  
+  -- returns last record
+  -- SELECT *
+  -- FROM EMPLOYEE
+  -- where empId = (SELECT max(empId) FROM EMPLOYEE);
+  
+-- 6. how do you copy all rows of a table.
+  -- CREATE table EMPLOYEEDETAILS AS SELECT * FROM EMPLOYEE;
+  -- SELECT * FROM EMPLOYEEDETAILS;
+  
+  -- CREATE TABLE EMPSALARY AS SELECT empId, salary FROM EMPLOYEE;
+  -- SELECT * FROM EMPSALARY;
+  
+  -- for copy the schema
+  -- CREATE TABLE EMPSCHEMA AS SELECT * FROM EMPLOYEE WHERE 3=4;
+  -- -- SELECT * FROM EMPSCHEMA;
+  -- SHOW CREATE TABLE EMPSCHEMA;
+  -- desc EMPSCHEMA
+  
+-- 7. retrieve the list of employee working on same department.
+  
+  -- SELECT distinct e1.empId, e1.name, e1.department from employee e1, employee e2 
+  -- WHERE e1.department = e2.department and e1.empId <> e2.empId;
+  
+  -- SELECT * from employee WHERE department in (SELECT department from employee GROUP by department HAVING COUNT(*) > 1)
+  
+-- 8. retrieve last 3 records from the table.
+
+  -- SELECT * from employee order by empId desc LIMIT 3;
+  -- SELECT * from (SELECT * from employee order by empId desc LIMIT 3) temp order by empId asc;
+  -- SELECT * from employee order by empId desc LIMIT 3 : it returns last 3 records from the table but in reverse order.
+  
+  -- WITH temp AS (
+  --   SELECT *
+  --   FROM employee
+  --   ORDER BY empId DESC
+  --   LIMIT 3
+  -- )
+  
+  -- SELECT *
+  -- FROM temp
+  -- ORDER BY empId ASC;
+  
+-- 9. fetch details of employees whose lname ends with an alphabet 'A' and contains five alphabets
+  -- SELECT * from EMPLOYEE WHERE name like '____a';
+  -- SELECT * from EMPLOYEE WHERE name like '%a';
+  -- SELECT * from EMPLOYEE WHERE name like 'a%'
+  
+-- 10. fetch 50% records of the table
+  -- It works only in where employee id is in proper sequence : no record deleted
+  
+  -- SELECT COUNT(*) from EMPLOYEE;
+  
+  -- SET @half := (
+  --   SELECT FLOOR(COUNT(*) / 2)
+  --   FROM EMPLOYEE
+  -- );
+  
+  -- SELECT *
+  -- FROM EMPLOYEE
+  -- ORDER BY empId
+  -- LIMIT @half;
+  
+  -- SELECT *
+  -- FROM EMPLOYEE
+  -- ORDER BY empId
+  -- LIMIT (
+  --     SELECT FLOOR(COUNT(*) / 2)
+  --     FROM EMPLOYEE
+  -- );
+  
+  -- SELECT * from EMPLOYEE ORDER by empId LIMIT (SELECT FLOOR( COUNT(*) /2 ) FROM EMPLOYEE);
+  
+  -- SELECT * from EMPLOYEE where empId <= (SELECT COUNT(empId)/ 2 from EMPLOYEE)
+  -- Working:
+  -- First 50%
+  SELECT empId, name, salary, department
+  FROM (
+      SELECT *,
+             ROW_NUMBER() OVER (ORDER BY empId) AS rn,
+             COUNT(*) OVER () AS total
+      FROM EMPLOYEE
+  ) t
+  WHERE rn <= FLOOR(total / 2);
+  
+  -- Rest 50%
+  SELECT empId, name, salary, department
+  FROM (
+      SELECT *,
+             ROW_NUMBER() OVER (ORDER BY empId) AS rn,
+             COUNT(*) OVER () AS total
+      FROM EMPLOYEE
+  ) t
+  WHERE rn > FLOOR(total / 2);
 
 ---------------------------------------------
 
@@ -2133,6 +2299,19 @@ Also/And:
 
 ---------------------------------------------
 
+Adverbs of Frequency:
+	- Never
+	- Rarely
+	- Seldom
+	- Occasionally
+	- Sometimes
+	- Frequently
+	- Normally
+	- Usually
+	- Always
+
+---------------------------------------------
+
 	5.5					6.5					7							8/9
 
 - Angry				Annoyed			Furious				Enraged
@@ -2263,3 +2442,163 @@ Important:
 "Value → Worth → Importance → Significance",
 "Want → Desire → Aspiration → Longing",
 "Weak → Feeble → Fragile → Frail"
+
+---------------------------------------------------
+
+Expose / exposing: to reveal something that was hidden, often negative, sensitive, or harmful.
+Reveal: to make information known (neutral).
+Disclose: to reveal information officially or legally.
+Uncover: to discover something hidden through investigation.
+Visible: able to be seen (adjective, not a verb).
+
+---------------------------------------------------
+
+Loud → Noisy → Thunderous → Deafening :
+
+Loud: normal se zyada awaaz
+Noisy: lagataar shor, irritating
+Thunderous: garajne wali awaaz (jaise badal, taaliyan)
+Deafening: itni zyada awaaz ki kaan baj jaaye, sunna mushkil
+
+Deaf = cannot hear / chooses not to listen
+Meaning:						Better alternatives
+cannot hear					hearing-impaired (formal)
+ignore							unresponsive to
+ignore warnings			dismiss / disregard
+
+--------------------------
+
+WEAK → FAINT → NEGLIGIBLE :
+
+Weak: kamzor
+Faint: bahut hi halka, mushkil se mehsoos ho
+Negligible: itna kam ki ignore kar sakte ho
+
+very loud → ✅ deafening
+very weak → ✅ negligible / faint
+
+---------------------------------------------------
+
+Significant → Substantial → Overwhelming
+
+Significant = noticeable - Marks mei significant improvement hua
+Substantial = large - Salary mei substantial increase mila
+Overwhelming = had se zyada (handle na ho) - Kaam ka load overwhelming ho gaya
+
+very big → ✅ substantial / overwhelming
+
+---------------------------------------------------
+
+Pressure → Stress → Strain → Burnout
+
+Pressure: kaam ka load
+Stress: tension shuru
+Strain: dimag + body thakna
+Burnout: poora exhaust, bas ho gaya
+
+---------------------------------------------------
+
+Decisiveness:
+	- Decision lene ki ability,
+	- jaldi + confidently decision lena, bina zyada confusion ke.
+	“jo banda soch ke turant decision le leta hai” = decisiveness
+	Decisiveness = clear mind + fast decision + confidence
+
+Decision → Indecisive → Decisive → Decisiveness
+
+	Decision: Faisla
+	Indecisive: Jo decision na le paaye
+	Decisive: Jo clear decision le [action]
+	Conclusive: Doubt khatam karne wala - jo final proof de [result]
+	Decisiveness: Decision lene ki quality	
+
+	assertiveness: apni baat clear rakhna
+
+---------------------------------------------------
+
+Word → Promise → Deed → Action
+
+Word → bolna
+Promise → bol ke wada
+Deed → karke dikhana
+Action → general kaam
+
+695fab3e-fb24-800b-aaf6-0e194e99ed4a
+
+--------------------------
+
+Act → Action → Deed → Conduct → Misconduct → Wrongdoing
+
+Act → Simple kaam, neutral → He acted quickly.
+Action → Thoda formal, planned kaam
+Deed → Kaam jisko judge kiya ja sakta hai (good / bad)
+Conduct → Insaan ka overall behaviour
+Misconduct → Galat behaviour (professional / moral)
+Wrongdoing → Moral + legal galti → The investigation exposed serious wrongdoing.
+
+---------------------------------------------------
+
+Rational:
+	- Dimag se sochna, emotion se nahi
+	- Logic + reason use karna
+	“Thande dimag ka decision” = rational
+	People should make rational choices based on facts, not emotions.
+
+	Common collocations:
+	- rational decision
+	- rational thinking
+	- rational approach
+	- rational explanation
+
+	Emotional → Impulsive → Rational → Irrational:
+
+	Emotional → Feeling se
+	Impulsive → Vina soche
+	Rational → Logic se
+	Irrational → Bekaar logic
+
+---------------------------------------------------
+
+Moderate:
+	- Na zyada, na kam
+	- Balanced / control mei
+	Moderate = balanced, controlled, middle
+	“Beech ka level” = moderate
+	Moderate means neither too high nor too low; reasonable and balanced.
+
+	low → moderate → substantial → excessive:
+
+	low → Kam
+	moderate → Beech ka → Exercise moderate honi chahiye, over nahi. → Moderate use of social media can be beneficial.
+	very big-large/substantial → Zyada
+	excessive → Had se zyada
+
+	Common collocations:
+	- moderate level
+	- moderate amount
+	- moderate growth
+	- moderate temperature
+	- moderate exercise
+
+---------------------------------------------------
+
+Eradicate:
+	- Root se mita dena
+	- Bilkul khatam kar dena, wapas aane ka chance na rahe
+	Eradicate = zero level
+	ex: Eradicate means to completely eliminate or destroy something, especially a problem or disease.
+	 	- Corruption ko eradicate karna easy nahi hai.
+		- Governments must implement strict policies to eradicate poverty.
+
+	Reduce → Control → Eliminate → Eradicate
+
+	Reduce → Kam karna
+	Control → Manage karna
+	Eliminate → Hata dena
+	Eradicate → Poori tarah mita dena
+
+	Common collocations:
+	- eradicate poverty
+	- eradicate disease
+	- eradicate corruption
+	- eradicate discrimination
