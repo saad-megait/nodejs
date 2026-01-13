@@ -2362,86 +2362,86 @@ Important:
 	- Environmental protection is of paramount importance to future generation.
 	- In education, quality teaching is paramount.
 
-"Angry → Annoyed → Furious → Enraged",
-"Big → Large → Significant → Substantial",
-"Busy → Occupied → Engaged → Swamped",
-"Clean → Tidy → Spotless → Immaculate",
-"Cause → Trigger → Generate → Precipitate",
-"Difficult → Complicated → Arduous → Daunting",
-"Find → Discover → Identify → Ascertain",
-"Fix → Solve → Resolve → Rectify",
-"Fast → Quick → Rapid → Swift",
-"Give → Provide → Deliver → Allocate",
-"Help → Assist → Facilitate → Enable",
-"Happy → Cheerful → Joyful → Ecstatic",
-"Important → Necessary → Crucial → Paramount",
-"Keep → Maintain → Preserve → Sustain",
-"Lonely → Isolated → Desolate → Forlorn",
-"Make → Create → Generate → Formulate",
-"Need → Require → Necessitate → Warrant",
-"Poor → Needy → Impoverished → Destitute",
-"Rich → Wealthy → Prosperous → Affluent",
-"Say → State → Assert → Articulate",
-"Start → Begin → Initiate → Commence",
-"Stop → Halt → Cease → Discontinue",
-"Show → Indicate → Illustrate → Substantiate",
-"Small → Minor → Limited → Marginal",
-"Slow → Sluggish → Steady → Protracted",
-"Strong → Sturdy → Robust → Vigorous",
-"Simple → Basic → Plain → Elementary",
-"Tired → Weary → Fatigued → Exhausted",
-"Think → Assume → Presume → Postulate",
-"Use → Employ → Apply → Deploy",
-"Ability → Capacity → Competence → Proficiency",
-"Accept → Admit → Acknowledge → Concede",
-"Achieve → Attain → Accomplish → Fulfil",
-"Advantage → Benefit → Merit → Asset",
-"Affect → Influence → Impact → Shape",
-"Agree → Accept → Endorse → Advocate",
-"Allow → Permit → Authorize → Sanction",
-"Answer → Reply → Respond → Rebut",
-"Bad → Harmful → Detrimental → Adverse",
-"Begin → Start → Launch → Initiate",
-"Change → Modify → Transform → Revolutionize",
-"Choose → Select → Opt for → Determine",
-"Clear → Obvious → Apparent → Evident",
-"Compare → Contrast → Evaluate → Assess",
-"Concern → Worry → Anxiety → Apprehension",
-"Control → Manage → Regulate → Govern",
-"Cost → Expense → Expenditure → Outlay",
-"Decrease → Reduce → Decline → Diminish",
-"Develop → Grow → Expand → Proliferate",
-"Effect → Result → Outcome → Consequence",
-"Effort → Attempt → Endeavour → Strive",
-"Explain → Clarify → Elucidate → Expound",
-"Famous → Well-known → Renowned → Eminent",
-"Fear → Afraid → Frightened → Terrified",
-"Free → Available → Accessible → Unrestricted",
-"Gain → Obtain → Acquire → Procure",
-"Good → Positive → Beneficial → Advantageous",
-"Helpful → Useful → Beneficial → Instrumental",
-"Increase → Rise → Surge → Escalate",
-"Job → Work → Occupation → Profession",
-"Know → Understand → Comprehend → Grasp",
-"Limit → Restrict → Constrain → Curtail",
-"Look → See → Observe → Perceive",
-"Loss → Decline → Deterioration → Depletion",
-"Old → Aged → Elderly → Senescent",
-"Opinion → View → Perspective → Standpoint",
-"Plan → Strategy → Framework → Blueprint",
-"Problem → Issue → Challenge → Dilemma",
-"Quickly → Speedily → Rapidly → Swiftly",
-"Reduce → Lower → Minimize → Mitigate",
-"Risk → Danger → Hazard → Peril",
-"Run → Operate → Function → Execute",
-"Serious → Severe → Grave → Critical",
-"Support → Aid → Assistance → Backing",
-"Think → Consider → Reflect → Contemplate",
-"Try → Attempt → Endeavour → Strive",
-"Use → Utilize → Harness → Leverage",
-"Value → Worth → Importance → Significance",
-"Want → Desire → Aspiration → Longing",
-"Weak → Feeble → Fragile → Frail"
+- Angry → Annoyed → Furious → Enraged
+- Big → Large → Significant → Substantial
+- Busy → Occupied → Engaged → Swamped
+- Clean → Tidy → Spotless → Immaculate
+- Cause → Trigger → Generate → Precipitate
+- Difficult → Complicated → Arduous → Daunting
+- Find → Discover → Identify → Ascertain
+- Fix → Solve → Resolve → Rectify
+- Fast → Quick → Rapid → Swift
+- Give → Provide → Deliver → Allocate
+- Help → Assist → Facilitate → Enable
+- Happy → Cheerful → Joyful → Ecstatic
+- Important → Necessary → Crucial → Paramount
+- Keep → Maintain → Preserve → Sustain
+- Lonely → Isolated → Desolate → Forlorn
+- Make → Create → Generate → Formulate
+- Need → Require → Necessitate → Warrant
+- Poor → Needy → Impoverished → Destitute
+- Rich → Wealthy → Prosperous → Affluent
+- Say → State → Assert → Articulate
+- Start → Begin → Initiate → Commence
+- Stop → Halt → Cease → Discontinue
+- Show → Indicate → Illustrate → Substantiate
+- Small → Minor → Limited → Marginal
+- Slow → Sluggish → Steady → Protracted
+- Strong → Sturdy → Robust → Vigorous
+- Simple → Basic → Plain → Elementary
+- Tired → Weary → Fatigued → Exhausted
+- Think → Assume → Presume → Postulate
+- Use → Employ → Apply → Deploy
+- Ability → Capacity → Competence → Proficiency
+- Accept → Admit → Acknowledge → Concede
+- Achieve → Attain → Accomplish → Fulfil
+- Advantage → Benefit → Merit → Asset
+- Affect → Influence → Impact → Shape
+- Agree → Accept → Endorse → Advocate
+- Allow → Permit → Authorize → Sanction
+- Answer → Reply → Respond → Rebut
+- Bad → Harmful → Detrimental → Adverse
+- Begin → Start → Launch → Initiate
+- Change → Modify → Transform → Revolutionize
+- Choose → Select → Opt for → Determine
+- Clear → Obvious → Apparent → Evident
+- Compare → Contrast → Evaluate → Assess
+- Concern → Worry → Anxiety → Apprehension
+- Control → Manage → Regulate → Govern
+- Cost → Expense → Expenditure → Outlay
+- Decrease → Reduce → Decline → Diminish
+- Develop → Grow → Expand → Proliferate
+- Effect → Result → Outcome → Consequence
+- Effort → Attempt → Endeavour → Strive
+- Explain → Clarify → Elucidate → Expound
+- Famous → Well-known → Renowned → Eminent
+- Fear → Afraid → Frightened → Terrified
+- Free → Available → Accessible → Unrestricted
+- Gain → Obtain → Acquire → Procure
+- Good → Positive → Beneficial → Advantageous
+- Helpful → Useful → Beneficial → Instrumental
+- Increase → Rise → Surge → Escalate
+- Job → Work → Occupation → Profession
+- Know → Understand → Comprehend → Grasp
+- Limit → Restrict → Constrain → Curtail
+- Look → See → Observe → Perceive
+- Loss → Decline → Deterioration → Depletion
+- Old → Aged → Elderly → Senescent
+- Opinion → View → Perspective → Standpoint
+- Plan → Strategy → Framework → Blueprint
+- Problem → Issue → Challenge → Dilemma → Menace
+- Quickly → Speedily → Rapidly → Swiftly
+- Reduce → Lower → Minimize → Mitigate
+- Risk → Danger → Hazard → Peril
+- Run → Operate → Function → Execute
+- Serious → Severe → Grave → Critical
+- Support → Aid → Assistance → Backing
+- Think → Consider → Reflect → Contemplate
+- Try → Attempt → Endeavour → Strive
+- Use → Utilize → Harness → Leverage
+- Value → Worth → Importance → Significance
+- Want → Desire → Aspiration → Longing
+- Weak → Feeble → Fragile → Frail
 
 ---------------------------------------------------
 
@@ -2474,8 +2474,8 @@ Weak: kamzor
 Faint: bahut hi halka, mushkil se mehsoos ho
 Negligible: itna kam ki ignore kar sakte ho
 
-very loud → ✅ deafening
-very weak → ✅ negligible / faint
+very loud → deafening
+very weak → negligible / faint
 
 ---------------------------------------------------
 
@@ -2485,7 +2485,7 @@ Significant = noticeable - Marks mei significant improvement hua
 Substantial = large - Salary mei substantial increase mila
 Overwhelming = had se zyada (handle na ho) - Kaam ka load overwhelming ho gaya
 
-very big → ✅ substantial / overwhelming
+very big → substantial / overwhelming
 
 ---------------------------------------------------
 
@@ -2553,7 +2553,7 @@ Rational:
 	Emotional → Impulsive → Rational → Irrational:
 
 	Emotional → Feeling se
-	Impulsive → Vina soche
+	Impulsive → Bina soche
 	Rational → Logic se
 	Irrational → Bekaar logic
 
@@ -2602,3 +2602,265 @@ Eradicate:
 	- eradicate disease
 	- eradicate corruption
 	- eradicate discrimination
+
+--------------------------
+
+	* Ye ladder batata hai problem ko kaise handle karte ho.
+
+	=> Power increasing order:
+	
+	address → tackle → mitigate → curb → eliminate → eradicate
+
+	- Address:
+			- Problem ko face karna.
+			- The government must address unemployment.
+	- Tackle:
+			-	Strong effort lagana.
+			- Measures are needed to tackle pollution.
+	- Mitigate:
+			- Damage kam/reduce karna.
+			- Policies can mitigate climate change effects.
+	- Curb:
+			- Control karna.
+			- Strict laws can curb crime.
+	- Eliminate:
+			- Almost khatam kar dena.
+			- Efforts aim to eliminate illiteracy.
+	- Eradicate:
+			- Root se mita dena 💀
+			- The goal is to eradicate poverty.
+
+----------------------------------------------------
+
+Resistance:
+	- Kisi cheez ka virodh / oppose karna
+	- Dabav ke saamne jhukna nahi
+	- “Saamne se takkar lena” = resistance
+
+	* Soch pressure aa raha hai, aur tu kaise react karta hai 👇
+
+	ACCEPT → COMPLY → TOLERATE → RESIST → RESISTANCE
+
+	ACCEPT: 
+		→ Bina issue maan lena.
+		→ Rule accept kar liya.
+	COMPLY:
+		→ Maan liya + follow bhi kar liya.
+		→ Order comply kar diya.
+	TOLERATE:
+		→ Pasand nahi, par seh liya.
+		→ Noise tolerate kar raha hoon.
+	RESIST:
+		→ Actively oppose karna.
+		→ Log rule ko resist kar rahe hain.
+	RESISTANCE:
+		→ Oppose karne ki overall state / movement.
+		→ Public resistance badh rahi hai.
+		EX. Public resistance often emerges when people are forced to comply with unpopular policies.
+ 
+----------------------------------------------------
+
+Absorbed:
+	- Itna dhyaan laga hua ki aas-paas ka hosh hi na rahe
+	- Ya phir kisi cheez ko poori tarah le lena / soak kar lena
+	“Fully ghusa hua” = absorbed
+
+	Two main meanings (important):
+		1. Mentally absorbed (focus / attention):
+			- Poori tarah busy / focused
+			EX. He was absorbed in his studies.
+
+		2. Physically absorbed (take in / soak)
+			- liquid, heat, knowledge le lena
+			EX. The sponge absorbed water.
+			EX. Students absorb information quickly.
+
+	Common collocations:
+		absorbed in work
+		deeply absorbed
+		absorbed attention
+		absorbed knowledge
+
+	interested → engaged → absorbed → immersed
+
+	interested → thoda interest
+	engaged → actively involved
+	absorbed → poori tarah focused
+	immersed → bilkul doob jana
+
+----------------------------------------------------
+=> IELTS HEALTH VOCABULARY (BHAI EDITION)
+
+1️⃣ Health Condition Ladder (severity badhti hai)
+
+	illness → disease → disorder → syndrome
+
+	| Word     | Bhai meaning           |
+	| -------- | ---------------------- |
+	| illness  | halka bimaar           |
+	| disease  | medical bimari         |
+	| disorder | body/mind ka imbalance |
+	| syndrome | symptoms ka group      |
+
+	Depression is a psychological disorder, not a temporary illness.
+
+--------------------------
+
+2️⃣ Pain & Problem Ladder:
+
+	pain → discomfort → distress → agony
+
+	| Word     		| Bhai meaning           	|
+	| ------------| -----------------------	|
+	| pain  			| dard           					|
+	| discomfort  | thoda dard         			|
+	| distress 		| serious pain + tension 	|
+	| agony 			| extreme pain      			|
+	
+	Patients experienced severe agony.
+
+--------------------------
+
+3️⃣ Cause → Effect Ladder (Health):
+
+	cause → trigger → contribute to → lead to
+	Smoking leads to serious respiratory diseases.
+
+--------------------------
+
+4️⃣ Treatment Ladder:s
+
+	treat → cure → manage → eradicate
+
+	| Word      | Use                |
+	| --------- | ------------------ |
+	| treat     | ilaaj karna        |
+	| cure      | poori tarah theek  |
+	| manage    | control mei rakhna |
+	| eradicate | jadd se mita dena  |
+
+--------------------------
+
+5️⃣ Prevention Ladder:
+
+	avoid → prevent → reduce → minimize
+	ex. Regular exercise can prevent lifestyle diseases.
+
+--------------------------
+
+6️⃣ Mental Health Ladder (🔥 IELTS GOLD)
+
+	stress → anxiety → depression → burnout
+	ex. Prolonged stress may result in burnout.
+
+--------------------------
+
+7️⃣ Lifestyle Vocabulary Ladder:
+
+	inactive → sedentary → unhealthy → hazardous
+	ex. A sedentary lifestyle is hazardous to health.
+
+--------------------------
+
+8️⃣ Medical Care Ladder:
+
+	care → treatment → therapy → rehabilitation
+	ex. Rehabilitation is essential after surgery.
+
+--------------------------
+
+9️⃣ Health Impact Ladder:
+
+	effect → impact → consequence → complication
+	ex. Obesity has serious health complications.
+
+--------------------------
+
+🔟 Public Health Vocabulary:
+
+	issue → concern → crisis → epidemic → pandemic
+	ex. Obesity has become a global epidemic.
+
+----------------------------------------------------
+
+SEDENTARY: 
+	- Zyada baithne wali lifestyle
+	- Physical movement bahut kam
+	“Baith-baith ke zindagi guzaarna” = sedentary
+	meaning: Sedentary refers to a lifestyle involving little physical activity and prolonged sitting.
+	ex. IT jobs promote a sedentary lifestyle.
+
+	Common collocations
+	- sedentary lifestyle
+	- sedentary behaviour
+	- sedentary habits
+
+----------------------------------------------------
+
+HAZARDOUS:
+	- Khatarnak
+	- Jisse nuksaan hone ka high chance ho
+	“Danger zone” = hazardous
+	meaning: Hazardous means involving serious risk or danger to health, safety, or the environment.
+	ex. Exposure to hazardous chemicals can cause long-term health issues.
+
+	safe → risky → dangerous → hazardous
+
+	Common collocations:
+	hazardous waste
+	hazardous materials
+	hazardous conditions
+	hazardous environment
+
+----------------------------------------------------
+
+Writing Essay:
+
+Question:
+	The 
+
+
+----------------------------------------------------
+
+Top 10 Largest Countries:
+1. Russia: Mosscoo
+2. Canada: Ottawa 
+3. China: Beijing
+4. North America: Washington, DC
+5. Brazil: Rio de Janeiro
+6. Australia: Melbourne
+7. India: New Delhi
+8. Argentina: Buenos Aires
+9. Kazakhastan: Nur Sultan
+10. Algeria: Algeries
+
+Top 10 Smaller Countries:
+1. Vatican City: Closest to Rome(Capital of Italy).
+2. Monaco: Closest to Franch.
+3. Nauru: Closest To Australia.
+4. Tuvalu: Closest To Australia.
+5. San Marino: Closest To Italy.
+6. Liechtenstein: Country in Europe.
+7. Marshall Islands: Closest To Australia.
+8. Saint Kitts and Nevis: Closest To Venezuela.
+9. Maldives: Closest to India.
+10. Malta: Country in Europe.
+
+India: 
+	- Length:
+			From: North's - Ladakh-Indira Col
+			To: South's - Kanyakumari
+			Total Length : 3214km
+	- Width: 
+			From: West's Gujarat's - Guhar Moti
+			To: East's Arunachal Predesh - Kibuthu
+			Total Width : 2933km
+
+
+Northern Hemisphere
+Equator Line
+Southern Hemisphere
+
+GreeenWich (Prime Meridian): 0 degree
+	Greenwich Mean Time: GMT
+		India is 5 hours and 30 minutes ahead of GMT
