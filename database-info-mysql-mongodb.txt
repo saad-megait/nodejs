@@ -2325,7 +2325,7 @@ Adverbs of Frequency:
 - Fast				Quick				Rapid					Swift
 - Give 				Provide			Deliver				Allocate
 - Help				Assist			Facilitate		Enable
-- Happy 			Cheerful		Joyful				Ecstatic
+- Happy 			Cheerful		Joyful				Ecstatic → Delighted
 - Important 	Necessary 	Crucial 			Imperative
 - Keep				Maintain		preserve			Substain
 - Lonely			Isolated		Desolate			Forlorn
@@ -2429,7 +2429,7 @@ Important:
 - Old → Aged → Elderly → Senescent
 - Opinion → View → Perspective → Standpoint
 - Plan → Strategy → Framework → Blueprint
-- Problem → Issue → Challenge → Dilemma → Menace
+- Problem → Issue → Challenge → Dilemma → Menace → Implication
 - Quickly → Speedily → Rapidly → Swiftly
 - Reduce → Lower → Minimize → Mitigate
 - Risk → Danger → Hazard → Peril
@@ -2689,6 +2689,7 @@ Absorbed:
 	immersed → bilkul doob jana
 
 ----------------------------------------------------
+
 => IELTS HEALTH VOCABULARY (BHAI EDITION)
 
 1️⃣ Health Condition Ladder (severity badhti hai)
@@ -2814,11 +2815,39 @@ HAZARDOUS:
 
 ----------------------------------------------------
 
+Concrete (physical cheezein):
+	chair
+	phone
+	book
+	car
+	👉 dekh sakte ho, pakad sakte ho
+
+Abstract (non-physical cheezein):
+	love
+	happiness
+	freedom
+	justice
+	education
+	poverty
+	risk
+	knowledge
+	👉 mehsoos ya samajh sakte ho, par pakad nahi sakte
+
+----------------------------------------------------
+
 Writing Essay:
 
 Question:
-	The 
+	As cities expand, governments should look forward to creating better networks of public transport available for everyone rather than building more roads for vehicle owening population. To what extent do you agree or disagree?
 
+Answer: 
+	In today's rapidly envolving world, the topic of the development of public transport over road expansion has garnered significant attention, both from scholars and the general public. Historically, governments have focused on expanding road infrastructure to accommodate increasing private vehicle ownership. This essay aims to shed light on the various perspectives surrounding the prioritization of public transport, emphasizing its relevence and implications in the contemporary setting.
+
+	One of the primary reasons the development of public transport has become paramount is due to its impact on society and the environment. Studies have shown that efficient public transport systems reduce traffic congestion, lower pollution levels, and provide afforadable mobility to a wider population. This indicates the deep-rooted influence of public transportation on urban sustainability and social inclusion, emphasizing the need for addressing it. Therefore, the significance of public transport development in the realm of ubran cannot be overlooked.
+
+	Conversely, critics argue that building more roads is necessary to support economic growth and the rising number of vehicle owners, suggesting an alternative viewpoint. For instance, imporoved road networks can facilitate faster movement of goods and reduce travel time for private commuters. This perspective posits that while public transport development is undenaibly crucial, there are other factors worth considering. Balancing both viewpoints, it becomes evident that urban transport planning is multifaceted and warrants a compherensive examination.
+
+	In conclusion, the prioritization of public transport over road expansion is a subject of great depth and complexity. While its influnce in areas like urban development and environment sustainability is undenaible, it is essential to approach it with a nuanced perspective. As the world progresses, it is imperative for governments and societies to stay informed, adaptable, and open-minded about topics like urban transportation planning, ensuring a balanced and informed perspective.
 
 ----------------------------------------------------
 
