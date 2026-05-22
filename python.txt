@@ -1,0 +1,570 @@
+from math import ceil
+
+# test = max(1, 34, 5)
+# print(test)
+
+# message = 'Hello'
+
+# print("Character 1: ", message[0])
+# print("Character 2: ", message[1])
+# print("Character 3: ", message[2])
+# print("Character 4: ", message[3])
+# print("Character 5: ", message[4])
+
+# message = "Hello"
+# print(message)
+
+# message = "Greetings"
+
+# message = "Hello \
+#         world"
+# print(message)
+
+
+# tab = 'A horizontal \t \t \” tab'
+
+# print(tab)
+
+# a = "Hello "
+# b = "World"
+
+# print(a + " " + b)
+
+# name = "Monty"
+# age = 30
+
+# print('Name: ' + name)
+# print('Age: ', age)
+
+# print("%x" % value)
+ 
+# value = 30
+# print("%x" % value)
+# print("%i" % 30)
+
+# message = "Hello {}, welcome to the Python {} tutorial".format("there", "Online")
+
+# print(message)
+
+# replace_0 = 'test1'
+# replace_1 = 'test2'
+# replace_2 = 'test3'
+
+# message = "string {2} string {0} string {1}".format(replace_0, replace_1, replace_2)
+
+# print(message)
+# message = "Hello {1}, welcome to the Python {0} tutorial".format("string", "there")
+
+# print(message)
+
+# name = "General Kenobi"
+# trait = "bold"
+
+# message = f"{name}. You are a {trait} one."
+
+# print(message)
+# print(type(message))
+
+# print(f"3 + 4 = {3 + 4}")
+# # print(f"3 + 4 = {3 + 4}")
+ 
+# a = 10
+# b = 20
+
+# print(f"Addition: {a + b}")
+# print(f"Multiplication: {a * b}")
+
+# def is_instrument(instrument):
+#     if instrument != "Guitar" or instrument != "Piano":
+#         return f"No Patrick, {instrument} is not an instrument"
+#     else:
+#         return "Yes, it is"
+
+# print(f"Is Mayonaise an instrument? {is_instrument('Mayonaise')}")
+
+# def is_instrument(ele):
+#   if ele == 'Guitarr':
+#     return 1
+#   else:
+#     return 0
+       
+# print(is_instrument('Guitar'))
+
+# name = "Monty"
+# language = "Python"
+# version = 3
+# topic = "f-Strings"
+# session = "the session is going to end"
+
+# message = (
+#     f"Hello there {name}. "
+#     f"Welcome to the {language} {version} "
+#     f"{topic} tutorial.\n"
+#     f"{session}"
+# )
+# print(message)
+
+# message = """
+# Triple quotes not only allow us to
+# break a string into new lines, both
+# in the source code and in print, but
+# it also allows verbatim tabs and
+# special characters without escaping
+# them. Example:Tabbed content @ # $ % ^ & *
+# """
+
+# print(message)
+
+# print(3 + 4)
+# print("Remainder of 27 / 2 =", 13 % 2)# Exponent (To the power of)
+# print("5 raised to the power of 2 = ", 7 ** 2)
+
+# # Floor division (Floor the result)
+# print("Result of 15 / 2, floored to int =", 19 // 2)
+
+# a, b = 2, 4
+# if a > b:
+#   print(f"{a} is greater than {b}")
+# elif b == a:
+#   print(f"{a} is equal to {b}")
+# else:
+#   print(f"else part...")
+
+# birthday = True
+# hungry = True
+
+# if birthday and hungry is not False:
+#     print("I think I'll have some cake")
+# else:
+#   print("else part...")
+
+# print("if execution") if 1==1 else print("else execution")
+
+# message = 'Hello World'
+
+# for letter in message:
+#     print(letter)
+
+# counter = 0
+
+# while counter <= 10:
+#     print(counter)
+#     counter += 1
+
+# message = "Hello World"
+
+# for letter in message:
+#     print(letter)
+#     if letter == "o": break
+
+# print("\nI am the next statement after the loop")
+
+# message = "Hello World"
+
+# for letter in message:
+#     if letter == "o": continue
+#     print(letter)
+
+# print("\nI am the next statement after the loop")
+
+# message = "Hello World"
+
+# for letter in message:
+#     if letter == "o": pass
+#     print(letter)
+
+# print("\nI am the next statement after the loop")
+
+# shopping_list = ["Bread", "Milk", "Cheese", "Apples"]
+# # print(shopping_list)
+
+# for item in shopping_list:
+#     if(item == "Cheese"): break
+#     print(item)
+
+# shopping_list = ["Bread", "Milk", "Cheese", "Apples"]
+
+# shopping_list.append("Fish")
+# shopping_list.insert(3, "Eggs")
+
+# for item in shopping_list:
+# shopping_list.remove("Apples")
+#     print(item)
+
+# shopping_list = ["Bread", "Milk", "Cheese", "Apples"]
+
+# shopping_list.remove("Milk")
+# print(shopping_list)
+
+# shopping_list = ["Bread", "Milk", "Cheese", "Apples"]
+
+# shopping_list.pop(3)
+
+# for item in shopping_list:
+#     print(item)
+
+# shopping_list = ["Bread", "Cheese", "Eggs"]
+
+# if "Milk" in shopping_list:
+#     print("Milk is in the shopping list")
+# else:
+#   print("else")
+
+# shopping_list = ["Bread", "Milk", "Cheese", "Apples"]
+# print(len(shopping_list))
+# shopping_list.clear()
+
+# for item in shopping_list:
+#     print(item)
+    
+# print(len(shopping_list))
+
+# print(shopping_list)
+# del shopping_list
+
+# print(shopping_list)
+# shopping_list = list(("Bread", "Milk", "Cheese", "Apples"))
+# # shopping_list.reverse()
+# shopping_list.sort()
+# print(shopping_list)
+
+# for item in shopping_list:
+#     print(item)
+
+# shopping = ("Bread", "Milk", "Cheese", "Eggs")
+
+# print(shopping)
+
+# shopping = ("Bread", "Milk", "Cheese", "Eggs")
+# print(shopping)
+# for item in shopping:
+#   print(item)
+    
+    
+# shopping = tuple(("Bread", "Milk", "Cheese", "Eggs"))
+# shopping[0] = "Hello"
+# print(shopping)
+# for item in shopping:
+#     print(item)
+
+# shopping = ("Bread", "Milk", "Cheese", "Eggs")
+
+# shopping_list = list(shopping)
+
+# shopping_list[0] = "Hello"
+
+# shopping = tuple(shopping_list)
+
+# print(shopping)
+
+# e_set = {"Monty", 20, 3.14}
+
+# print(e_set)
+
+# e_set = ["Monty", 20, 3.14]
+
+# print(e_set[0])
+
+# # e_set = {"Monty", 20, 3.14}
+
+# # for item in e_set:
+# #     print(item)
+
+
+# e_set = {"Monty", 20, 3.14}
+
+# e_set.update(["Python", "Holy", "Grail"])
+
+# for item in e_set:
+#     print(item)
+
+# e_set = {"Monty", 20, 3.14}
+
+# e_set.discard("Monty")
+
+# for item in e_set:
+#     print(item)
+
+# player = {
+#     "class": {
+#       "Age":20,
+#       "Name":"Saad"
+#     },
+#     "level": 1,
+#     "hp": 100,
+#     "mana": 100
+# }
+
+# print("Player class: ", player.get("class"))
+
+# player = {
+#     "class": "Mage",
+#     "level": 1,
+#     "hp": 100,
+#     "mana": 100
+# }
+
+# for item in player:
+#     print(player[item])
+
+# player = {
+#     "class": "Mage",
+#     "level": 1,
+#     "hp": 100,
+#     "mana": 100
+# }
+
+# for item in player:
+#     print("Key: ", item, " : Value: ", player[item])
+# player = {
+#     "class": "Mage",
+#     "level": 1,
+#     "hp": 100,
+#     "mana": 100
+# }
+
+# for item in player.values():
+#     print(item)
+
+# player = {
+#     "class": "Mage",
+#     "level": 1,
+#     "hp": 100,
+#     "mana": 100
+# }
+
+# for key, value in player.items():
+#     print(key, ": ", value)
+
+# # definition
+# def print_text():
+#     print("Hello World")
+
+# # call
+# print_text()
+
+# definition
+# def print_text(message):
+#     print(message)
+
+# # call
+# print_text("Hello World")
+# print_text("Hello there")
+
+# def is_odd_or_even(num):
+#     if num % 2 == 0:
+#         print(num, "is an even number")
+#     else:
+#         print(num, "is an odd number")
+
+# # calls
+# is_odd_or_even(5)
+# is_odd_or_even(10)
+# is_odd_or_even(27)
+# is_odd_or_even(-358)
+# is_odd_or_even(125987)
+# is_odd_or_even(-258749)
+# is_odd_or_even(-10)
+# is_odd_or_even(3.14)
+
+
+# def alert(pop_up = True, email = False, mobile = False):
+#     if pop_up:
+#         print("Pop up alert!")
+#     if email:
+#         print("Email alert")
+#     if mobile:
+#         print("Mobile alert")
+
+# alert()
+
+# def alert(pop_up, email, mobile):
+#     if pop_up:
+#         print("Pop up alert!")
+#     if email:
+#         print("Email alert")
+#     if mobile:
+#         print("Mobile alert")
+#     else:
+#         print("Hello")
+
+# alert(False, False, False)
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+
+# print(factorial(6))
+
+
+# class Person:
+#     # attributes
+#     name = "Unknown"
+
+#     # methods
+#     def walk():
+#         print("Walking...")
+
+# john = Person()
+# john.walk()
+# print(john.name)
+
+
+# class Person:
+#     name = "Unknown"
+
+#     def walk(self):
+#         self.name = "Mansuri"
+#         print(self.name)
+#         print("\nWalking...")
+
+# john = Person()
+
+# john.walk()
+# print(john.name)
+
+# class Person:
+#     # instanced attributes
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def helloBrother(self, name, age):
+#         self.name = name
+#         self.age = age
+
+# user_1 = Person("Saad", 20)
+# user_2 = Person("Mahir", 20)
+
+# print(user_1.name, user_1.age)
+# user_1.helloBrother('MansuriSaad', 50)
+# print(user_1.name, user_1.age)
+# print(user_2.name,user_2.age)
+
+
+# class Person:
+#     # instanced attributes
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def print_name(self):
+#         print("Hello, my name is", self.name)
+
+# # instantiate object
+# user_1 = Person("John", 20)
+
+# # access method
+# user_1.print_name()
+
+# # change value
+# user_1.name = "Jack"
+
+# # access method
+# user_1.print_name()
+
+# class Person:
+#     # instanced attributes
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def print_name(self):
+#         print("Hello, my name is", self.name)
+
+# # instantiate object
+# user_1 = Person("John", 20)
+# user_2 = Person("Jane", 20)
+
+# # delete object attribute
+# del user_1.name
+
+# # access method
+# user_2.print_name()
+
+# class Person:
+
+#     # class attribute
+#     _users_logged_in = 0
+
+# print(Person._users_logged_in)
+
+# class Person:
+
+#     # class attribute
+#     _users_logged_in = 0
+
+#     def silly_method(self):
+#         if self._users_logged_in == Person._users_logged_in:
+#             print("Same, but accessed differently")
+
+# user_1 = Person()
+
+# print(user_1.silly_method())
+
+# class Person:
+
+#     # class attribute
+#     _users_logged_in = 0
+
+#     def __init__(self, name):
+#         # instance attribute
+#         self.name = name
+#         Person._users_logged_in += 1
+
+#     def logout(self):
+#         Person._users_logged_in *= 2
+
+# user_1 = Person("John")
+# user_2 = Person("Jane")
+
+# print("Users onlineeeeeee:", Person._users_logged_in)
+
+# user_2.logout()
+
+# print("Users online:", int(Person._users_logged_in))
+
+# class Person:
+
+#     # class attribute
+#     _age = 30
+
+#     def __init__(self, name):
+#         # instance attribute
+#         self._age = 40
+#         self.name = name
+
+# user_1 = Person("John")
+# user_2 = Person("Jane")
+
+# print("Name:", user_1.name, " | Age:", user_1._age)
+# print("Name:", user_2.name, " | Age:", user_2._age)
+
+
+class Person:
+
+    # class attribute
+    _users_logged_in = 0
+
+    # class method
+    @classmethod
+    def print_users(cls):
+        print("Users online:", cls._users_logged_in)
+
+    def __init__(self, name):
+        # instance attribute
+        self.name = name
+        Person._users_logged_in += 1
+
+    def logout(self):
+        Person._users_logged_in -= 1
+
+user_1 = Person("John")
+user_2 = Person("Jane")
+
+Person.print_users()
+
+user_2.logout()
+
+Person.print_users()

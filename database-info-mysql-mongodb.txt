@@ -3005,7 +3005,7 @@ Technology & Free Time:
 	- I usually scroll social media before sleeping.
 	- I usually listen to podcasts while traveling.
 	- I usually play mobile games to relax.
-	- I usually check news on my phone.+
+	- I usually check news on my phone.
 
 Learning & Improvement:
 	- I usually read English articles to improve my language.
@@ -3248,3 +3248,69 @@ IIM: Indian Institutes of Management.
 	IIM Lucknow (Uttar Pradesh)
 	IIM Indore (Madhya Pradesh)
 
+----------------------------------------------------------------------------------------------
+
+2. Universidad Europea:
+		Course: Master's in Big Data Analytics
+		Campus: Madrid
+		Fees: EUR 11500
+		Duration: 10 Months
+
+7. Barcelona Technology School
+		Course: Master in User Experience Design
+		Course: Master in Big Data and AI Solutions
+		Campus: Barcelona
+		Fees: EUR 17500
+		Duration: 9 Months
+
+----------------------------------------
+
+1. Schiller International University, Madrid Compus.
+		Course: MSC in Data Science
+		Campus: Madrid
+	 	Fees: EUR 16500
+		Duration: 10 Months
+
+2. Universidad Europea:
+		Course: Master's in Big Data Analytics
+		Campus: Madrid
+		Fees: EUR 11500
+		Duration: 10 Months
+
+3. EU Business School (Spain):
+		Course: Master in Artificial Inteligence for Business
+		Campus: Barcelona
+		Fees: EUR 16350
+		Duration: 12 Months
+
+4. ENAE Business School
+		Course: Master in Artificial Inteligence & Data Science
+		Campus: Murcia
+		Fees: EUR 13900
+		Duration: 10 Months
+
+5. Barcelona Technology School
+		Course: Master in User Experience Design
+		Course: Master in Big Data and AI Solutions
+		Campus: Barcelona
+		Fees: EUR 17500
+		Duration: 9 Months
+
+6. Berlin School of Business and Innovation (BSBI), Barcelona
+		Course: Master in Data Analytics
+		Campus: Barcelona
+		Fees: EUR 15000
+		Duration: 18 Months
+		
+7. EAE Business School
+		Course: Master in Big Data & Analytics
+		Campus: Barcelona
+		Fees: EUR 20000
+		Duration: 12 Months
+		
+8. EU Business School (Spain)
+		Course: Master in Business Analytics & data Science
+		Campus: Barcelona
+		Fees: EUR 16350
+		Duration: 12 Months
+		
