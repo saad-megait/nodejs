@@ -542,29 +542,707 @@ from math import ceil
 # print("Name:", user_2.name, " | Age:", user_2._age)
 
 
-class Person:
+# class Person:
 
-    # class attribute
-    _users_logged_in = 0
+#     # class attribute
+#     _users_logged_in = 0
 
-    # class method
-    @classmethod
-    def print_users(cls):
-        print("Users online:", cls._users_logged_in)
+#     # class method
+#     @classmethod
+#     def print_users(cls):
+#         print("classmethod:", cls._users_logged_in)
 
-    def __init__(self, name):
-        # instance attribute
-        self.name = name
-        Person._users_logged_in += 1
+#     def __init__(self, name):
+#         # instance attribute
+#         self.name = name
+#         Person._users_logged_in += 1
 
-    def logout(self):
-        Person._users_logged_in -= 1
+#     def logout(self):
+#         Person._users_logged_in -= 1
 
-user_1 = Person("John")
-user_2 = Person("Jane")
+# user_1 = Person("John")
+# user_2 = Person("Jane")
 
-Person.print_users()
 
-user_2.logout()
+# Person.print_users()
+# print(user_1.name)
+# user_2.logout()
 
-Person.print_users()
+# Person.print_users()
+
+# class Person:
+
+#     # class attribute
+#     _users_logged_in = 5
+    
+#     @classmethod
+#     def print_users(cls):
+#         print("Users online:", cls._users_logged_in, "\n")
+    
+#     def silly_method(self):
+#       if self._users_logged_in == Person._users_logged_in:
+#         print('Same, but accessed differently')
+        
+# user_5 = Person()
+
+# print(Person().print_users())
+# print(user_5.silly_method())
+
+# class Person:
+
+#     # class attribute
+#     _users_logged_in = 0
+
+#     def silly_method(self):
+#         if self._users_logged_in == Person._users_logged_in:
+#             print("Same, but accessed differently")
+
+# user_1 = Person()
+
+# print(user_1.silly_method())
+
+
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#         self.saadmansuri = 10
+#         self._dom = 10
+        
+#     def lucky_name(self):
+#         if self.saadmansuri == self._dom:
+#           print('condition has true')
+#         else:
+#           print('condition has been false')
+
+# user_1 = Person("John")
+
+# print(user_1.lucky_name())
+# print(user_1.name)
+# print(user_1.saadmansuri)
+
+# class Person:
+
+#     # class attribute
+#     _users_logged_in = 0
+
+#     # class method
+#     @classmethod
+#     def print_users(cls):
+#         print("Users online:", cls._users_logged_in)
+
+#     def __init__(self, name):
+#         # instance attribute
+#         self.name = name
+#         print(self.name)
+#         Person._users_logged_in += 1
+
+#     def logout(self):
+#         print(self.name)
+#         Person._users_logged_in -= 1
+
+# user_1 = Person("John")
+# user_2 = Person("Jane")
+
+# user_1.print_users()
+
+# user_2.logout()
+
+# user_1.print_users()
+
+# class Person:
+
+#     _users_logged_in = 0
+
+#     def print_users(self):
+#         print("Users online:", Person._users_logged_in)
+
+#     def __init__(self, name):
+#         self.name = name
+#         print('self.name:', self.name)
+#         Person._users_logged_in += 1
+
+#     def logout(self):
+#         print('self.name 1:', self.name)
+#         Person._users_logged_in -= 1
+
+
+# user_1 = Person("John")
+# user_2 = Person("Jane")
+
+# user_1.print_users()
+
+# user_2.logout()
+
+# user_1.print_users()
+
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#         self._secret = 10
+#         self._dom = 10
+
+#     def lucky_day(self):
+#         if self._secret == self._dom:
+#             print("It's your lucky day")
+
+# user_1 = Person("John")
+
+# print(user_1.name)
+# print(user_1.lucky_day())
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#         self._secret = 10
+#         self._dom = 10
+
+#     def lucky_day(self):
+#         if self._secret == self._dom:
+#             return "It's your lucky day"
+
+# user_1 = Person("John")
+
+# print(user_1.name)
+# print(user_1.lucky_day())
+
+# class Person:
+#   def __init__(self, name):
+#     self.name = name
+
+# user_1 = Person('Hello')
+
+# print(user_1.name)
+
+
+# class Animal:
+#     def __init__(self, legs):
+#         self.legs = legs
+
+#     def walk(self):
+#         print("Animal parent class. Walking...")
+
+# class Dog(Animal):
+#     def __init__(self, legs, tail):
+#         self.legs = legs
+#         self.tail = tail
+
+#     def growl(self):
+#         print("Dog child class. A dog can growl but a duck can't. Grrr...")
+
+# class Duck(Animal):
+  
+#     def __init__(self, wings):
+#       self.wings = wings
+    
+#     def quack(self):
+#         print("Duck child class. A duck can quack but a dog can't. Quack...")
+  
+# fluffy = Dog(True, 4)
+# fluffy1 = Duck('Can Fly')
+
+
+# print(fluffy.legs)
+# print(fluffy.tail)
+
+# print(fluffy1.quack())
+# print(fluffy1.wings)
+
+# class Animal:
+#     def __init__(self, legs):
+#         self.legs = legs
+
+#     def walk(self):
+#         print("Animal parent class. Walking...")
+
+# class Dog(Animal):
+#     def __init__(self, legs, tail):
+#         self.legs = legs
+#         self.tail = tail
+
+#     def growl(self):
+#         print("Dog child class. A dog can growl but a duck can't. Grrr...")
+
+# class Duck(Animal):
+#     def quack(self):
+#         print("Duck child class. A duck can quack but a dog can't. Quack...")
+
+# fluffy = Dog(4, True)
+# print(fluffy.legs)
+# print(fluffy.tail)
+
+# class Animal:
+#     def __init__(self, legs):
+#         self.legs = legs
+#         self.legs = 'hello brother'
+
+#     def walk(self):
+#         print("Animal parent class. Walking...")
+
+# class Dog(Animal):
+#     def __init__(self, legs, tail):
+#         super().__init__(legs)
+#         # self.legs = legs
+#         self.tail = tail
+
+#     def growl(self):
+#         print("Dog child class. A dog can growl but a duck can't. Grrr...")
+
+# class Duck(Animal):
+#     def quack(self):
+#         print("Duck child class. A duck can quack but a dog can't. Quack...")
+
+# fluffy = Dog(4, True)
+# fluffy1 = Duck('f')
+# print(fluffy.legs)
+# print(fluffy1.quack())
+        
+        
+# class SeaAnimal:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def swim(self):
+#         print("Swimming...")
+
+# class LandAnimal:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def walk(self):
+#         print("Walking...")
+
+# class Penguin(SeaAnimal, LandAnimal):
+#     def __init__(self, name):
+#         super().__init__(name)
+
+# penguin = Penguin("Kowalski")
+
+# print(penguin.name)
+# penguin.walk()
+# penguin.swim()
+
+# class SeaAnimal:
+#     def __init__(self, name):
+#         print("SeaAnimal INIT")
+#         self.name = name
+
+#     def swim(self):
+#         print("Swimming...")
+
+# class LandAnimal:
+#     def __init__(self, age):
+#         print("LandAnimal INIT")
+#         self.age = age
+
+#     def walk(self):
+#         print("Walking...")
+
+# class Penguin(SeaAnimal, LandAnimal):
+#     def __init__(self, name, age):
+#         SeaAnimal.__init__(self, name=name)
+#         LandAnimal.__init__(self, age=age)
+
+# penguin = Penguin("Kowalski", 3)
+
+# print(penguin.name, penguin.age)
+
+# class SeaAnimal:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def swim(self):
+#         print("Swimming...")
+
+# class LandAnimal:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def walk(self):
+#         print("Walking...")
+
+# class Penguin(SeaAnimal, LandAnimal):
+#     def __init__(self, name):
+#         super().__init__(name)
+
+# penguin = Penguin("Kowalski")
+
+# print(penguin.name)
+# penguin.walk()
+# penguin.swim()
+
+# num = 1 + 3         # 4 (int)
+# str = "1" + "3"  # 13 (string)
+
+# print("num = ", num, type(num))
+# print("str = ", str, type(str))
+
+# class Dog:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     # overwrite the __repr__ dunder
+#     def __repr__(self):
+#         return f"Dog named {self.name}, {self.age} years olddddddddd"
+
+#     # overwrite the + operator
+#     def __add__(self, other):
+#         if isinstance(other, Dog):
+#             return Dog(name="Newbornnnnn", age=10)
+#         else:
+#             return "You can't breed a dog with that!"
+
+# daddy = Dog("Clyde", 3)
+# mommy = Dog("Bonnie", 3)
+
+# puppy = mommy + daddy
+# print(puppy)
+
+# class Pen:
+#     def use(self):
+#         return "Writing"
+
+# class Eraser:
+#     def use(self):
+#         return "Erasing"
+
+# def perform_task(tool):
+#     print(tool.use())
+
+# perform_task(Pen())
+# perform_task(Eraser())
+
+
+
+# class Person:
+#     def __init__(self, name, age):
+#       self.name = name
+#       self.age = age
+    
+#     def greet(self):
+#       return f"Hello, my name is {self.name}"
+      
+# p1 = Person('John', 36)
+# print(p1.greet())
+
+
+# class Person:
+#   def __init__(self, name):
+#     self.name = name
+
+#   def greet(self):
+#     return "Hello, " + self.name
+
+#   def welcome(self):
+#     message = self.greet()
+#     print(message + "! Welcome to our website.")
+
+# p1 = Person("Tobias")
+# p1.welcome()
+
+# class Person:
+#   def __init__(self, name):
+#     self.name = name
+  
+#   def greet(self):
+#     return "Hello, " + self.name
+    
+#   def welcome(self):
+#     message = self.greet()
+#     print(message + "! Welcome to our website.")
+  
+# p1 = Person("Saad")
+# p1.welcome()
+
+# class Calculator:
+#   def add(self, a, b):
+#     return a + b
+
+#   def multiply(self, a, b):
+#     return a * b
+
+# calc = Calculator()
+# print(calc.add(5, 3))
+# print(calc.multiply(4, 7))
+
+# class Calculator:
+#   def add(self, a, b):
+#     return a + b
+    
+#   def multiply(self, a, b):
+#     return a * b
+  
+# calc = Calculator()
+# print(calc.add(5, 3))
+# print(calc.multiply(10, 3))
+
+# class Playlist:
+#   def __init__(self, name):
+#     self.name = name
+#     self.songs = []
+
+#   def add_song(self, song):
+#     self.songs.append(song)
+#     print(f"Added: {song}")
+
+#   def remove_song(self, song):
+#     if song in self.songs:
+#       self.songs.remove(song)
+#       print(f"Removed: {song}")
+
+#   def show_songs(self):
+#     print(f"Playlist '{self.name}':")
+#     print(f"Playlist '{self.songs}':")
+#     for song in self.songs:
+#       print(f"- {song}")
+
+# my_playlist = Playlist("Favorites")
+# my_playlist.add_song("Bohemian Rhapsody")
+# my_playlist.add_song("Stairway to Heaven")
+# my_playlist.show_songs()
+
+# class Playlist:
+#   def __init__(self, name):
+#     self.name = name
+#     self.songs = []
+  
+#   def add_song(self, song):
+#     self.songs.append(song)
+#     print(f"Added: {song}")
+  
+#   def remove_song(self, song):
+#     if song in self.songs:
+#       self.songs.remove(song)
+#       print(f"Removed: {song}")
+      
+#   def show_songs(self):
+#     print(f"Playlist {self.name} :")
+#     print(f"Playlist {self.songs} :")
+#     for song in self.songs:
+#       print(f"- {song}")
+      
+# my_playlist = Playlist('Favorites')
+# my_playlist.add_song("Saiyyaraa")
+# my_playlist.add_song("Dhurandhar")
+# my_playlist.remove_song("Dhurandhar")
+# my_playlist.show_songs()
+
+# class Person:
+#   def __init__(self, fname, lname):
+#     self.firstname = fname
+#     self.lastname = lname
+
+#   def printname(self):
+#     print(self.firstname, self.lastname)
+
+# class Student(Person):
+#   def __init__(self, fname, lname):
+#     super().__init__(fname, lname)
+
+# x = Student("Mike", "Olsen")
+# x.printname()
+
+
+# class Person:
+#   def __init__(self, fname, lname):
+#     self.firstname = fname
+#     self.lastname = lname
+    
+#   def printname(self):
+#     print(self.firstname, self.lastname)
+    
+# class Student(Person):
+#   def __init__(self, fname, lname):
+#     super().__init__(fname, lname)
+    
+# x = Student("Saad", "Mansuri")
+# x.printname()
+
+# class Car:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
+
+#   def move(self):
+#     print("Drive!", self.brand, self.model)
+
+# class Boat:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
+
+#   def move(self):
+#     print("Sail!", self.brand, self.model)
+
+# class Plane:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
+
+#   def move(self):
+#     print("Fly!", self.brand, self.model)
+
+# car1 = Car("Ford", "Mustang")       #Create a Car object
+# boat1 = Boat("Ibiza", "Touring 20") #Create a Boat object
+# plane1 = Plane("Boeing", "747")     #Create a Plane object
+
+# for x in (car1, boat1, plane1):
+#   x.move()
+
+# class Vehicle:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
+
+#   def move(self):
+#     print("Move!")
+
+# class Car(Vehicle):
+#   pass
+
+# class Boat(Vehicle):
+#   def move(self):
+#     print("Sail!")
+
+# class Plane(Vehicle):
+#   def move(self):
+#     print("Fly!")
+
+# car1 = Car("Ford", "Mustang")       #Create a Car object
+# boat1 = Boat("Ibiza", "Touring 20") #Create a Boat object
+# plane1 = Plane("Boeing", "747")     #Create a Plane object
+
+# for x in (car1, boat1, plane1):
+#   print(x.brand)
+#   print(x.model)
+#   x.move()
+      
+      
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.__age = age  # Private property
+
+# p1 = Person("Emildddd", 25)
+# print(p1.name)
+# # print(p1.__age)  # This will cause an error
+
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.__age = age
+  
+# p1 = Person('Emidd', 40)
+# print(p1.name)
+# print(p1.__age)
+
+
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.__age = age
+    
+#   def get_age(self):
+#     return self.__age
+  
+# p1 = Person("Saad", 45)
+# print(p1.get_age())
+
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.__age = age
+
+#   def get_age(self):
+#     return self.__age
+
+#   def set_age(self, age):
+#     if age > 0:
+#       self.__age = age
+#       print("Age is positive")
+#     else:
+#       print("Age must be positive")
+
+# p1 = Person("Tobias", 25)
+# print(p1.get_age())
+
+# p1.set_age(54)
+# print(p1.get_age())
+
+
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.__age = age
+  
+#   def get_age(self):
+#     return self.__age
+  
+#   def set_age(self, age):
+#     if age > 0 :
+#       self.__age = age
+#     else:
+#       print('Age must be Positive')
+  
+# p1 = Person('Saad', 45)
+# # print(p1.get_age())
+# p1.set_age(23)
+# print(p1.get_age())
+
+# shopping_list = ["Milk", "Bread", "Fruits", "Fruits"]
+
+# # create an iterator object
+# list_iter = iter(shopping_list)
+
+# # iterate through each next item
+# print(next(list_iter))
+# print(next(list_iter))
+# print(next(list_iter))
+
+# # there is no fourth element in the list
+# print(next(list_iter))
+# print(next(list_iter))
+
+
+# # shoppbj = iter(shopping_list)
+# shopping_list = ["Milk", "Bread", "Fruits"]
+
+# iter_obj = iter(shopping_list)
+
+# while True:
+#     try:
+#         # try to get the next item
+#         element = next(iter_obj)
+#         # for loop body code here
+#         print(iter_obj)
+#     # when the last item is reached
+#     except StopIteration:
+#         # break out of the loop
+#         break
+
+class Numbers:
+    # define an iteration as a single
+    # int unit ( 1 )
+    def __iter__(self):
+        self.a = 1
+        return self
+
+    # skip a number on each iteration
+    def __next__(self):
+        x = self.a
+        self.a += 2
+        return x
+
+# create the iterator
+odds_iter = iter(Numbers())
+
+# iterate with next()
+# is potentially infinite
+print(next(odds_iter))
+print(next(odds_iter))
+print(next(odds_iter))
+print(next(odds_iter))
+print(next(odds_iter))
+print(next(odds_iter))

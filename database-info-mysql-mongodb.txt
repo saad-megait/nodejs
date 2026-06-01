@@ -3314,3 +3314,16 @@ IIM: Indian Institutes of Management.
 		Fees: EUR 16350
 		Duration: 12 Months
 		
+
+Data Analytics:
+	1. Descriptive Analytics: What happened.
+		Tells what happened, how much sells has been occured in the last month.
+		
+	2. Diagnostic Analytics: Why happened.
+		Tell why it happened, Why sales goes and what was the reason behind it.
+
+	3. Predictive Analytics: What will happen.
+		This guesses the future, What will happen. How much sales could be occured.
+
+	4. Prescriptive Analytics: What to do.
+		Tells what should be done now, and What we will do.
