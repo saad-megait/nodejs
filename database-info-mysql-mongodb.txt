@@ -3327,3 +3327,17 @@ Data Analytics:
 
 	4. Prescriptive Analytics: What to do.
 		Tells what should be done now, and What we will do.
+
+
+Dear Hiring Team,
+
+I am excited to apply for this opportunity. With over 5 years of experience as a Frontend Developer, I have built scalable, responsive, and high-performance web applications using Vue.js, Nuxt.js, React.js, Next.js, JavaScript, and TypeScript.
+
+Throughout my career, I have worked on developing enterprise-grade applications, implementing reusable component architectures, integrating RESTful APIs, optimizing application performance, and enhancing user experiences. I have hands-on experience with state management solutions such as Redux, Pinia, and Vuex, as well as modern frontend development practices including Server-Side Rendering (SSR), Single Page Applications (SPA), and responsive design.
+
+I enjoy collaborating with cross-functional teams to deliver high-quality products and solve complex technical challenges. My focus on clean, maintainable code and user-centric design has helped me consistently contribute to successful project outcomes.
+
+I am eager to bring my technical expertise, problem-solving skills, and passion for frontend development to your team. Thank you for considering my application. I look forward to the opportunity to discuss how my experience and skills can contribute to your organization's success.
+
+Sincerely,
+Saad Mansuri
